@@ -1,0 +1,2284 @@
+01-25-2018 03:31 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 03:31 [INFO] [MyPet] No Update available.
+01-25-2018 03:31 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 03:31 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 03:31 [INFO] [MyPet] Default skilltree file created (default.st).
+01-25-2018 03:31 [INFO] [MyPet] No groups found. Everything will be in 'default' group.
+01-25-2018 03:31 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 03:31 [INFO] [MyPet] added world to 'default' group.
+01-25-2018 03:31 [INFO] [MyPet] added Plots to 'default' group.
+01-25-2018 03:31 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 03:31 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 03:42 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 03:43 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 03:43 [INFO] [MyPet] No Update available.
+01-25-2018 03:43 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 03:43 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 03:43 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 03:43 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 03:43 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 03:43 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 03:43 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 03:52 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 03:53 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 03:53 [INFO] [MyPet] No Update available.
+01-25-2018 03:53 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 03:53 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 03:53 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 03:53 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 03:53 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 03:53 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 03:53 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 04:05 [INFO] [MyPet] added Survival to 'default' group.
+01-25-2018 04:09 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 04:11 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 04:11 [INFO] [MyPet] No Update available.
+01-25-2018 04:11 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 04:11 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 04:11 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 04:11 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 04:11 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 04:11 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 04:11 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 04:11 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 04:32 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 04:33 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 04:33 [INFO] [MyPet] No Update available.
+01-25-2018 04:33 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 04:33 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 04:33 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 04:33 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 04:33 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 04:33 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 04:33 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 04:33 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 04:43 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 04:44 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 04:44 [INFO] [MyPet] No Update available.
+01-25-2018 04:44 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 04:44 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 04:44 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 04:44 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 04:44 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 04:44 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 04:44 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 04:44 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 04:51 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 04:52 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 04:52 [INFO] [MyPet] No Update available.
+01-25-2018 04:52 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 04:52 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 04:52 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 04:52 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 04:52 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 04:52 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 04:52 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 04:52 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 04:58 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 04:59 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 04:59 [INFO] [MyPet] No Update available.
+01-25-2018 04:59 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 04:59 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 04:59 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 04:59 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 04:59 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 04:59 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 04:59 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 04:59 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 05:01 [INFO] [MyPet] added Survival_nether to 'default' group.
+01-25-2018 05:01 [INFO] [MyPet] added Survival_the_end to 'default' group.
+01-25-2018 05:09 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 05:10 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 05:10 [INFO] [MyPet] No Update available.
+01-25-2018 05:10 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 05:10 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 05:10 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 05:10 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 05:10 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 05:10 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 05:10 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-25-2018 05:10 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-25-2018 05:10 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 05:10 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 05:12 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 05:13 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 05:13 [INFO] [MyPet] No Update available.
+01-25-2018 05:13 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 05:13 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 05:13 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 05:13 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 05:13 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 05:13 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 05:13 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-25-2018 05:13 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-25-2018 05:13 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 05:13 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 05:30 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 05:30 [INFO] [MyPet] No Update available.
+01-25-2018 05:30 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 05:30 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 05:30 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 05:30 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 05:30 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 05:30 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 05:30 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-25-2018 05:30 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-25-2018 05:30 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 05:30 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 06:07 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 06:07 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 06:07 [INFO] [MyPet] No Update available.
+01-25-2018 06:07 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: BagOfGold) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 06:07 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 06:07 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 06:07 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 06:07 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 06:07 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 06:07 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-25-2018 06:07 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-25-2018 06:07 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 06:07 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 09:05 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 09:07 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 09:07 [INFO] [MyPet] No Update available.
+01-25-2018 09:07 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 09:07 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 09:07 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 09:07 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 09:07 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 09:07 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 09:07 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-25-2018 09:07 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-25-2018 09:07 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 09:07 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-25-2018 09:39 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-25-2018 09:40 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-25-2018 09:40 [INFO] [MyPet] No Update available.
+01-25-2018 09:40 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-25-2018 09:40 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-25-2018 09:40 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-25-2018 09:40 [INFO] [MyPet]    added 'world' to 'default'
+01-25-2018 09:40 [INFO] [MyPet]    added 'Plots' to 'default'
+01-25-2018 09:40 [INFO] [MyPet]    added 'Survival' to 'default'
+01-25-2018 09:40 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-25-2018 09:40 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-25-2018 09:40 [INFO] [MyPet] -------------------------------------------------
+01-25-2018 09:40 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-26-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-26-2018 05:29 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-26-2018 05:29 [INFO] [MyPet] No Update available.
+01-26-2018 05:29 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-26-2018 05:29 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-26-2018 05:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-26-2018 05:29 [INFO] [MyPet]    added 'world' to 'default'
+01-26-2018 05:29 [INFO] [MyPet]    added 'Plots' to 'default'
+01-26-2018 05:29 [INFO] [MyPet]    added 'Survival' to 'default'
+01-26-2018 05:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-26-2018 05:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-26-2018 05:29 [INFO] [MyPet] -------------------------------------------------
+01-26-2018 05:29 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-26-2018 12:21 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-26-2018 12:22 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-26-2018 12:22 [INFO] [MyPet] No Update available.
+01-26-2018 12:22 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-26-2018 12:22 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-26-2018 12:22 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-26-2018 12:22 [INFO] [MyPet]    added 'world' to 'default'
+01-26-2018 12:22 [INFO] [MyPet]    added 'Plots' to 'default'
+01-26-2018 12:22 [INFO] [MyPet]    added 'Survival' to 'default'
+01-26-2018 12:22 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-26-2018 12:22 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-26-2018 12:22 [INFO] [MyPet] -------------------------------------------------
+01-26-2018 12:22 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-27-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-27-2018 05:29 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-27-2018 05:29 [INFO] [MyPet] No Update available.
+01-27-2018 05:29 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-27-2018 05:29 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-27-2018 05:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-27-2018 05:29 [INFO] [MyPet]    added 'world' to 'default'
+01-27-2018 05:29 [INFO] [MyPet]    added 'Plots' to 'default'
+01-27-2018 05:29 [INFO] [MyPet]    added 'Survival' to 'default'
+01-27-2018 05:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-27-2018 05:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-27-2018 05:29 [INFO] [MyPet] -------------------------------------------------
+01-27-2018 05:29 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-27-2018 15:25 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-27-2018 15:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-27-2018 15:26 [INFO] [MyPet] No Update available.
+01-27-2018 15:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-27-2018 15:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-27-2018 15:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-27-2018 15:26 [INFO] [MyPet]    added 'world' to 'default'
+01-27-2018 15:26 [INFO] [MyPet]    added 'Plots' to 'default'
+01-27-2018 15:26 [INFO] [MyPet]    added 'Survival' to 'default'
+01-27-2018 15:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-27-2018 15:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-27-2018 15:26 [INFO] [MyPet] -------------------------------------------------
+01-27-2018 15:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-28-2018 05:26 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-28-2018 05:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-28-2018 05:27 [INFO] [MyPet] No Update available.
+01-28-2018 05:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-28-2018 05:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-28-2018 05:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-28-2018 05:27 [INFO] [MyPet]    added 'world' to 'default'
+01-28-2018 05:27 [INFO] [MyPet]    added 'Plots' to 'default'
+01-28-2018 05:27 [INFO] [MyPet]    added 'Survival' to 'default'
+01-28-2018 05:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-28-2018 05:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-28-2018 05:27 [INFO] [MyPet] -------------------------------------------------
+01-28-2018 05:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-28-2018 12:53 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-28-2018 12:55 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-28-2018 12:55 [INFO] [MyPet] No Update available.
+01-28-2018 12:55 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-28-2018 12:55 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-28-2018 12:55 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-28-2018 12:55 [INFO] [MyPet]    added 'world' to 'default'
+01-28-2018 12:55 [INFO] [MyPet]    added 'Plots' to 'default'
+01-28-2018 12:55 [INFO] [MyPet]    added 'Survival' to 'default'
+01-28-2018 12:55 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-28-2018 12:55 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-28-2018 12:55 [INFO] [MyPet] -------------------------------------------------
+01-28-2018 12:55 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-29-2018 04:44 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-29-2018 04:44 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-29-2018 04:44 [INFO] [MyPet] No Update available.
+01-29-2018 04:44 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-29-2018 04:44 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-29-2018 04:44 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-29-2018 04:44 [INFO] [MyPet]    added 'world' to 'default'
+01-29-2018 04:44 [INFO] [MyPet]    added 'Plots' to 'default'
+01-29-2018 04:44 [INFO] [MyPet]    added 'Survival' to 'default'
+01-29-2018 04:44 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-29-2018 04:44 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-29-2018 04:44 [INFO] [MyPet] -------------------------------------------------
+01-29-2018 04:44 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-29-2018 04:58 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-29-2018 04:59 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-29-2018 04:59 [INFO] [MyPet] No Update available.
+01-29-2018 04:59 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-29-2018 04:59 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-29-2018 04:59 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-29-2018 04:59 [INFO] [MyPet]    added 'world' to 'default'
+01-29-2018 04:59 [INFO] [MyPet]    added 'Plots' to 'default'
+01-29-2018 04:59 [INFO] [MyPet]    added 'Survival' to 'default'
+01-29-2018 04:59 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-29-2018 04:59 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-29-2018 04:59 [INFO] [MyPet] -------------------------------------------------
+01-29-2018 04:59 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-29-2018 05:09 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-29-2018 05:11 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-29-2018 05:11 [INFO] [MyPet] No Update available.
+01-29-2018 05:11 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-29-2018 05:11 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-29-2018 05:11 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-29-2018 05:11 [INFO] [MyPet]    added 'world' to 'default'
+01-29-2018 05:11 [INFO] [MyPet]    added 'Plots' to 'default'
+01-29-2018 05:11 [INFO] [MyPet]    added 'Survival' to 'default'
+01-29-2018 05:11 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-29-2018 05:11 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-29-2018 05:11 [INFO] [MyPet] -------------------------------------------------
+01-29-2018 05:11 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-29-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-29-2018 05:29 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-29-2018 05:29 [INFO] [MyPet] No Update available.
+01-29-2018 05:29 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-29-2018 05:29 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-29-2018 05:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-29-2018 05:29 [INFO] [MyPet]    added 'world' to 'default'
+01-29-2018 05:29 [INFO] [MyPet]    added 'Plots' to 'default'
+01-29-2018 05:29 [INFO] [MyPet]    added 'Survival' to 'default'
+01-29-2018 05:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-29-2018 05:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-29-2018 05:29 [INFO] [MyPet] -------------------------------------------------
+01-29-2018 05:29 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-29-2018 06:36 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-29-2018 06:37 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-29-2018 06:37 [INFO] [MyPet] No Update available.
+01-29-2018 06:37 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-29-2018 06:37 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-29-2018 06:37 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-29-2018 06:37 [INFO] [MyPet]    added 'world' to 'default'
+01-29-2018 06:37 [INFO] [MyPet]    added 'Plots' to 'default'
+01-29-2018 06:37 [INFO] [MyPet]    added 'Survival' to 'default'
+01-29-2018 06:37 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-29-2018 06:37 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-29-2018 06:37 [INFO] [MyPet] -------------------------------------------------
+01-29-2018 06:37 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-29-2018 11:42 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-29-2018 11:44 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-29-2018 11:44 [INFO] [MyPet] No Update available.
+01-29-2018 11:44 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] PreciousStones (10.5.3) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-29-2018 11:44 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-29-2018 11:44 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-29-2018 11:44 [INFO] [MyPet]    added 'world' to 'default'
+01-29-2018 11:44 [INFO] [MyPet]    added 'Plots' to 'default'
+01-29-2018 11:44 [INFO] [MyPet]    added 'Survival' to 'default'
+01-29-2018 11:44 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-29-2018 11:44 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-29-2018 11:44 [INFO] [MyPet] -------------------------------------------------
+01-29-2018 11:44 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-30-2018 05:27 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-30-2018 05:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-30-2018 05:27 [INFO] [MyPet] No Update available.
+01-30-2018 05:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-30-2018 05:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-30-2018 05:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-30-2018 05:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-30-2018 05:27 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-30-2018 05:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-30-2018 05:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-30-2018 05:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-30-2018 05:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-30-2018 05:27 [INFO] [MyPet]    added 'world' to 'default'
+01-30-2018 05:27 [INFO] [MyPet]    added 'Plots' to 'default'
+01-30-2018 05:27 [INFO] [MyPet]    added 'Survival' to 'default'
+01-30-2018 05:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-30-2018 05:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-30-2018 05:27 [INFO] [MyPet] -------------------------------------------------
+01-30-2018 05:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-30-2018 15:23 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-30-2018 15:24 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-30-2018 15:24 [INFO] [MyPet] No Update available.
+01-30-2018 15:24 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-30-2018 15:24 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-30-2018 15:24 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-30-2018 15:24 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-30-2018 15:24 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-30-2018 15:24 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-30-2018 15:24 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-30-2018 15:24 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-30-2018 15:24 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-30-2018 15:24 [INFO] [MyPet]    added 'world' to 'default'
+01-30-2018 15:24 [INFO] [MyPet]    added 'Plots' to 'default'
+01-30-2018 15:24 [INFO] [MyPet]    added 'Survival' to 'default'
+01-30-2018 15:24 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-30-2018 15:24 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-30-2018 15:24 [INFO] [MyPet] -------------------------------------------------
+01-30-2018 15:24 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-31-2018 05:27 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-31-2018 05:28 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-31-2018 05:28 [INFO] [MyPet] No Update available.
+01-31-2018 05:28 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-31-2018 05:28 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-31-2018 05:28 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-31-2018 05:28 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-31-2018 05:28 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-31-2018 05:28 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-31-2018 05:28 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-31-2018 05:28 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-31-2018 05:28 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-31-2018 05:28 [INFO] [MyPet]    added 'world' to 'default'
+01-31-2018 05:28 [INFO] [MyPet]    added 'Plots' to 'default'
+01-31-2018 05:28 [INFO] [MyPet]    added 'Survival' to 'default'
+01-31-2018 05:28 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-31-2018 05:28 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-31-2018 05:28 [INFO] [MyPet] -------------------------------------------------
+01-31-2018 05:28 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+01-31-2018 15:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+01-31-2018 15:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+01-31-2018 15:25 [INFO] [MyPet] No Update available.
+01-31-2018 15:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+01-31-2018 15:25 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+01-31-2018 15:25 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+01-31-2018 15:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+01-31-2018 15:25 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+01-31-2018 15:25 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+01-31-2018 15:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+01-31-2018 15:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+01-31-2018 15:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+01-31-2018 15:25 [INFO] [MyPet]    added 'world' to 'default'
+01-31-2018 15:25 [INFO] [MyPet]    added 'Plots' to 'default'
+01-31-2018 15:25 [INFO] [MyPet]    added 'Survival' to 'default'
+01-31-2018 15:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+01-31-2018 15:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+01-31-2018 15:25 [INFO] [MyPet] -------------------------------------------------
+01-31-2018 15:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-01-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-01-2018 05:29 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-01-2018 05:29 [INFO] [MyPet] No Update available.
+02-01-2018 05:29 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-01-2018 05:29 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-01-2018 05:29 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-01-2018 05:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-01-2018 05:29 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-01-2018 05:29 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-01-2018 05:29 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-01-2018 05:29 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-01-2018 05:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-01-2018 05:29 [INFO] [MyPet]    added 'world' to 'default'
+02-01-2018 05:29 [INFO] [MyPet]    added 'Plots' to 'default'
+02-01-2018 05:29 [INFO] [MyPet]    added 'Survival' to 'default'
+02-01-2018 05:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-01-2018 05:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-01-2018 05:29 [INFO] [MyPet] -------------------------------------------------
+02-01-2018 05:29 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-01-2018 09:45 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-01-2018 09:46 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-01-2018 09:46 [INFO] [MyPet] No Update available.
+02-01-2018 09:46 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-01-2018 09:46 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-01-2018 09:46 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-01-2018 09:46 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-01-2018 09:46 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-01-2018 09:46 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-01-2018 09:46 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-01-2018 09:46 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-01-2018 09:46 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-01-2018 09:46 [INFO] [MyPet]    added 'world' to 'default'
+02-01-2018 09:46 [INFO] [MyPet]    added 'Plots' to 'default'
+02-01-2018 09:46 [INFO] [MyPet]    added 'Survival' to 'default'
+02-01-2018 09:46 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-01-2018 09:46 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-01-2018 09:46 [INFO] [MyPet] -------------------------------------------------
+02-01-2018 09:46 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-01-2018 15:25 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-01-2018 15:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-01-2018 15:27 [INFO] [MyPet] No Update available.
+02-01-2018 15:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-01-2018 15:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-01-2018 15:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-01-2018 15:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-01-2018 15:27 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-01-2018 15:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-01-2018 15:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-01-2018 15:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-01-2018 15:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-01-2018 15:27 [INFO] [MyPet]    added 'world' to 'default'
+02-01-2018 15:27 [INFO] [MyPet]    added 'Plots' to 'default'
+02-01-2018 15:27 [INFO] [MyPet]    added 'Survival' to 'default'
+02-01-2018 15:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-01-2018 15:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-01-2018 15:27 [INFO] [MyPet] -------------------------------------------------
+02-01-2018 15:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-02-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-02-2018 05:29 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-02-2018 05:29 [INFO] [MyPet] No Update available.
+02-02-2018 05:29 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-02-2018 05:29 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-02-2018 05:29 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-02-2018 05:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-02-2018 05:29 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-02-2018 05:29 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-02-2018 05:29 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-02-2018 05:29 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-02-2018 05:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-02-2018 05:29 [INFO] [MyPet]    added 'world' to 'default'
+02-02-2018 05:29 [INFO] [MyPet]    added 'Plots' to 'default'
+02-02-2018 05:29 [INFO] [MyPet]    added 'Survival' to 'default'
+02-02-2018 05:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-02-2018 05:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-02-2018 05:29 [INFO] [MyPet] -------------------------------------------------
+02-02-2018 05:29 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-02-2018 06:17 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-02-2018 06:19 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-02-2018 06:19 [INFO] [MyPet] No Update available.
+02-02-2018 06:19 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-02-2018 06:19 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-02-2018 06:19 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-02-2018 06:19 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-02-2018 06:19 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-02-2018 06:19 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-02-2018 06:19 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-02-2018 06:19 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-02-2018 06:19 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-02-2018 06:19 [INFO] [MyPet]    added 'world' to 'default'
+02-02-2018 06:19 [INFO] [MyPet]    added 'Plots' to 'default'
+02-02-2018 06:19 [INFO] [MyPet]    added 'Survival' to 'default'
+02-02-2018 06:19 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-02-2018 06:19 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-02-2018 06:19 [INFO] [MyPet] -------------------------------------------------
+02-02-2018 06:19 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-02-2018 06:26 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-02-2018 06:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-02-2018 06:27 [INFO] [MyPet] No Update available.
+02-02-2018 06:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-02-2018 06:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-02-2018 06:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-02-2018 06:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-02-2018 06:27 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-02-2018 06:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-02-2018 06:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-02-2018 06:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-02-2018 06:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-02-2018 06:27 [INFO] [MyPet]    added 'world' to 'default'
+02-02-2018 06:27 [INFO] [MyPet]    added 'Plots' to 'default'
+02-02-2018 06:27 [INFO] [MyPet]    added 'Survival' to 'default'
+02-02-2018 06:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-02-2018 06:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-02-2018 06:27 [INFO] [MyPet] -------------------------------------------------
+02-02-2018 06:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-02-2018 15:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-02-2018 15:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-02-2018 15:26 [INFO] [MyPet] No Update available.
+02-02-2018 15:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-02-2018 15:26 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-02-2018 15:26 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-02-2018 15:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-02-2018 15:26 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-02-2018 15:26 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-02-2018 15:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-02-2018 15:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-02-2018 15:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-02-2018 15:26 [INFO] [MyPet]    added 'world' to 'default'
+02-02-2018 15:26 [INFO] [MyPet]    added 'Plots' to 'default'
+02-02-2018 15:26 [INFO] [MyPet]    added 'Survival' to 'default'
+02-02-2018 15:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-02-2018 15:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-02-2018 15:26 [INFO] [MyPet] -------------------------------------------------
+02-02-2018 15:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-03-2018 05:26 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-03-2018 05:28 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-03-2018 05:28 [INFO] [MyPet] No Update available.
+02-03-2018 05:28 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-03-2018 05:28 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-03-2018 05:28 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-03-2018 05:28 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-03-2018 05:28 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-03-2018 05:28 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-03-2018 05:28 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-03-2018 05:28 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-03-2018 05:28 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-03-2018 05:28 [INFO] [MyPet]    added 'world' to 'default'
+02-03-2018 05:28 [INFO] [MyPet]    added 'Plots' to 'default'
+02-03-2018 05:28 [INFO] [MyPet]    added 'Survival' to 'default'
+02-03-2018 05:28 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-03-2018 05:28 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-03-2018 05:28 [INFO] [MyPet] -------------------------------------------------
+02-03-2018 05:28 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-03-2018 15:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-03-2018 15:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-03-2018 15:25 [INFO] [MyPet] No Update available.
+02-03-2018 15:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-03-2018 15:25 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-03-2018 15:25 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-03-2018 15:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-03-2018 15:25 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-03-2018 15:25 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-03-2018 15:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-03-2018 15:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-03-2018 15:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-03-2018 15:25 [INFO] [MyPet]    added 'world' to 'default'
+02-03-2018 15:25 [INFO] [MyPet]    added 'Plots' to 'default'
+02-03-2018 15:25 [INFO] [MyPet]    added 'Survival' to 'default'
+02-03-2018 15:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-03-2018 15:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-03-2018 15:25 [INFO] [MyPet] -------------------------------------------------
+02-03-2018 15:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-04-2018 05:27 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-04-2018 05:29 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-04-2018 05:29 [INFO] [MyPet] No Update available.
+02-04-2018 05:29 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-04-2018 05:29 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-04-2018 05:29 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-04-2018 05:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-04-2018 05:29 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-04-2018 05:29 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-04-2018 05:29 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-04-2018 05:29 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-04-2018 05:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-04-2018 05:29 [INFO] [MyPet]    added 'world' to 'default'
+02-04-2018 05:29 [INFO] [MyPet]    added 'Plots' to 'default'
+02-04-2018 05:29 [INFO] [MyPet]    added 'Survival' to 'default'
+02-04-2018 05:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-04-2018 05:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-04-2018 05:29 [INFO] [MyPet] -------------------------------------------------
+02-04-2018 05:29 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-04-2018 15:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-04-2018 15:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-04-2018 15:25 [INFO] [MyPet] No Update available.
+02-04-2018 15:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-04-2018 15:25 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-04-2018 15:25 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-04-2018 15:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-04-2018 15:25 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-04-2018 15:25 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-04-2018 15:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-04-2018 15:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-04-2018 15:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-04-2018 15:25 [INFO] [MyPet]    added 'world' to 'default'
+02-04-2018 15:25 [INFO] [MyPet]    added 'Plots' to 'default'
+02-04-2018 15:25 [INFO] [MyPet]    added 'Survival' to 'default'
+02-04-2018 15:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-04-2018 15:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-04-2018 15:25 [INFO] [MyPet] -------------------------------------------------
+02-04-2018 15:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-05-2018 04:23 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-05-2018 04:24 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-05-2018 04:24 [INFO] [MyPet] No Update available.
+02-05-2018 04:24 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] GriefPrevention (16.8) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-05-2018 04:24 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-05-2018 04:24 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-05-2018 04:24 [INFO] [MyPet]    added 'world' to 'default'
+02-05-2018 04:24 [INFO] [MyPet]    added 'Plots' to 'default'
+02-05-2018 04:24 [INFO] [MyPet]    added 'Survival' to 'default'
+02-05-2018 04:24 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-05-2018 04:24 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-05-2018 04:24 [INFO] [MyPet] -------------------------------------------------
+02-05-2018 04:24 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-05-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-05-2018 05:29 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-05-2018 05:29 [INFO] [MyPet] No Update available.
+02-05-2018 05:29 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] GriefPrevention (16.8) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-05-2018 05:29 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-05-2018 05:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-05-2018 05:29 [INFO] [MyPet]    added 'world' to 'default'
+02-05-2018 05:29 [INFO] [MyPet]    added 'Plots' to 'default'
+02-05-2018 05:29 [INFO] [MyPet]    added 'Survival' to 'default'
+02-05-2018 05:29 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-05-2018 05:29 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-05-2018 05:29 [INFO] [MyPet] -------------------------------------------------
+02-05-2018 05:29 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-05-2018 15:23 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-05-2018 15:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-05-2018 15:25 [INFO] [MyPet] No Update available.
+02-05-2018 15:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] GriefPrevention (16.8) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-05-2018 15:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-05-2018 15:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-05-2018 15:25 [INFO] [MyPet]    added 'world' to 'default'
+02-05-2018 15:25 [INFO] [MyPet]    added 'Plots' to 'default'
+02-05-2018 15:25 [INFO] [MyPet]    added 'Survival' to 'default'
+02-05-2018 15:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-05-2018 15:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-05-2018 15:25 [INFO] [MyPet] -------------------------------------------------
+02-05-2018 15:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-06-2018 05:26 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-06-2018 05:28 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-06-2018 05:28 [INFO] [MyPet] No Update available.
+02-06-2018 05:28 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] GriefPrevention (16.8) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-06-2018 05:28 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-06-2018 05:28 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-06-2018 05:28 [INFO] [MyPet]    added 'world' to 'default'
+02-06-2018 05:28 [INFO] [MyPet]    added 'Plots' to 'default'
+02-06-2018 05:28 [INFO] [MyPet]    added 'Survival' to 'default'
+02-06-2018 05:28 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-06-2018 05:28 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-06-2018 05:28 [INFO] [MyPet] -------------------------------------------------
+02-06-2018 05:28 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-06-2018 10:43 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-06-2018 10:44 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-06-2018 10:44 [INFO] [MyPet] No Update available.
+02-06-2018 10:44 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-06-2018 10:44 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-06-2018 10:44 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-06-2018 10:44 [INFO] [MyPet]    added 'world' to 'default'
+02-06-2018 10:44 [INFO] [MyPet]    added 'Plots' to 'default'
+02-06-2018 10:44 [INFO] [MyPet]    added 'Survival' to 'default'
+02-06-2018 10:44 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-06-2018 10:44 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-06-2018 10:44 [INFO] [MyPet] -------------------------------------------------
+02-06-2018 10:44 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-06-2018 11:36 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-06-2018 11:37 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-06-2018 11:37 [INFO] [MyPet] No Update available.
+02-06-2018 11:37 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-06-2018 11:37 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-06-2018 11:37 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-06-2018 11:37 [INFO] [MyPet]    added 'world' to 'default'
+02-06-2018 11:37 [INFO] [MyPet]    added 'Plots' to 'default'
+02-06-2018 11:37 [INFO] [MyPet]    added 'Survival' to 'default'
+02-06-2018 11:37 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-06-2018 11:37 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-06-2018 11:37 [INFO] [MyPet] -------------------------------------------------
+02-06-2018 11:37 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-06-2018 11:45 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-06-2018 11:46 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-06-2018 11:46 [INFO] [MyPet] No Update available.
+02-06-2018 11:46 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] ProtocolLib (3.6.5) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-06-2018 11:46 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-06-2018 11:46 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-06-2018 11:46 [INFO] [MyPet]    added 'world' to 'default'
+02-06-2018 11:46 [INFO] [MyPet]    added 'Plots' to 'default'
+02-06-2018 11:46 [INFO] [MyPet]    added 'Survival' to 'default'
+02-06-2018 11:46 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-06-2018 11:46 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-06-2018 11:46 [INFO] [MyPet] -------------------------------------------------
+02-06-2018 11:46 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-06-2018 11:50 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-06-2018 11:50 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-06-2018 11:50 [INFO] [MyPet] No Update available.
+02-06-2018 11:50 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-06-2018 11:50 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-06-2018 11:50 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-06-2018 11:50 [INFO] [MyPet]    added 'world' to 'default'
+02-06-2018 11:50 [INFO] [MyPet]    added 'Plots' to 'default'
+02-06-2018 11:50 [INFO] [MyPet]    added 'Survival' to 'default'
+02-06-2018 11:50 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-06-2018 11:50 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-06-2018 11:50 [INFO] [MyPet] -------------------------------------------------
+02-06-2018 11:50 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-06-2018 15:25 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-06-2018 15:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-06-2018 15:26 [INFO] [MyPet] No Update available.
+02-06-2018 15:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-06-2018 15:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-06-2018 15:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-06-2018 15:26 [INFO] [MyPet]    added 'world' to 'default'
+02-06-2018 15:26 [INFO] [MyPet]    added 'Plots' to 'default'
+02-06-2018 15:26 [INFO] [MyPet]    added 'Survival' to 'default'
+02-06-2018 15:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-06-2018 15:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-06-2018 15:26 [INFO] [MyPet] -------------------------------------------------
+02-06-2018 15:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-07-2018 05:26 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-07-2018 05:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-07-2018 05:27 [INFO] [MyPet] No Update available.
+02-07-2018 05:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-07-2018 05:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-07-2018 05:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-07-2018 05:27 [INFO] [MyPet]    added 'world' to 'default'
+02-07-2018 05:27 [INFO] [MyPet]    added 'Plots' to 'default'
+02-07-2018 05:27 [INFO] [MyPet]    added 'Survival' to 'default'
+02-07-2018 05:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-07-2018 05:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-07-2018 05:27 [INFO] [MyPet] -------------------------------------------------
+02-07-2018 05:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-07-2018 14:31 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-07-2018 14:33 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-07-2018 14:33 [INFO] [MyPet] No Update available.
+02-07-2018 14:33 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-07-2018 14:33 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-07-2018 14:33 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-07-2018 14:33 [INFO] [MyPet]    added 'world' to 'default'
+02-07-2018 14:33 [INFO] [MyPet]    added 'Plots' to 'default'
+02-07-2018 14:33 [INFO] [MyPet]    added 'Survival' to 'default'
+02-07-2018 14:33 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-07-2018 14:33 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-07-2018 14:33 [INFO] [MyPet] -------------------------------------------------
+02-07-2018 14:33 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-08-2018 04:11 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-08-2018 04:12 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-08-2018 04:12 [INFO] [MyPet] No Update available.
+02-08-2018 04:12 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-08-2018 04:12 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-08-2018 04:12 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-08-2018 04:12 [INFO] [MyPet]    added 'world' to 'default'
+02-08-2018 04:12 [INFO] [MyPet]    added 'Plots' to 'default'
+02-08-2018 04:12 [INFO] [MyPet]    added 'Survival' to 'default'
+02-08-2018 04:12 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-08-2018 04:12 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-08-2018 04:12 [INFO] [MyPet] -------------------------------------------------
+02-08-2018 04:12 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-08-2018 04:18 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-08-2018 04:19 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-08-2018 04:19 [INFO] [MyPet] No Update available.
+02-08-2018 04:19 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-08-2018 04:19 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-08-2018 04:19 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-08-2018 04:19 [INFO] [MyPet]    added 'world' to 'default'
+02-08-2018 04:19 [INFO] [MyPet]    added 'Plots' to 'default'
+02-08-2018 04:19 [INFO] [MyPet]    added 'Survival' to 'default'
+02-08-2018 04:19 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-08-2018 04:19 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-08-2018 04:19 [INFO] [MyPet] -------------------------------------------------
+02-08-2018 04:19 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-08-2018 05:26 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-08-2018 05:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-08-2018 05:27 [INFO] [MyPet] No Update available.
+02-08-2018 05:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-08-2018 05:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-08-2018 05:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-08-2018 05:27 [INFO] [MyPet]    added 'world' to 'default'
+02-08-2018 05:27 [INFO] [MyPet]    added 'Plots' to 'default'
+02-08-2018 05:27 [INFO] [MyPet]    added 'Survival' to 'default'
+02-08-2018 05:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-08-2018 05:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-08-2018 05:27 [INFO] [MyPet] -------------------------------------------------
+02-08-2018 05:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-08-2018 15:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-08-2018 15:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-08-2018 15:25 [INFO] [MyPet] No Update available.
+02-08-2018 15:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-08-2018 15:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-08-2018 15:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-08-2018 15:25 [INFO] [MyPet]    added 'world' to 'default'
+02-08-2018 15:25 [INFO] [MyPet]    added 'Plots' to 'default'
+02-08-2018 15:25 [INFO] [MyPet]    added 'Survival' to 'default'
+02-08-2018 15:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-08-2018 15:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-08-2018 15:25 [INFO] [MyPet] -------------------------------------------------
+02-08-2018 15:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-09-2018 05:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-09-2018 05:24 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-09-2018 05:24 [INFO] [MyPet] No Update available.
+02-09-2018 05:24 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-09-2018 05:24 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-09-2018 05:24 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-09-2018 05:24 [INFO] [MyPet]    added 'world' to 'default'
+02-09-2018 05:24 [INFO] [MyPet]    added 'Plots' to 'default'
+02-09-2018 05:24 [INFO] [MyPet]    added 'Survival' to 'default'
+02-09-2018 05:24 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-09-2018 05:24 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-09-2018 05:24 [INFO] [MyPet] -------------------------------------------------
+02-09-2018 05:24 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-09-2018 15:20 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-09-2018 15:21 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-09-2018 15:21 [INFO] [MyPet] No Update available.
+02-09-2018 15:21 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-09-2018 15:21 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-09-2018 15:21 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-09-2018 15:21 [INFO] [MyPet]    added 'world' to 'default'
+02-09-2018 15:21 [INFO] [MyPet]    added 'Plots' to 'default'
+02-09-2018 15:21 [INFO] [MyPet]    added 'Survival' to 'default'
+02-09-2018 15:21 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-09-2018 15:21 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-09-2018 15:21 [INFO] [MyPet] -------------------------------------------------
+02-09-2018 15:21 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-10-2018 06:53 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-10-2018 06:53 [INFO] [MyPet] No Update available.
+02-10-2018 06:53 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-10-2018 06:53 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-10-2018 06:53 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-10-2018 06:53 [INFO] [MyPet]    added 'world' to 'default'
+02-10-2018 06:53 [INFO] [MyPet]    added 'Plots' to 'default'
+02-10-2018 06:53 [INFO] [MyPet]    added 'Survival' to 'default'
+02-10-2018 06:53 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-10-2018 06:53 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-10-2018 06:53 [INFO] [MyPet] -------------------------------------------------
+02-10-2018 06:53 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-10-2018 15:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-10-2018 15:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-10-2018 15:25 [INFO] [MyPet] No Update available.
+02-10-2018 15:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-10-2018 15:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-10-2018 15:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-10-2018 15:25 [INFO] [MyPet]    added 'world' to 'default'
+02-10-2018 15:25 [INFO] [MyPet]    added 'Plots' to 'default'
+02-10-2018 15:25 [INFO] [MyPet]    added 'Survival' to 'default'
+02-10-2018 15:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-10-2018 15:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-10-2018 15:25 [INFO] [MyPet] -------------------------------------------------
+02-10-2018 15:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-11-2018 05:28 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-11-2018 05:30 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-11-2018 05:30 [INFO] [MyPet] No Update available.
+02-11-2018 05:30 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-11-2018 05:30 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-11-2018 05:30 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-11-2018 05:30 [INFO] [MyPet]    added 'world' to 'default'
+02-11-2018 05:30 [INFO] [MyPet]    added 'Plots' to 'default'
+02-11-2018 05:30 [INFO] [MyPet]    added 'Survival' to 'default'
+02-11-2018 05:30 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-11-2018 05:30 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-11-2018 05:30 [INFO] [MyPet] -------------------------------------------------
+02-11-2018 05:30 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-12-2018 05:27 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-14-2018 06:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-14-2018 06:27 [INFO] [MyPet] No Update available.
+02-14-2018 06:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-14-2018 06:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-14-2018 06:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-14-2018 06:27 [INFO] [MyPet]    added 'world' to 'default'
+02-14-2018 06:27 [INFO] [MyPet]    added 'Plots' to 'default'
+02-14-2018 06:27 [INFO] [MyPet]    added 'Survival' to 'default'
+02-14-2018 06:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-14-2018 06:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-14-2018 06:27 [INFO] [MyPet] -------------------------------------------------
+02-14-2018 06:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-14-2018 06:58 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-14-2018 06:59 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-14-2018 06:59 [INFO] [MyPet] No Update available.
+02-14-2018 06:59 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-14-2018 06:59 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-14-2018 06:59 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-14-2018 06:59 [INFO] [MyPet]    added 'world' to 'default'
+02-14-2018 06:59 [INFO] [MyPet]    added 'Plots' to 'default'
+02-14-2018 06:59 [INFO] [MyPet]    added 'Survival' to 'default'
+02-14-2018 06:59 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-14-2018 06:59 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-14-2018 06:59 [INFO] [MyPet] -------------------------------------------------
+02-14-2018 06:59 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-14-2018 08:12 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-14-2018 08:13 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-14-2018 08:13 [INFO] [MyPet] No Update available.
+02-14-2018 08:13 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-14-2018 08:13 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-14-2018 08:13 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-14-2018 08:13 [INFO] [MyPet]    added 'world' to 'default'
+02-14-2018 08:13 [INFO] [MyPet]    added 'Plots' to 'default'
+02-14-2018 08:13 [INFO] [MyPet]    added 'Survival' to 'default'
+02-14-2018 08:13 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-14-2018 08:13 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-14-2018 08:13 [INFO] [MyPet] -------------------------------------------------
+02-14-2018 08:13 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-14-2018 08:17 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-14-2018 08:17 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-14-2018 08:17 [INFO] [MyPet] No Update available.
+02-14-2018 08:17 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-14-2018 08:17 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-14-2018 08:17 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-14-2018 08:17 [INFO] [MyPet]    added 'world' to 'default'
+02-14-2018 08:17 [INFO] [MyPet]    added 'Plots' to 'default'
+02-14-2018 08:17 [INFO] [MyPet]    added 'Survival' to 'default'
+02-14-2018 08:17 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-14-2018 08:17 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-14-2018 08:17 [INFO] [MyPet] -------------------------------------------------
+02-14-2018 08:17 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-14-2018 15:23 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-14-2018 15:24 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-14-2018 15:24 [INFO] [MyPet] No Update available.
+02-14-2018 15:24 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-14-2018 15:24 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-14-2018 15:24 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-14-2018 15:24 [INFO] [MyPet]    added 'world' to 'default'
+02-14-2018 15:24 [INFO] [MyPet]    added 'Plots' to 'default'
+02-14-2018 15:24 [INFO] [MyPet]    added 'Survival' to 'default'
+02-14-2018 15:24 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-14-2018 15:24 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-14-2018 15:24 [INFO] [MyPet] -------------------------------------------------
+02-14-2018 15:24 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-15-2018 05:24 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-15-2018 05:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-15-2018 05:26 [INFO] [MyPet] No Update available.
+02-15-2018 05:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-15-2018 05:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-15-2018 05:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-15-2018 05:26 [INFO] [MyPet]    added 'world' to 'default'
+02-15-2018 05:26 [INFO] [MyPet]    added 'Plots' to 'default'
+02-15-2018 05:26 [INFO] [MyPet]    added 'Survival' to 'default'
+02-15-2018 05:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-15-2018 05:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-15-2018 05:26 [INFO] [MyPet] -------------------------------------------------
+02-15-2018 05:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-16-2018 03:21 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-16-2018 03:22 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-16-2018 03:22 [INFO] [MyPet] No Update available.
+02-16-2018 03:22 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-16-2018 03:22 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-16-2018 03:22 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-16-2018 03:22 [INFO] [MyPet]    added 'world' to 'default'
+02-16-2018 03:22 [INFO] [MyPet]    added 'Plots' to 'default'
+02-16-2018 03:22 [INFO] [MyPet]    added 'Survival' to 'default'
+02-16-2018 03:22 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-16-2018 03:22 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-16-2018 03:22 [INFO] [MyPet] -------------------------------------------------
+02-16-2018 03:22 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-16-2018 05:23 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-16-2018 05:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-16-2018 05:25 [INFO] [MyPet] No Update available.
+02-16-2018 05:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-16-2018 05:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-16-2018 05:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-16-2018 05:25 [INFO] [MyPet]    added 'world' to 'default'
+02-16-2018 05:25 [INFO] [MyPet]    added 'Plots' to 'default'
+02-16-2018 05:25 [INFO] [MyPet]    added 'Survival' to 'default'
+02-16-2018 05:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-16-2018 05:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-16-2018 05:25 [INFO] [MyPet] -------------------------------------------------
+02-16-2018 05:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-16-2018 15:21 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-16-2018 15:23 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-16-2018 15:23 [INFO] [MyPet] No Update available.
+02-16-2018 15:23 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-16-2018 15:23 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-16-2018 15:23 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-16-2018 15:23 [INFO] [MyPet]    added 'world' to 'default'
+02-16-2018 15:23 [INFO] [MyPet]    added 'Plots' to 'default'
+02-16-2018 15:23 [INFO] [MyPet]    added 'Survival' to 'default'
+02-16-2018 15:23 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-16-2018 15:23 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-16-2018 15:23 [INFO] [MyPet] -------------------------------------------------
+02-16-2018 15:23 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-17-2018 05:25 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-17-2018 05:27 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-17-2018 05:27 [INFO] [MyPet] No Update available.
+02-17-2018 05:27 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-17-2018 05:27 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-17-2018 05:27 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-17-2018 05:27 [INFO] [MyPet]    added 'world' to 'default'
+02-17-2018 05:27 [INFO] [MyPet]    added 'Plots' to 'default'
+02-17-2018 05:27 [INFO] [MyPet]    added 'Survival' to 'default'
+02-17-2018 05:27 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-17-2018 05:27 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-17-2018 05:27 [INFO] [MyPet] -------------------------------------------------
+02-17-2018 05:27 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-17-2018 09:11 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-17-2018 09:12 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-17-2018 09:12 [INFO] [MyPet] No Update available.
+02-17-2018 09:12 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] mcMMO (1.5.04-SNAPSHOT-b82) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] PlaceholderAPI (2.8.1) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] Vault (1.5.6-b49) (Economy: Essentials Economy) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+02-17-2018 09:12 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+02-17-2018 09:12 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-17-2018 09:12 [INFO] [MyPet]    added 'world' to 'default'
+02-17-2018 09:12 [INFO] [MyPet]    added 'Plots' to 'default'
+02-17-2018 09:12 [INFO] [MyPet]    added 'Survival' to 'default'
+02-17-2018 09:12 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+02-17-2018 09:12 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+02-17-2018 09:12 [INFO] [MyPet] -------------------------------------------------
+02-17-2018 09:12 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-24-2020 22:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-24-2020 22:26 [INFO] [MyPet] ##########################################
+03-24-2020 22:26 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-24-2020 22:26 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-24-2020 22:26 [INFO] [MyPet] ##########################################
+03-24-2020 22:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-24-2020 22:26 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-24-2020 22:26 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-24-2020 22:26 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-24-2020 22:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-24-2020 22:26 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-24-2020 22:26 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-24-2020 22:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-24-2020 22:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-24-2020 22:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-24-2020 22:26 [INFO] [MyPet]    added 'world' to 'default'
+03-24-2020 22:26 [INFO] [MyPet]    added 'Plots' to 'default'
+03-24-2020 22:26 [INFO] [MyPet]    added 'Survival' to 'default'
+03-24-2020 22:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-24-2020 22:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-24-2020 22:26 [INFO] [MyPet] -------------------------------------------------
+03-24-2020 22:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-24-2020 22:41 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-24-2020 22:42 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-24-2020 22:42 [INFO] [MyPet] ##########################################
+03-24-2020 22:42 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-24-2020 22:42 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-24-2020 22:42 [INFO] [MyPet] ##########################################
+03-24-2020 22:42 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-24-2020 22:42 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-24-2020 22:42 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-24-2020 22:42 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-24-2020 22:42 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-24-2020 22:42 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-24-2020 22:42 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-24-2020 22:42 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-24-2020 22:42 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-24-2020 22:42 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-24-2020 22:42 [INFO] [MyPet]    added 'world' to 'default'
+03-24-2020 22:42 [INFO] [MyPet]    added 'Plots' to 'default'
+03-24-2020 22:42 [INFO] [MyPet]    added 'Survival' to 'default'
+03-24-2020 22:42 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-24-2020 22:42 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-24-2020 22:42 [INFO] [MyPet] -------------------------------------------------
+03-24-2020 22:42 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-24-2020 23:31 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-24-2020 23:32 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-24-2020 23:32 [INFO] [MyPet] ##########################################
+03-24-2020 23:32 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-24-2020 23:32 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-24-2020 23:32 [INFO] [MyPet] ##########################################
+03-24-2020 23:32 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-24-2020 23:32 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-24-2020 23:32 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-24-2020 23:32 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-24-2020 23:32 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-24-2020 23:32 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-24-2020 23:32 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-24-2020 23:32 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-24-2020 23:32 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-24-2020 23:32 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-24-2020 23:32 [INFO] [MyPet]    added 'world' to 'default'
+03-24-2020 23:32 [INFO] [MyPet]    added 'Plots' to 'default'
+03-24-2020 23:32 [INFO] [MyPet]    added 'Survival' to 'default'
+03-24-2020 23:32 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-24-2020 23:32 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-24-2020 23:32 [INFO] [MyPet] -------------------------------------------------
+03-24-2020 23:32 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-24-2020 23:33 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-24-2020 23:37 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-24-2020 23:37 [INFO] [MyPet] ##########################################
+03-24-2020 23:37 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-24-2020 23:37 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-24-2020 23:37 [INFO] [MyPet] ##########################################
+03-24-2020 23:37 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-24-2020 23:37 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-24-2020 23:37 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-24-2020 23:37 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-24-2020 23:37 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-24-2020 23:37 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-24-2020 23:37 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-24-2020 23:37 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-24-2020 23:37 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-24-2020 23:37 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-24-2020 23:37 [INFO] [MyPet]    added 'world' to 'default'
+03-24-2020 23:37 [INFO] [MyPet]    added 'Plots' to 'default'
+03-24-2020 23:37 [INFO] [MyPet]    added 'Survival' to 'default'
+03-24-2020 23:37 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-24-2020 23:37 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-24-2020 23:37 [INFO] [MyPet] -------------------------------------------------
+03-24-2020 23:37 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-24-2020 23:42 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 02:58 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 02:58 [INFO] [MyPet] ##########################################
+03-25-2020 02:58 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 02:58 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 02:58 [INFO] [MyPet] ##########################################
+03-25-2020 02:58 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 02:58 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 02:58 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 02:58 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 02:58 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 02:58 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 02:58 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 02:58 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 02:58 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 02:58 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 02:58 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 02:58 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 02:58 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 02:58 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 02:58 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 02:58 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 02:58 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 02:59 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 03:06 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 03:06 [INFO] [MyPet] ##########################################
+03-25-2020 03:06 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 03:06 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 03:06 [INFO] [MyPet] ##########################################
+03-25-2020 03:06 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 03:06 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 03:06 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 03:06 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 03:06 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 03:06 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 03:06 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 03:06 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 03:06 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 03:06 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 03:06 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 03:06 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 03:06 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 03:06 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 03:06 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 03:06 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 03:06 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 03:07 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 03:08 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 03:08 [INFO] [MyPet] ##########################################
+03-25-2020 03:08 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 03:08 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 03:08 [INFO] [MyPet] ##########################################
+03-25-2020 03:08 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 03:08 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 03:08 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 03:08 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 03:08 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 03:08 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 03:08 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 03:08 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 03:08 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 03:08 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 03:08 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 03:08 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 03:08 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 03:08 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 03:08 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 03:08 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 03:08 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 03:08 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 03:10 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 03:10 [INFO] [MyPet] ##########################################
+03-25-2020 03:10 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 03:10 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 03:10 [INFO] [MyPet] ##########################################
+03-25-2020 03:10 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 03:10 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 03:10 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 03:10 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 03:10 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 03:10 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 03:10 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 03:10 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 03:10 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 03:10 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 03:10 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 03:10 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 03:10 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 03:10 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 03:10 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 03:10 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 03:10 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 03:11 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 05:45 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 05:45 [INFO] [MyPet] ##########################################
+03-25-2020 05:45 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 05:45 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 05:45 [INFO] [MyPet] ##########################################
+03-25-2020 05:45 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 05:45 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 05:45 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 05:45 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 05:45 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 05:45 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 05:45 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 05:45 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 05:45 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 05:45 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 05:45 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 05:45 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 05:45 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 05:45 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 05:45 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 05:45 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 05:45 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 06:48 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 06:51 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 06:51 [INFO] [MyPet] ##########################################
+03-25-2020 06:51 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 06:51 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 06:51 [INFO] [MyPet] ##########################################
+03-25-2020 06:51 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 06:51 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 06:51 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 06:51 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 06:51 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 06:51 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 06:51 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 06:51 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 06:51 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 06:51 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 06:51 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 06:51 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 06:51 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 06:51 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 06:51 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 06:51 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 06:51 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 06:52 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 07:19 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 07:19 [INFO] [MyPet] ##########################################
+03-25-2020 07:19 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 07:19 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 07:19 [INFO] [MyPet] ##########################################
+03-25-2020 07:19 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 07:19 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 07:19 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 07:19 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 07:19 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 07:19 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 07:19 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 07:19 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 07:19 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 07:19 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 07:19 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 07:19 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 07:19 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 07:19 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 07:19 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 07:19 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 07:19 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 18:40 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 18:41 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 18:41 [INFO] [MyPet] ##########################################
+03-25-2020 18:41 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 18:41 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 18:41 [INFO] [MyPet] ##########################################
+03-25-2020 18:41 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 18:41 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 18:41 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 18:41 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 18:41 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 18:41 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 18:41 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 18:41 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 18:41 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 18:41 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 18:41 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 18:41 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 18:41 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 18:41 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 18:41 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 18:41 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 18:41 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 18:45 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 18:45 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 18:45 [INFO] [MyPet] ##########################################
+03-25-2020 18:45 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 18:45 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 18:45 [INFO] [MyPet] ##########################################
+03-25-2020 18:45 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 18:45 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 18:45 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 18:45 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 18:45 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 18:45 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 18:45 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 18:45 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 18:45 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 18:45 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 18:45 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 18:45 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 18:45 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 18:45 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 18:45 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 18:45 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 18:45 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 18:49 [INFO] [MyPet] added KingdomsConquest to 'default' group.
+03-25-2020 19:04 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 19:09 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 19:09 [INFO] [MyPet] ##########################################
+03-25-2020 19:09 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 19:09 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 19:09 [INFO] [MyPet] ##########################################
+03-25-2020 19:09 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 19:09 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 19:09 [INFO] [MyPet] MythicMobs (4.3.2-SNAPSHOT) hook activated.
+03-25-2020 19:09 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 19:09 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 19:09 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 19:09 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 19:09 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 19:09 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 19:09 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 19:09 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 19:09 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 19:09 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 19:09 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 19:09 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 19:09 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 19:09 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-25-2020 19:09 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 19:09 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 19:19 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 19:41 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 19:41 [INFO] [MyPet] ##########################################
+03-25-2020 19:41 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 19:41 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 19:41 [INFO] [MyPet] ##########################################
+03-25-2020 19:41 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 19:41 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 19:41 [INFO] [MyPet] MythicMobs (4.9.0-3255) hook activated.
+03-25-2020 19:41 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 19:41 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 19:41 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 19:41 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 19:41 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 19:41 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 19:41 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 19:41 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 19:41 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 19:41 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 19:41 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 19:41 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 19:41 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 19:41 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-25-2020 19:41 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 19:41 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 19:44 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 21:22 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 21:22 [INFO] [MyPet] ##########################################
+03-25-2020 21:22 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 21:22 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 21:22 [INFO] [MyPet] ##########################################
+03-25-2020 21:22 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 21:22 [INFO] [MyPet] GriefPrevention (13.9.1) hook activated.
+03-25-2020 21:22 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 21:22 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 21:22 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 21:22 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 21:22 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 21:22 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 21:22 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 21:22 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 21:22 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 21:22 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 21:22 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 21:22 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 21:22 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 21:22 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-25-2020 21:22 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 21:22 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 21:40 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 21:43 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 21:43 [INFO] [MyPet] ##########################################
+03-25-2020 21:43 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 21:43 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 21:43 [INFO] [MyPet] ##########################################
+03-25-2020 21:43 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 21:43 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 21:43 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 21:43 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 21:43 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 21:43 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 21:43 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 21:43 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 21:43 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 21:43 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 21:43 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 21:43 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 21:43 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 21:43 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 21:43 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-25-2020 21:43 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 21:43 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 21:52 [INFO] [MyPet] added Parcelas to 'default' group.
+03-25-2020 22:10 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 23:41 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 23:41 [INFO] [MyPet] ##########################################
+03-25-2020 23:41 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 23:41 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 23:41 [INFO] [MyPet] ##########################################
+03-25-2020 23:41 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 23:41 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 23:41 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 23:41 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 23:41 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 23:41 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 23:41 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 23:41 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 23:41 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 23:41 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 23:41 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 23:41 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 23:41 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 23:41 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 23:41 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-25-2020 23:41 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-25-2020 23:41 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 23:41 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 23:46 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 23:48 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 23:48 [INFO] [MyPet] ##########################################
+03-25-2020 23:48 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 23:48 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 23:48 [INFO] [MyPet] ##########################################
+03-25-2020 23:48 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 23:48 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 23:48 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 23:48 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-25-2020 23:48 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 23:48 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 23:48 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 23:48 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 23:48 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 23:48 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 23:48 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 23:48 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 23:48 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 23:48 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 23:48 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-25-2020 23:48 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-25-2020 23:48 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 23:48 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 23:50 [INFO] [MyPet] added parcelas to 'default' group.
+03-25-2020 23:54 [WARNING] [MyPet] Error occured while enabling PlotSquared (4.453) hook.
+03-25-2020 23:54 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-25-2020 23:54 [INFO] [MyPet] ##########################################
+03-25-2020 23:54 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-25-2020 23:54 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-25-2020 23:54 [INFO] [MyPet] ##########################################
+03-25-2020 23:54 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-25-2020 23:54 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-25-2020 23:54 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-25-2020 23:54 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-25-2020 23:54 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-25-2020 23:54 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-25-2020 23:54 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-25-2020 23:54 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-25-2020 23:54 [INFO] [MyPet]    added 'world' to 'default'
+03-25-2020 23:54 [INFO] [MyPet]    added 'Plots' to 'default'
+03-25-2020 23:54 [INFO] [MyPet]    added 'Survival' to 'default'
+03-25-2020 23:54 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-25-2020 23:54 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-25-2020 23:54 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-25-2020 23:54 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-25-2020 23:54 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-25-2020 23:54 [INFO] [MyPet] -------------------------------------------------
+03-25-2020 23:54 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-25-2020 23:59 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-25-2020 23:59 [WARNING] [MyPet] Error occured while enabling PlotSquared (4.453) hook.
+03-26-2020 00:00 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-26-2020 00:00 [INFO] [MyPet] ##########################################
+03-26-2020 00:00 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-26-2020 00:00 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-26-2020 00:00 [INFO] [MyPet] ##########################################
+03-26-2020 00:00 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-26-2020 00:00 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-26-2020 00:00 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-26-2020 00:00 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-26-2020 00:00 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-26-2020 00:00 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-26-2020 00:00 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-26-2020 00:00 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-26-2020 00:00 [INFO] [MyPet]    added 'world' to 'default'
+03-26-2020 00:00 [INFO] [MyPet]    added 'Plots' to 'default'
+03-26-2020 00:00 [INFO] [MyPet]    added 'Survival' to 'default'
+03-26-2020 00:00 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-26-2020 00:00 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-26-2020 00:00 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-26-2020 00:00 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-26-2020 00:00 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-26-2020 00:00 [INFO] [MyPet] -------------------------------------------------
+03-26-2020 00:00 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-26-2020 00:54 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-26-2020 00:55 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-26-2020 00:55 [INFO] [MyPet] ##########################################
+03-26-2020 00:55 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-26-2020 00:55 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-26-2020 00:55 [INFO] [MyPet] ##########################################
+03-26-2020 00:55 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-26-2020 00:55 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-26-2020 00:55 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-26-2020 00:55 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-26-2020 00:55 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-26-2020 00:55 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-26-2020 00:55 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-26-2020 00:55 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-26-2020 00:55 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-26-2020 00:55 [INFO] [MyPet]    added 'world' to 'default'
+03-26-2020 00:55 [INFO] [MyPet]    added 'Plots' to 'default'
+03-26-2020 00:55 [INFO] [MyPet]    added 'Survival' to 'default'
+03-26-2020 00:55 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-26-2020 00:55 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-26-2020 00:55 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-26-2020 00:55 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-26-2020 00:55 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-26-2020 00:55 [INFO] [MyPet] -------------------------------------------------
+03-26-2020 00:55 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-26-2020 04:17 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-26-2020 05:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-26-2020 05:26 [INFO] [MyPet] ##########################################
+03-26-2020 05:26 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-26-2020 05:26 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-26-2020 05:26 [INFO] [MyPet] ##########################################
+03-26-2020 05:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-26-2020 05:26 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-26-2020 05:26 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-26-2020 05:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-26-2020 05:26 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-26-2020 05:26 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-26-2020 05:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-26-2020 05:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-26-2020 05:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-26-2020 05:26 [INFO] [MyPet]    added 'world' to 'default'
+03-26-2020 05:26 [INFO] [MyPet]    added 'Plots' to 'default'
+03-26-2020 05:26 [INFO] [MyPet]    added 'Survival' to 'default'
+03-26-2020 05:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-26-2020 05:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-26-2020 05:26 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-26-2020 05:26 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-26-2020 05:26 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-26-2020 05:26 [INFO] [MyPet] -------------------------------------------------
+03-26-2020 05:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-26-2020 05:33 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-26-2020 18:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-26-2020 18:26 [INFO] [MyPet] ##########################################
+03-26-2020 18:26 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-26-2020 18:26 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-26-2020 18:26 [INFO] [MyPet] ##########################################
+03-26-2020 18:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-26-2020 18:26 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-26-2020 18:26 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-26-2020 18:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-26-2020 18:26 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-26-2020 18:26 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-26-2020 18:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-26-2020 18:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-26-2020 18:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-26-2020 18:26 [INFO] [MyPet]    added 'world' to 'default'
+03-26-2020 18:26 [INFO] [MyPet]    added 'Plots' to 'default'
+03-26-2020 18:26 [INFO] [MyPet]    added 'Survival' to 'default'
+03-26-2020 18:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-26-2020 18:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-26-2020 18:26 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-26-2020 18:26 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-26-2020 18:26 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-26-2020 18:26 [INFO] [MyPet] -------------------------------------------------
+03-26-2020 18:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-26-2020 19:08 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-26-2020 20:00 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-26-2020 20:00 [INFO] [MyPet] ##########################################
+03-26-2020 20:00 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-26-2020 20:00 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-26-2020 20:00 [INFO] [MyPet] ##########################################
+03-26-2020 20:00 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-26-2020 20:00 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-26-2020 20:00 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-26-2020 20:00 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-26-2020 20:00 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-26-2020 20:00 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-26-2020 20:00 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-26-2020 20:00 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-26-2020 20:00 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-26-2020 20:00 [INFO] [MyPet]    added 'world' to 'default'
+03-26-2020 20:00 [INFO] [MyPet]    added 'Plots' to 'default'
+03-26-2020 20:00 [INFO] [MyPet]    added 'Survival' to 'default'
+03-26-2020 20:00 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-26-2020 20:00 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-26-2020 20:00 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-26-2020 20:00 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-26-2020 20:00 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-26-2020 20:00 [INFO] [MyPet] -------------------------------------------------
+03-26-2020 20:00 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-27-2020 00:38 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-27-2020 03:25 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-27-2020 03:25 [INFO] [MyPet] ##########################################
+03-27-2020 03:25 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-27-2020 03:25 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-27-2020 03:25 [INFO] [MyPet] ##########################################
+03-27-2020 03:25 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-27-2020 03:25 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-27-2020 03:25 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-27-2020 03:25 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-27-2020 03:25 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-27-2020 03:25 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-27-2020 03:25 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-27-2020 03:25 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-27-2020 03:25 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-27-2020 03:25 [INFO] [MyPet]    added 'world' to 'default'
+03-27-2020 03:25 [INFO] [MyPet]    added 'Plots' to 'default'
+03-27-2020 03:25 [INFO] [MyPet]    added 'Survival' to 'default'
+03-27-2020 03:25 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-27-2020 03:25 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-27-2020 03:25 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-27-2020 03:25 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-27-2020 03:25 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-27-2020 03:25 [INFO] [MyPet] -------------------------------------------------
+03-27-2020 03:25 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-27-2020 04:35 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-27-2020 19:47 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-27-2020 19:47 [INFO] [MyPet] ##########################################
+03-27-2020 19:47 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-27-2020 19:47 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-27-2020 19:47 [INFO] [MyPet] ##########################################
+03-27-2020 19:47 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-27-2020 19:47 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-27-2020 19:47 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-27-2020 19:47 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-27-2020 19:47 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-27-2020 19:47 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-27-2020 19:47 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-27-2020 19:47 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-27-2020 19:47 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-27-2020 19:47 [INFO] [MyPet]    added 'world' to 'default'
+03-27-2020 19:47 [INFO] [MyPet]    added 'Plots' to 'default'
+03-27-2020 19:47 [INFO] [MyPet]    added 'Survival' to 'default'
+03-27-2020 19:47 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-27-2020 19:47 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-27-2020 19:47 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-27-2020 19:47 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-27-2020 19:47 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-27-2020 19:47 [INFO] [MyPet] -------------------------------------------------
+03-27-2020 19:47 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-28-2020 00:07 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-28-2020 23:58 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-28-2020 23:58 [INFO] [MyPet] ##########################################
+03-28-2020 23:58 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-28-2020 23:58 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-28-2020 23:58 [INFO] [MyPet] ##########################################
+03-28-2020 23:58 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-28-2020 23:58 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-28-2020 23:58 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-28-2020 23:58 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-28-2020 23:58 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-28-2020 23:58 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-28-2020 23:58 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-28-2020 23:58 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-28-2020 23:58 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-28-2020 23:58 [INFO] [MyPet]    added 'world' to 'default'
+03-28-2020 23:58 [INFO] [MyPet]    added 'Plots' to 'default'
+03-28-2020 23:58 [INFO] [MyPet]    added 'Survival' to 'default'
+03-28-2020 23:58 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-28-2020 23:58 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-28-2020 23:58 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-28-2020 23:58 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-28-2020 23:58 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-28-2020 23:58 [INFO] [MyPet] -------------------------------------------------
+03-28-2020 23:58 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-29-2020 01:36 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-29-2020 04:09 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-29-2020 04:09 [INFO] [MyPet] ##########################################
+03-29-2020 04:09 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-29-2020 04:09 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-29-2020 04:09 [INFO] [MyPet] ##########################################
+03-29-2020 04:09 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-29-2020 04:09 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-29-2020 04:09 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-29-2020 04:09 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-29-2020 04:09 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-29-2020 04:09 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-29-2020 04:09 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-29-2020 04:09 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-29-2020 04:09 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-29-2020 04:09 [INFO] [MyPet]    added 'world' to 'default'
+03-29-2020 04:09 [INFO] [MyPet]    added 'Plots' to 'default'
+03-29-2020 04:09 [INFO] [MyPet]    added 'Survival' to 'default'
+03-29-2020 04:09 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-29-2020 04:09 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-29-2020 04:09 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-29-2020 04:09 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-29-2020 04:09 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-29-2020 04:09 [INFO] [MyPet] -------------------------------------------------
+03-29-2020 04:09 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-29-2020 04:13 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-29-2020 04:16 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-29-2020 04:16 [INFO] [MyPet] ##########################################
+03-29-2020 04:16 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-29-2020 04:16 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-29-2020 04:16 [INFO] [MyPet] ##########################################
+03-29-2020 04:16 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-29-2020 04:16 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-29-2020 04:16 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-29-2020 04:16 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-29-2020 04:16 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-29-2020 04:16 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-29-2020 04:16 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-29-2020 04:16 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-29-2020 04:16 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-29-2020 04:16 [INFO] [MyPet]    added 'world' to 'default'
+03-29-2020 04:16 [INFO] [MyPet]    added 'Plots' to 'default'
+03-29-2020 04:16 [INFO] [MyPet]    added 'Survival' to 'default'
+03-29-2020 04:16 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-29-2020 04:16 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-29-2020 04:16 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-29-2020 04:16 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-29-2020 04:16 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-29-2020 04:16 [INFO] [MyPet] -------------------------------------------------
+03-29-2020 04:16 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-29-2020 07:40 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-29-2020 08:59 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-29-2020 08:59 [INFO] [MyPet] ##########################################
+03-29-2020 08:59 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-29-2020 08:59 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-29-2020 08:59 [INFO] [MyPet] ##########################################
+03-29-2020 08:59 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-29-2020 08:59 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-29-2020 08:59 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-29-2020 08:59 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-29-2020 08:59 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-29-2020 08:59 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-29-2020 08:59 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-29-2020 08:59 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-29-2020 08:59 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-29-2020 08:59 [INFO] [MyPet]    added 'world' to 'default'
+03-29-2020 08:59 [INFO] [MyPet]    added 'Plots' to 'default'
+03-29-2020 08:59 [INFO] [MyPet]    added 'Survival' to 'default'
+03-29-2020 08:59 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-29-2020 08:59 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-29-2020 08:59 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-29-2020 08:59 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-29-2020 08:59 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-29-2020 08:59 [INFO] [MyPet] -------------------------------------------------
+03-29-2020 08:59 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-29-2020 09:16 [INFO] [MyPet] Disabling MyPet v2.3.3
+03-29-2020 18:28 [INFO] [MyPet] Enabling MyPet v2.3.3
+03-29-2020 18:28 [INFO] [MyPet] ##########################################
+03-29-2020 18:28 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+03-29-2020 18:28 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+03-29-2020 18:28 [INFO] [MyPet] ##########################################
+03-29-2020 18:28 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+03-29-2020 18:28 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+03-29-2020 18:28 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+03-29-2020 18:28 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+03-29-2020 18:28 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+03-29-2020 18:28 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+03-29-2020 18:28 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+03-29-2020 18:28 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+03-29-2020 18:28 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+03-29-2020 18:28 [INFO] [MyPet]    added 'world' to 'default'
+03-29-2020 18:28 [INFO] [MyPet]    added 'Plots' to 'default'
+03-29-2020 18:28 [INFO] [MyPet]    added 'Survival' to 'default'
+03-29-2020 18:28 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+03-29-2020 18:28 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+03-29-2020 18:28 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+03-29-2020 18:28 [INFO] [MyPet]    added 'Parcelas' to 'default'
+03-29-2020 18:28 [INFO] [MyPet]    added 'parcelas' to 'default'
+03-29-2020 18:28 [INFO] [MyPet] -------------------------------------------------
+03-29-2020 18:28 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+03-29-2020 19:10 [INFO] [MyPet] Disabling MyPet v2.3.3
+04-01-2020 01:50 [INFO] [MyPet] Enabling MyPet v2.3.3
+04-01-2020 01:50 [INFO] [MyPet] ##########################################
+04-01-2020 01:50 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+04-01-2020 01:50 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+04-01-2020 01:50 [INFO] [MyPet] ##########################################
+04-01-2020 01:50 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+04-01-2020 01:50 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+04-01-2020 01:50 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+04-01-2020 01:50 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+04-01-2020 01:50 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+04-01-2020 01:50 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+04-01-2020 01:50 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+04-01-2020 01:50 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+04-01-2020 01:50 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+04-01-2020 01:50 [INFO] [MyPet]    added 'world' to 'default'
+04-01-2020 01:50 [INFO] [MyPet]    added 'Plots' to 'default'
+04-01-2020 01:50 [INFO] [MyPet]    added 'Survival' to 'default'
+04-01-2020 01:50 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+04-01-2020 01:50 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+04-01-2020 01:50 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+04-01-2020 01:50 [INFO] [MyPet]    added 'Parcelas' to 'default'
+04-01-2020 01:50 [INFO] [MyPet]    added 'parcelas' to 'default'
+04-01-2020 01:50 [INFO] [MyPet] -------------------------------------------------
+04-01-2020 01:50 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+04-01-2020 02:14 [INFO] [MyPet] Disabling MyPet v2.3.3
+04-02-2020 07:43 [INFO] [MyPet] Enabling MyPet v2.3.3
+04-02-2020 07:43 [INFO] [MyPet] ##########################################
+04-02-2020 07:43 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+04-02-2020 07:43 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+04-02-2020 07:43 [INFO] [MyPet] ##########################################
+04-02-2020 07:43 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+04-02-2020 07:43 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+04-02-2020 07:43 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+04-02-2020 07:43 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+04-02-2020 07:43 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+04-02-2020 07:43 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+04-02-2020 07:43 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+04-02-2020 07:43 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+04-02-2020 07:43 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+04-02-2020 07:43 [INFO] [MyPet]    added 'world' to 'default'
+04-02-2020 07:43 [INFO] [MyPet]    added 'Plots' to 'default'
+04-02-2020 07:43 [INFO] [MyPet]    added 'Survival' to 'default'
+04-02-2020 07:43 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+04-02-2020 07:43 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+04-02-2020 07:43 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+04-02-2020 07:43 [INFO] [MyPet]    added 'Parcelas' to 'default'
+04-02-2020 07:43 [INFO] [MyPet]    added 'parcelas' to 'default'
+04-02-2020 07:43 [INFO] [MyPet] -------------------------------------------------
+04-02-2020 07:43 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+04-02-2020 17:30 [INFO] [MyPet] Disabling MyPet v2.3.3
+04-02-2020 17:31 [INFO] [MyPet] Enabling MyPet v2.3.3
+04-02-2020 17:31 [INFO] [MyPet] ##########################################
+04-02-2020 17:31 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+04-02-2020 17:31 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+04-02-2020 17:31 [INFO] [MyPet] ##########################################
+04-02-2020 17:31 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+04-02-2020 17:31 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+04-02-2020 17:31 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+04-02-2020 17:31 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+04-02-2020 17:31 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+04-02-2020 17:31 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+04-02-2020 17:31 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+04-02-2020 17:31 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+04-02-2020 17:31 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+04-02-2020 17:31 [INFO] [MyPet]    added 'world' to 'default'
+04-02-2020 17:31 [INFO] [MyPet]    added 'Plots' to 'default'
+04-02-2020 17:31 [INFO] [MyPet]    added 'Survival' to 'default'
+04-02-2020 17:31 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+04-02-2020 17:31 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+04-02-2020 17:31 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+04-02-2020 17:31 [INFO] [MyPet]    added 'Parcelas' to 'default'
+04-02-2020 17:31 [INFO] [MyPet]    added 'parcelas' to 'default'
+04-02-2020 17:31 [INFO] [MyPet] -------------------------------------------------
+04-02-2020 17:31 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+04-02-2020 19:26 [INFO] [MyPet] Disabling MyPet v2.3.3
+04-02-2020 19:26 [INFO] [MyPet] Enabling MyPet v2.3.3
+04-02-2020 19:26 [INFO] [MyPet] ##########################################
+04-02-2020 19:26 [INFO] [MyPet] #  A new version is available: 3.9 #1525 #
+04-02-2020 19:26 [INFO] [MyPet] #  https://mypet-plugin.de/download      #
+04-02-2020 19:26 [INFO] [MyPet] ##########################################
+04-02-2020 19:26 [INFO] [MyPet] Citizens (2.0.16-SNAPSHOT (build 1267)) hook activated.
+04-02-2020 19:26 [WARNING] [MyPet] "MyPet v2.3.3" has registered a listener for me.clip.placeholderapi.events.PlaceholderHookUnloadEvent on method "public void de.Keyle.MyPet.util.hooks.PlaceholderApiHook.on(me.clip.placeholderapi.events.PlaceholderHookUnloadEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Keyle].
+04-02-2020 19:26 [INFO] [MyPet] PlaceholderAPI (2.9.2) hook activated.
+04-02-2020 19:26 [INFO] [MyPet] PlotSquared (3.5.0-SNAPSHOT-95f8aaa) hook activated.
+04-02-2020 19:26 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+04-02-2020 19:26 [INFO] [MyPet] Vault (1.6.7-b${env.TRAVIS_BUILD_NUMBER}) (Economy: Essentials Economy) hook activated.
+04-02-2020 19:26 [INFO] [MyPet] WorldGuard (6.1) hook activated.
+04-02-2020 19:26 [INFO] [MyPet] Compat mode for v1_8_R3 loaded.
+04-02-2020 19:26 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+04-02-2020 19:26 [INFO] [MyPet]    added 'world' to 'default'
+04-02-2020 19:26 [INFO] [MyPet]    added 'Plots' to 'default'
+04-02-2020 19:26 [INFO] [MyPet]    added 'Survival' to 'default'
+04-02-2020 19:26 [INFO] [MyPet]    added 'Survival_nether' to 'default'
+04-02-2020 19:26 [INFO] [MyPet]    added 'Survival_the_end' to 'default'
+04-02-2020 19:26 [INFO] [MyPet]    added 'KingdomsConquest' to 'default'
+04-02-2020 19:26 [INFO] [MyPet]    added 'Parcelas' to 'default'
+04-02-2020 19:26 [INFO] [MyPet]    added 'parcelas' to 'default'
+04-02-2020 19:26 [INFO] [MyPet] -------------------------------------------------
+04-02-2020 19:26 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+04-02-2020 20:46 [INFO] [MyPet] Disabling MyPet v2.3.3
+04-02-2020 20:52 [INFO] [MyPet] Enabling MyPet v2.3.3
+04-02-2020 20:52 [INFO] [MyPet] No Update available.
+04-02-2020 21:08 [INFO] [MyPet] Disabling MyPet v2.3.3
+04-04-2020 07:15 [WARNING] [MyPet] Error occured while creating the de.Keyle.MyPet.api.util.service.types.EntityConverterService service.

@@ -1,0 +1,35 @@
+NEXT_PAGE:
+  name: §aSiguiente
+PREVIOUS_PAGE:
+  name: §aAnterior
+PLAYER_HEAD:
+  name: §a%name%
+PROFILE:
+  name: §a%name%
+  lore:
+  - §7§8--------------------------------
+  - '§7Contratos aceptados: §f%claimed-bounties%'
+  - '§7Contratos completados: §f%successful-bounties%'
+  - '§7Nivel: §f%level%'
+  - '§7Titulo actual: §f%current-title%'
+  - §7
+  - §8▪ §7Escribe §a/bounties titles §7para administrar tu título.
+  - §8▪ §7Escribe §a/bounties quotes §7para gestionar su presupuesto.
+  - §7§8--------------------------------
+LVL_ADVANCEMENT:
+  name: §a[%level%] %name%
+  lore:
+  - §7§8--------------------------------
+  - '§8▪ §7Nivel: §f%level%'
+  - '§8▪ §7Progreso: %lvl-advancement%'
+  - §7§8--------------------------------
+SET_BOUNTY:
+  name: §aComo crear una recompensa
+  lore:
+  - §8▪ §7Usa §a/addbounty <player> <reward>
+  - §7  para fichar a un jugador.
+BOUNTY_COMPASS:
+  name: §aBounty Compass
+  lore:
+  - §7Te permite ver la
+  - §7distancia de tu objetivo.

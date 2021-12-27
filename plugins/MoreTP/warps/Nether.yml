@@ -1,0 +1,23 @@
+name: Nether
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bWarp Info &8&m--------'
+- ''
+- '&bPermission&f&l: &8[&f{permission}&8]'
+- '&bCooldown&f&l: &b{cooldown} &fsecond'
+- '&bCost&f&l: &b{cost}'
+- '&bLocation&f&l:'
+- '&8- &fWorld&f&l: &b{world}'
+- '&8- &fX&f&l: &b{x}'
+- '&8- &fY&f&l: &b{y}'
+- '&8- &fZ&f&l: &b{z}'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: COMPASS
+data: 0
+location: Survival_nether<>163.73857763399485<>98.0<>576.8933516604199<>1.0685366<>-359.94012
+slot: 11

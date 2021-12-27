@@ -1,0 +1,41 @@
+Groups:
+  Owner:
+    Permission: nte.owner
+    Prefix: '&c&lDueño &7'
+    Suffix: '&f'
+    SortPriority: 1
+  Admin:
+    Permission: nte.admin
+    Prefix: '&4&lAdmin &7'
+    Suffix: '&f'
+    SortPriority: 2
+  Mod:
+    Permission: nte.mod
+    Prefix: '&a&lMod &7'
+    Suffix: '&f'
+    SortPriority: 3
+  Helper:
+    Permission: nte.helper
+    Prefix: '&b&lHelper &7'
+    Suffix: '&f'
+    SortPriority: 4
+  Mvp+:
+    Permission: nte.mvpp
+    Prefix: '&e&lZeus &7'
+    Suffix: '&f'
+    SortPriority: 5
+  Mvp:
+    Permission: nte.mvp
+    Prefix: '&b&lPose&3&lidon &7'
+    Suffix: '&f'
+    SortPriority: 6
+  Vip+:
+    Permission: nte.vipp
+    Prefix: '&c&lAr&b&les &7'
+    Suffix: '&f'
+    SortPriority: 7
+  Vip:
+    Permission: nte.vip
+    Prefix: '&6&lHer&8&lMes &7'
+    Suffix: '&f'
+    SortPriority: 8

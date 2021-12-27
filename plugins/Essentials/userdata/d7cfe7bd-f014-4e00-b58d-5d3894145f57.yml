@@ -1,0 +1,21 @@
+lastAccountName: Maladaptive
+timestamps:
+  login: 1518370852390
+  lastteleport: 1518370986985
+  logout: 1518371907777
+ipAddress: 104.48.197.153
+lastlocation:
+  world: world
+  x: 275.67430803258503
+  y: 67.15693683626739
+  z: 470.35599261664134
+  yaw: -295.95868
+  pitch: 5.2499895
+money: '5000.0'
+logoutlocation:
+  world: Survival
+  x: 1328.3406507562827
+  y: 71.0
+  z: 2908.909758899461
+  yaw: 200.1
+  pitch: 19.500006

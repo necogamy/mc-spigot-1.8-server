@@ -1,0 +1,651 @@
+Crate:
+  CrateType: Wheel #Type of crate.
+  CrateName: '&8Rare crate' #Name of the Inventory if a GUI crate.
+  StartingKeys: 0 #Starting amount of keys when the player 1st joins.
+  InGUI: false #If the crate shows in the /cc GUI.
+  Slot: 23 #Slot the item is in the GUI.
+  OpeningBroadCast: false #Enables/Disables the Broadcasts message when they open a crate.
+  BroadCast: '&3Crates &8» &a%Player%' #Message that is broadcasted when opening the crate.
+  Item: '130' #Item the crate is in the GUI
+  Glowing: false #If the crate in the main /cc GUI is glowing or not.
+  Name: '&9&lRare crate' #Name of the item in the GUI.
+  Lore: #The lore of the item in the GUI.
+    - '&7This crate contains strange objects,' 
+    - '&7from somewhere beyond this planet.'
+    - '&7You have &6%Keys% keys &7to open this crate with.'
+    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&9&lRare crate &f| Key' #Name of the Key.
+    Lore:
+      - '&8▪ A special key' #Lore of the Key.
+      - '&8for a special crate.'
+    Item: '131' #The item the key is.
+    Glowing: true
+  Tiers: #The tiers in the Crate
+    Basic: #The Config Name for the Crate
+      Name: '&8Rare crate' #The in-game name of the Crate
+      Color: d #Use the MetaData for the color of the glass
+      Chance: 80 #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
+      MaxRange: 100 #The max range that the chance will go though.
+    UnCommon:
+      Name: '&aUnCommon Prize'
+      Color: 5
+      Chance: 55
+      MaxRange: 100
+    Rare:
+      Name: '&4Rare Prize'
+      Color: 14
+      Chance: 20
+      MaxRange: 100
+  Prizes: #All the prizes that can be gotten in the Crate.
+    1:
+      DisplayName: '&f&l$25,000'
+      DisplayItem: '339'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f$25,000'
+        - 'eco give %Player% 25000'
+    2:
+      DisplayName: '&f&l$50,000'
+      DisplayItem: '339'
+      DisplayAmount: 2
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f7.5%'
+      MaxRange: 100
+      Chance: 7.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f$50,000'
+        - 'eco give %Player% 50000'
+    3:
+      DisplayName: '&f&l$100,000'
+      DisplayItem: '339'
+      DisplayAmount: 3
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f$100,000'
+        - 'eco give %Player% 100000'
+    4:
+      DisplayName: '&f&l$25,000'
+      DisplayItem: '339'
+      DisplayAmount: 4
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f$25,000'
+        - 'eco give %Player% 25000'
+    5:
+      DisplayName: '&f&lTITAN | KIT'
+      DisplayItem: '311'
+      DisplayAmount: 1
+      Lore:
+        - '&3Weapon:'
+        - '&7- Sharpness V'
+        - '&7- Fire Aspect II'
+        - '&7- Unbreaking III'
+        - '&7- Loot III'
+        - '&7'
+        - '&3Armor:'
+        - '&7- Protection IV'
+        - '&7- Unbreaking III'
+        - '&7'
+        - '&3Items:'
+        - '&7- 64 | Diamond blocks'
+        - '&7- 64 | Gold blocks'
+        - '&7- 64 | Enchanted golden apples'
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &fTITAN | KIT'
+        - 'kit Titan %Player%'
+    6:
+      DisplayName: '&f&lLEGACY | KIT'
+      DisplayItem: '311'
+      DisplayAmount: 1
+      Lore:
+        - '&3Weapon &8[x2]&3:'
+        - '&7- Sharpness VI'
+        - '&7- Fire Aspect II'
+        - '&7- Unbreaking III'
+        - '&7'
+        - '&3Armor &8[x2]&3:'
+        - '&7- Protection VI'
+        - '&7- Unbreaking III'
+        - '&7'
+        - '&3Items:'
+        - '&7- 64 | Diamond blocks'
+        - '&7- 64 | Gold blocks'
+        - '&7- 128 | Enchanted golden apples'
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &fLEGACY | KIT'
+        - 'kit Legacy %Player%'
+    7:
+      DisplayName: '&f&l3,000 EXP'
+      DisplayItem: '384'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f7.5%'
+      MaxRange: 100
+      Chance: 7.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f3,000 EXP'
+        - 'exp give %Player% 3000'
+    8:
+      DisplayName: '&f&l5,000 EXP'
+      DisplayItem: '384'
+      DisplayAmount: 2
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f5,000 EXP'
+        - 'exp give %Player% 5000'
+    9:
+      DisplayName: '&f&l8,000 EXP'
+      DisplayItem: '384'
+      DisplayAmount: 3
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f8,000 EXP'
+        - 'exp give %Player% 8000'
+    10:
+      DisplayName: '&f&lCOW &7x2 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 2
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lCOW &7x2 &f| SPAWNER'
+        - 'ss give %Player% Cow 2'
+    11:
+      DisplayName: '&f&lMUSHROOM COW &7x2 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 2
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lMUSHROOM COW &7x2 &f| SPAWNER'
+        - 'ss give %Player% Mushroomcow 2'
+    12:
+      DisplayName: '&f&lCAVE SPIDER &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lCAVE SPIDER &7x1 &f| SPAWNER'
+        - 'ss give %Player% Cavespider 1'
+    13:
+      DisplayName: '&f&lSPIDER &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1.5%'
+      MaxRange: 100
+      Chance: 1.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lSPIDER &7x1 &f| SPAWNER'
+        - 'ss give %Player% Spider 1'
+    14:
+      DisplayName: '&f&lZOMBIE &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f3%'
+      MaxRange: 100
+      Chance: 3
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lZOMBIE &7x1 &f| SPAWNER'
+        - 'ss give %Player% Zombie 1'
+    15:
+      DisplayName: '&f&lSKELETON &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f4.5%'
+      MaxRange: 100
+      Chance: 4.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lSKELETON &7x1 &f| SPAWNER'
+        - 'ss give %Player% Skeleton 1'
+    16:
+      DisplayName: '&f&lBLAZE &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f3%'
+      MaxRange: 100
+      Chance: 3
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lBLAZE &7x1 &f| SPAWNER'
+        - 'ss give %Player% Blaze 1'
+    17:
+      DisplayName: '&f&lENDERMAN &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lENDERMAN &7x1 &f| SPAWNER'
+        - 'ss give %Player% Enderman 1'
+    18:
+      DisplayName: '&f&lGUARDIAN &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lGUARDIAN &7x1 &f| SPAWNER'
+        - 'ss give %Player% Guardian 1'
+    19:
+      DisplayName: '&f&lCREEPER &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lCREEPER &7x1 &f| SPAWNER'
+        - 'ss give %Player% Creeper 1'
+    20:
+      DisplayName: '&f&lSLIME &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lSLIME &7x1 &f| SPAWNER'
+        - 'ss give %Player% Slime 1'
+    21:
+      DisplayName: '&f&lZOMBIE PIGMAN &7x1 &f| SPAWNER'
+      DisplayItem: '52'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f0.5%'
+      MaxRange: 100
+      Chance: 0.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&lZOMBIE PIGMAN &7x1 &f| SPAWNER'
+        - 'ss give %Player% Zombiepigman 1'
+    25:
+      DisplayName: '&f&l2 | RARE KEYS'
+      DisplayItem: '131'
+      DisplayAmount: 2
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1.2%'
+      MaxRange: 100
+      Chance: 1.2
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&l2 | RARE KEYS'
+        - 'cc give physical Rare 2 %Player%'
+    26:
+      DisplayName: '&f&l1 | LEGENDARY KEY'
+      DisplayItem: '131'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&l1 | LEGENDARY KEY'
+        - 'cc give physical Legendary 1 %Player%'
+    22:
+      DisplayName: '&f&l50 | MCMMO CREDITS'
+      DisplayItem: '397:2'
+      DisplayAmount: 1
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&l50 | MCMMO CREDITS'
+        - 'addcredits %Player% 50'
+    23:
+      DisplayName: '&f&l75 | MCMMO CREDITS'
+      DisplayItem: '397:2'
+      DisplayAmount: 2
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&l75 | MCMMO CREDITS'
+        - 'addcredits %Player% 75'
+    24:
+      DisplayName: '&f&l100 | MCMMO CREDITS'
+      DisplayItem: '397:2'
+      DisplayAmount: 3
+      Lore:
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &f&l100 | MCMMO CREDITS'
+        - 'addcredits %Player% 100'
+    27:
+      DisplayName: '&9&lRARE &f&l| PICKAXE'
+      DisplayItem: '278'
+      DisplayAmount: 1
+      Lore:
+        - '&3Enchantments:'
+        - '&7- Efficiency V'
+        - '&7- Unbreaking III'
+        - '&7- Fortune III'
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1.5%'
+      MaxRange: 100
+      Chance: 1.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &9&lRARE &f&l| PICKAXE'
+        - 'give %Player% diamond_pickaxe 1 0 {display:{Name:"§dRare | PICKAXE"},ench:[{id:32,lvl:5},{id:34,lvl:3},{id:35,lvl:3}]}'
+    28:
+      DisplayName: '&9&lRARE &f&l| SHOVEL'
+      DisplayItem: '277'
+      DisplayAmount: 1
+      Lore:
+        - '&3Enchantments:'
+        - '&7- Efficiency V'
+        - '&7- Unbreaking III'
+        - '&7- Fortune III'
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1.5%'
+      MaxRange: 100
+      Chance: 1.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &9&lRARE &f&l| SHOVEL'
+        - 'give %Player% diamond_shovel 1 0 {display:{Name:"§dRare | SHOVEL"},ench:[{id:32,lvl:5},{id:34,lvl:3},{id:35,lvl:3}]}'
+    29:
+      DisplayName: '&9&lRARE &f&l| AXE'
+      DisplayItem: '279'
+      DisplayAmount: 1
+      Lore:
+        - '&3Enchantments:'
+        - '&7- Efficiency V'
+        - '&7- Sharpness V'
+        - '&7- Smite V'
+        - '&7- Unbreaking III'
+        - '&7- Bane Of Arthropods V'
+        - '&7- Fortune III'
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1.5%'
+      MaxRange: 100
+      Chance: 1.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &9&lRARE &f&l| AXE'
+        - 'give %Player% diamond_axe 1 0 {display:{Name:"§dRare | AXE"},ench:[{id:32,lvl:5},{id:16,lvl:5},{id:17,lvl:5},{id:34,lvl:3},{id:18,lvl:5},{id:35,lvl:3}]}'
+    30:
+      DisplayName: '&9&lRARE &f&l| SWORD'
+      DisplayItem: '276'
+      DisplayAmount: 1
+      Lore:
+        - '&3Enchantments:'
+        - '&7- Sharpness V'
+        - '&7- Smite V'
+        - '&7- Unbreaking III'
+        - '&7- Bane Of Arthropods V'
+        - '&7- Fire Aspect II'
+        - '&7- Loot III'
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1.5%'
+      MaxRange: 100
+      Chance: 1.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &9&lRARE &f&l| SWORD'
+        - 'give %Player% diamond_sword 1 0 {display:{Name:"§dRare | SWORD"},ench:[{id:16,lvl:5},{id:17,lvl:5},{id:34,lvl:3},{id:18,lvl:5},{id:20,lvl:2},{id:21,lvl:3}]}'
+    31:
+      DisplayName: '&9&lRARE &f&l| FISHING ROD'
+      DisplayItem: '346'
+      DisplayAmount: 1
+      Lore:
+        - '&3Enchantments:'
+        - '&7- Unbreaking III'
+        - '&7- Luck of the Sea III'
+        - '&7- Lure III'
+        - '&7'
+        - '&8▪ &e&lCHANCE: &f1.5%'
+      MaxRange: 100
+      Chance: 1.5
+      Firework: true
+      Glowing: true
+      Tiers:
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
+      Commands:
+        - 'tm msg %Player% &bCongratulations\n&aYou won: &9&lRARE &f&l| FISHING ROD'
+        - 'give %Player% fishing_rod 1 0 {display:{Name:"§dRare | FISHING ROD"},ench:[{id:34,lvl:5},{id:61,lvl:3},{id:62,lvl:3}]}'

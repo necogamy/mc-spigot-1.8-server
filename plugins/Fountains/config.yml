@@ -1,0 +1,5 @@
+fountains:
+  '1':
+    loc: world,238.5,71.5,420.5,0.0,0.0
+    size: SMALL
+    type: SPRAY

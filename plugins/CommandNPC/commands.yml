@@ -1,0 +1,40 @@
+NPCS:
+  '0':
+    Commands:
+    - dm open menu~~false
+  '1':
+    Commands:
+    - ca~~false
+  '2':
+    Commands:
+    - dm open menu %name~~true
+  '8':
+    Commands:
+    - ah~~false
+  '3':
+    Commands:
+    - shop~~false
+  '10':
+    Commands:
+    - quests~~false
+  '11':
+    Commands:
+    - dm open ce %name~~true
+  '12':
+    Commands:
+    - bar bar~~false
+  '13':
+    Commands:
+    - dm open jobs %name~~true
+  '15':
+    Commands:
+    - bounties~~false
+  '5':
+    Commands:
+    - dm open warps %name~~true
+  '9':
+    Commands:
+    - dm open crates %name~~true
+  '4':
+    Commands:
+    - dm open pet %name~~true

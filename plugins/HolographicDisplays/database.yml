@@ -1,0 +1,15 @@
+legendary:
+  location: world, 210.686, 120.255, 332.556
+  lines:
+  - '&d&lLEGENDARY CRATE'
+  - '&e&lRIGHT CLICK'
+vote:
+  location: world, 205.561, 120.255, 327.326
+  lines:
+  - '&f&lVOTE CRATE'
+  - '&e&lRIGHT CLICK'
+rare:
+  location: world, 209.696, 120.255, 328.343
+  lines:
+  - '&1&lRARE CRATE'
+  - '&e&lRIGHT CLICK'

@@ -1,0 +1,55 @@
+Locations:
+  '1':
+    Crate: Rare
+    World: world
+    X: -15
+    Y: 10
+    Z: -72
+  '2':
+    Crate: Vote
+    World: world
+    X: -19
+    Y: 10
+    Z: -76
+  '3':
+    Crate: Legendary
+    World: world
+    X: -19
+    Y: 10
+    Z: -68
+  '4':
+    Crate: Rare
+    World: Survival
+    X: -157
+    Y: 214
+    Z: 100
+  '5':
+    Crate: Legendary
+    World: Survival
+    X: -155
+    Y: 214
+    Z: 97
+  '6':
+    Crate: Vote
+    World: Survival
+    X: -155
+    Y: 214
+    Z: 103
+  '7':
+    Crate: Legendary
+    World: world
+    X: 210
+    Y: 119
+    Z: 332
+  '8':
+    Crate: Vote
+    World: world
+    X: 205
+    Y: 119
+    Z: 327
+  '9':
+    Crate: Rare
+    World: world
+    X: 209
+    Y: 119
+    Z: 328

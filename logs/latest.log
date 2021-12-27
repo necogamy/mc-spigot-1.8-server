@@ -1,0 +1,248 @@
+[07:15:25] [Server thread/INFO]: Starting minecraft server version 1.8
+[07:15:25] [Server thread/INFO]: Loading properties
+[07:15:25] [Server thread/INFO]: Default game type: SURVIVAL
+[07:15:26] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[07:15:26] [Server thread/INFO]: Debug logging is disabled
+[07:15:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:15:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:15:26] [Server thread/INFO]: Generating keypair
+[07:15:27] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25663
+[07:15:30] [Server thread/ERROR]: Ambiguous plugin name `PlotSquared' for files `plugins\PlotSquared.jar' and `plugins\PlotSquared-Bukkit-4.453 (1).jar' in `plugins'
+[07:15:32] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[07:15:32] [Server thread/ERROR]: Could not load 'plugins\mcMMOAction.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: mcMMO
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.loadPlugins(CraftServer.java:291) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:152) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:505) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[07:15:32] [Server thread/ERROR]: Could not load 'plugins\BannerBoard_Skills-2.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: BannerBoard
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.loadPlugins(CraftServer.java:291) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:152) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:505) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[07:15:33] [Server thread/INFO]: [ViaVersion] Hooking into ProtocolSupport, to prevent issues!
+[07:15:36] [Server thread/INFO]: [Fountains] Loading Fountains v1.0
+[07:15:36] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.2
+[07:15:36] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[07:15:36] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.4.0
+[07:15:36] [Server thread/INFO]: [Arconix] Loading Arconix v1.1.1
+[07:15:36] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
+[07:15:36] [Server thread/INFO]: [DisableJoinMessage] Loading DisableJoinMessage v1.0
+[07:15:36] [Server thread/INFO]: [BarGamble] Loading BarGamble v1.0
+[07:15:36] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v2.0.9d
+[07:15:36] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.6
+[07:15:36] [Server thread/INFO]: [GuiRedeemMCMMO] Loading GuiRedeemMCMMO v1.5.4
+[07:15:36] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.07.25-58243b6-1278-22.3.1
+[07:15:36] [Server thread/INFO]: [ArmorStandCMD] Loading ArmorStandCMD v1.0
+[07:15:36] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.9.2
+[07:15:36] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[07:15:36] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[07:15:36] [Server thread/INFO]: [NoWeather] Loading NoWeather v2.1
+[07:15:36] [Server thread/INFO]: [Vault] Loading Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[07:15:36] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v4.29-dev
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ╔══════════════════════════════════════════════════════════════════╗
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║                               ERROR                               
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║   Unsupported platform or version
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║                                                                   
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║   This version of plugin only supports                            
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║   server minecraft version 1.14.4
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║   and following platforms:                                        
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║   - Spigot (https://www.spigotmc.org/)                            
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║   - Paper (https://papermc.io/)                                   
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║                                                                   
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║                                                                   
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ║       https://github.com/ProtocolSupport/ProtocolSupport/         
+[07:15:36] [Server thread/ERROR]: [ProtocolSupport] ╚══════════════════════════════════════════════════════════════════╝
+[07:15:36] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.9.11
+[07:15:36] [Server thread/INFO]: [Trading] Loading Trading v3.2
+[07:15:36] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v2.2.3
+[07:15:37] [Server thread/INFO]: [ViaVersion] ViaVersion 2.2.3 is now loaded, waiting for boot. (late-bind)
+[07:15:37] [Server thread/INFO]: [ShopGUIPlus] Loading ShopGUIPlus v1.27.0
+[07:15:37] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[07:15:37] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.12
+[07:15:37] [Server thread/INFO]: [BountyHunters] Loading BountyHunters v1.3.0.5
+[07:15:37] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.3.0
+[07:15:38] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1267)
+[07:15:38] [Server thread/INFO]: [KitPreview] Loading KitPreview v5.4.1
+[07:15:38] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.12-RELEASE
+[07:15:38] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.12
+[07:15:38] [Server thread/INFO]: [MoreTP] Loading MoreTP v0.3.3
+[07:15:38] [Server thread/INFO]: [Item2Chat] Loading Item2Chat v4.2.3
+[07:15:38] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.0
+[07:15:38] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v3.5.0-SNAPSHOT-95f8aaa
+[07:15:38] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[07:15:38] [Server thread/INFO]: [Quests] Loading Quests v2.5
+[07:15:38] [Server thread/INFO]: [TabList] Loading TabList v5.1
+[07:15:38] [Server thread/INFO]: [MoreFish] Loading MoreFish v2.1.3
+[07:15:38] [Server thread/INFO]: [RandomTeleport] Loading RandomTeleport v1.5.0
+[07:15:38] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.7.2
+[07:15:38] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.12
+[07:15:38] [Server thread/INFO]: [TitleManager] Loading TitleManager v2.1.5
+[07:15:38] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v5.0.2
+[07:15:38] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[07:15:38] [Server thread/INFO]: [BlockParticles] Loading BlockParticles v1.9.7.2
+[07:15:38] [Server thread/INFO]: [StackMob] Loading StackMob v2.2.18
+[07:15:38] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.9.1-1.8.8-hotfix (build 68)
+[07:15:38] [Server thread/INFO]: [CombatTagPlus] Loading CombatTagPlus v1.2.3
+[07:15:38] [Server thread/INFO]: [CustomMobs] Loading CustomMobs v4.17
+[07:15:38] [Server thread/INFO]: [CustomMobs] Starting loading phase...
+[07:15:38] [Server thread/INFO]: [CustomMobs] Assumed ServerType: SPIGOT
+[07:15:38] [Server thread/INFO]: [CustomMobs] Server version: v1_8_R1
+[07:15:38] [Server thread/INFO]: [CustomMobs] Loaded configuration!
+[07:15:38] [Server thread/INFO]: [CustomMobs] Copying default languageFile (en_US.lang)
+[07:15:38] [Server thread/INFO]: [CustomMobs] Copied default languageFile to lang-folder!
+[07:15:38] [Server thread/INFO]: [CustomMobs] This Version of custom mobs supports the following server versions:
+[07:15:38] [Server thread/INFO]: [CustomMobs] v1_9_R1, v1_9_R2, v1_10_R1, v1_11_R1
+[07:15:38] [Server thread/INFO]: [CustomMobs] Could not find supported server version! Is this server version not supported by CustomMobs?
+[07:15:38] [Server thread/INFO]: [CustomMobs] Loading finished.
+[07:15:38] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.4-b530
+[07:15:38] [Server thread/INFO]: [CrazyEnchantments] Loading CrazyEnchantments v1.8-Dev-Build-v8-RELEASE
+[07:15:38] [Server thread/INFO]: [MyPet] Loading MyPet v2.3.3
+[07:15:39] [Server thread/INFO]: Level: INFO
+[07:15:39] [Server thread/WARN]: [[0;32;22mMyPet[m] [mError occured while creating the de.Keyle.MyPet.api.util.service.types.EntityConverterService service.[m
+[07:15:39] [Server thread/WARN]: java.lang.InstantiationException
+[07:15:39] [Server thread/WARN]: 	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(Unknown Source)
+[07:15:39] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[07:15:39] [Server thread/WARN]: 	at java.lang.Class.newInstance(Unknown Source)
+[07:15:39] [Server thread/WARN]: 	at de.Keyle.MyPet.api.util.service.ServiceManager.registerService(ServiceManager.java:59)
+[07:15:39] [Server thread/WARN]: 	at de.Keyle.MyPet.compat.v1_8_R1.CompatManager.init(CompatManager.java:32)
+[07:15:39] [Server thread/WARN]: 	at de.Keyle.MyPet.MyPetPlugin.onLoad(MyPetPlugin.java:132)
+[07:15:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.loadPlugins(CraftServer.java:296)
+[07:15:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:152)
+[07:15:39] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:505)
+[07:15:39] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[07:15:39] [Server thread/INFO]: [Jobs] Loading Jobs v4.5.1
+[07:15:39] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.07.25-58243b6-1278-22.3.1
+[07:15:41] [Server thread/INFO]: ====== USE PAPER ======[m
+[07:15:41] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
+[07:15:41] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
+[07:15:41] [Server thread/INFO]:  - This is only a recommendation[m
+[07:15:41] [Server thread/INFO]: ==============================[m
+[07:15:41] [Server thread/INFO]: [Vault] Enabling Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[07:15:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:15:41] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[07:15:41] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:15:41] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[07:15:41] [Server thread/INFO]: [Vault] Enabled Version 1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[07:15:41] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v4.29-dev
+[07:15:41] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.3.0
+[07:15:41] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[07:15:41] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v3.5.0-SNAPSHOT-95f8aaa
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;33;22mMetrics enabled.[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m [0;33;22mPlotSquared is using online UUIDs[m
+[07:15:42] [Server thread/INFO]: PlotSquared hooked into WorldEdit.[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mplot-expiry[0;31;1m, Value: [0;33;22mfalse[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mkill-road-mobs[0;31;1m, Value: [0;33;22mfalse[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mworldedit-restrictions[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mdatabase-purger[0;31;1m, Value: [0;33;22mfalse[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22meconomy[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mblock-cache[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mkill-road-vehicles[0;31;1m, Value: [0;33;22mfalse[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mpersistent-meta[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mban-deleter[0;31;1m, Value: [0;33;22mfalse[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mupdater[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mdatabase[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mplotme-converter[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mpermission-cache[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mrating-cache[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mcomment-notifier[0;31;1m, Value: [0;33;22mfalse[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mmetrics[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mchunk-processor[0;31;1m, Value: [0;33;22mfalse[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22muuid-cache[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mevents[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mcommands[0;31;1m, Value: [0;33;22mtrue[m
+[07:15:42] [Server thread/INFO]: [0;33;22mPlotSquared is now enabled[m
+[07:15:42] [Server thread/INFO]: [0;36;22mPlots [0;30;1m» [0;37;22m[0;33;22mMetrics enabled.[m
+[07:15:42] [Server thread/INFO]: [StackMob] Enabling StackMob v2.2.18
+[07:15:42] [Server thread/INFO]: [StackMob] StackMob Legacy v2.2.18 created by antiPerson/BaconPied
+[07:15:42] [Server thread/INFO]: [StackMob] Documentation can be found at https://www.spigotmc.org/resources/stackmob-legacy.61578/
+[07:15:42] [Server thread/INFO]: [StackMob] GitHub repository can be found at https://github.com/Nathat23/StackMob-2/tree/legacy
+[07:15:42] [Server thread/INFO]: [StackMob] Detected server version: 1
+[07:15:42] [Server thread/INFO]: [StackMob] At the present moment, the feature 'show-player-nearby' is only supported on Minecraft 1.9 and above.
+[07:15:42] [Server thread/INFO]: [StackMob] Loading cached entities...
+[07:15:42] [Server thread/INFO]: [StackMob] Registering listeners...
+[07:15:44] [Server thread/INFO]: [StackMob] There is no new version at this time.
+[07:15:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:15:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:15:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:15:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:15:44] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[07:15:44] [Server thread/INFO]: Preparing level "world"
+[07:15:44] [Server thread/INFO]: -------- World Settings For [world] --------
+[07:15:44] [Server thread/INFO]: Mob Spawn Range: 3
+[07:15:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:15:44] [Server thread/INFO]: Item Merge Radius: 3.5
+[07:15:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:15:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:15:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[07:15:44] [Server thread/INFO]: Clear tick list: false
+[07:15:44] [Server thread/INFO]: Experience Merge Radius: 6.0
+[07:15:44] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2
+[07:15:44] [Server thread/INFO]: Sending up to 10 chunks per packet
+[07:15:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:15:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:15:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:15:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:15:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:15:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:15:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:15:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:15:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:15:44] [Server thread/INFO]: Alternative Hopper Ticking: false
+[07:15:44] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 1 Hopper Amount: 3
+[07:15:44] [Server thread/INFO]: Random Lighting Updates: false
+[07:15:44] [Server thread/INFO]: Max TNT Explosions: 100
+[07:15:44] [Server thread/INFO]: Anti X-Ray: false
+[07:15:44] [Server thread/INFO]: 	Engine Mode: 1
+[07:15:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[07:15:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[07:15:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 20 / Other 64
+[07:15:44] [Server thread/INFO]: Structure Info Saving: true
+[07:15:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:15:44] [Server thread/INFO]: View Distance: 10
+[07:15:44] [Server thread/INFO]: Max Entity Collisions: 2
+[07:15:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[07:15:44] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
+[07:15:44] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2009995673247417630)
+[07:15:45] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.NullPointerException
+	at net.minecraft.server.v1_8_R1.NBTTagCompound.a(SourceFile:380) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTTagCompound.load(SourceFile:48) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTTagCompound.a(SourceFile:380) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTTagCompound.load(SourceFile:48) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTTagCompound.a(SourceFile:380) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTTagCompound.load(SourceFile:48) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:92) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:57) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:46) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:83) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at org.bukkit.craftbukkit.v1_8_R1.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:19) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at org.bukkit.craftbukkit.v1_8_R1.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:1) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at org.bukkit.craftbukkit.v1_8_R1.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:336) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at org.bukkit.craftbukkit.v1_8_R1.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at org.bukkit.craftbukkit.v1_8_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:113) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:95) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.MinecraftServer.k(MinecraftServer.java:361) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.MinecraftServer.a(MinecraftServer.java:325) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:211) ~[spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:505) [spigot-1.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-c3c767f-33d5de3]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+[07:15:45] [Server thread/ERROR]: This crash report has been saved to: C:\Users\madra\Desktop\servidores\survival\.\crash-reports\crash-2020-04-04_07.15.45-server.txt
+[07:15:45] [Server thread/INFO]: Stopping server
+[07:15:45] [Server thread/INFO]: [StackMob] Disabling StackMob v2.2.18
+[07:15:45] [Server thread/INFO]: [StackMob] Cancelling currently running tasks...
+[07:15:45] [Server thread/INFO]: [StackMob] Saving entity amount cache...
+[07:15:45] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v3.5.0-SNAPSHOT-95f8aaa
+[07:15:45] [Server thread/INFO]: [0;33;22mAll DB transactions during this session are being validated (This may take a while if corrections need to be made)[m
+[07:15:45] [Server thread/INFO]: [0;31;1mCould not close database connection![m
+[07:15:45] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.3.0
+[07:15:45] [Server thread/INFO]: [ProtocolSupport] Disabling ProtocolSupport v4.29-dev
+[07:15:45] [Server thread/INFO]: [Vault] Disabling Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[07:15:45] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v19.07.25-58243b6-1278-22.3.1
+[07:15:45] [Server thread/INFO]: Saving players
+[07:15:45] [Server thread/INFO]: Saving worlds
+[07:15:45] [Server thread/INFO]: Saving chunks for level 'world'/Overworld

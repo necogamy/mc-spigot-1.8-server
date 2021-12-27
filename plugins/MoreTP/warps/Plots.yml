@@ -1,0 +1,23 @@
+name: Plots
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bWarp Info &8&m--------'
+- ''
+- '&bPermission&f&l: &8[&f{permission}&8]'
+- '&bCooldown&f&l: &b{cooldown} &fsecond'
+- '&bCost&f&l: &b{cost}'
+- '&bLocation&f&l:'
+- '&8- &fWorld&f&l: &b{world}'
+- '&8- &fX&f&l: &b{x}'
+- '&8- &fY&f&l: &b{y}'
+- '&8- &fZ&f&l: &b{z}'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: COMPASS
+data: 0
+location: Plots<>28.033210328491734<>68.0<>83.03118820313175<>12.7844<>91.983604
+slot: 14

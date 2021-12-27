@@ -1,0 +1,43 @@
+lastAccountName: xcastanya
+timestamps:
+  login: 1517937637640
+  lastteleport: 1517937641840
+  logout: 1517937770102
+  kits:
+    legacy: 1517497439098
+    lord: 1517496956853
+    titan: 1517497416810
+    donator: 1517496706254
+    god: 1517497452250
+    overlord: 1517580809547
+ipAddress: 92.177.108.9
+lastlocation:
+  world: Plots
+  x: 57.93984291941636
+  y: 73.58154998996886
+  z: 126.16640759544127
+  yaw: 327.89108
+  pitch: 23.602291
+money: '5000.0'
+logoutlocation:
+  world: world
+  x: 225.51469595437058
+  y: 84.5
+  z: 454.16230175486766
+  yaw: 183.74138
+  pitch: 11.088289
+homes:
+  crates:
+    world: world
+    x: 207.90996232177264
+    y: 117.5362601251126
+    z: 331.06839730962497
+    yaw: -337.225
+    pitch: 22.949873
+  enchant:
+    world: world
+    x: 131.82449149534028
+    y: 90.0
+    z: 302.22017913596244
+    yaw: -86.12429
+    pitch: 12.599573

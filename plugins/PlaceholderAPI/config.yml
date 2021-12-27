@@ -1,0 +1,21 @@
+# PlaceholderAPI version 2.8.1
+# Created by extended_clip
+
+check_updates: false
+cloud_enabled: true
+auto_install_expansions: true
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss
+injector_enabled: true
+expansions:
+  vault:
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M
+  javascript:
+    engine: javascript

@@ -1,0 +1,112 @@
+#Check out this link to see available Material for item
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#Note: This Material list is For the latest release of Spigot version
+#so some material maybe not work in older version [Example: BONE_BLOCK only work for 1.11]
+
+#=====-----=====[ Placeholder Message ]=====-----=====# 
+# {r} would replaced by radius option
+# {cost} Cost for the Option
+# {perm} permission 
+#=====-----=====[ Placeholder Message ]=====-----=====#
+ 
+#[IMPORTANT] There must be at least 1 Option in menu radius list , And max option is 7
+radius_list:
+  1: 
+    name: "&a&lTeleport"
+    item: SIGN
+    radius: 500
+    cost: 10
+    permission: ""
+    description:
+    - "&7Teleport just for &a{r} &7radius"
+    - "&8▪ &7Price: &3{cost} ⛁"
+    - "&8▪ &7World: &3Survival"
+    - "&8▪ &7Radius: &3{r}"
+    - " "
+  2: 
+    name: "&a&lTeleport"
+    item: SIGN
+    radius: 2500
+    cost: 30
+    permission: ""
+    description:
+
+    - "&7Teleport just for &a{r} &7radius"
+    - "&8▪ &7Price: &3{cost} ⛁"
+    - "&8▪ &7World: &3Survival"
+    - "&8▪ &7Radius: &3{r}"
+    - " "
+
+  3: 
+    name: "&a&lTeleport"
+    item: SIGN
+    radius: 5000
+    cost: 100
+    permission: ""
+    description:
+
+    - "&7Teleport just for &a{r} &7radius"
+    - "&8▪ &7Price: &3{cost} ⛁"
+    - "&8▪ &7World: &3Survival"
+    - "&8▪ &7Radius: &3{r}"
+    - " "
+
+  4: 
+    name: "&a&lTeleport"
+    item: WOOD_DOOR
+    radius: 10000
+    cost: 500
+    permission: "moretp.radius.housing"
+    description:
+
+    - "&7Teleport just for &a{r} &7radius"
+    - "&cBe careful, &7you can have lag."
+    - "&8▪ &7Price: &3{cost} ⛁"
+    - "&8▪ &7World: &3Survival"
+    - "&8▪ &7Radius: &3{r}"
+    - " "
+
+  5: 
+    name: "&a&lTeleport"
+    item: IRON_DOOR
+    radius: 20000
+    cost: 1500
+    permission: "moretp.radius.housing2"
+    description:
+
+    - "&7Teleport just for &a{r} &7radius"
+    - "&cBe careful, &7you can have lag."
+    - "&8▪ &7Price: &3{cost} ⛁"
+    - "&8▪ &7World: &3Survival"
+    - "&8▪ &7Radius: &3{r}"
+    - " "
+
+  6: 
+    name: "&a&lTeleport"
+    item: OBSIDIAN
+    radius: 50000
+    cost: 3000
+    permission: "moretp.radius.safety"
+    description:
+
+    - "&7Teleport just for &a{r} &7radius"
+    - "&cBe careful, &7you can have lag."
+    - "&8▪ &7Price: &3{cost} ⛁"
+    - "&8▪ &7World: &3Survival"
+    - "&8▪ &7Radius: &3{r}"
+    - " "
+
+  7: 
+    name: "&a&lTeleport"
+    item: BEDROCK
+    radius: 100000
+    cost: 5000
+    permission: "moretp.radius.pervert"
+    description:
+
+    - "&7Teleport just for &a{r} &7radius"
+    - "&cBe careful, &7you can have lag."
+    - "&8▪ &7Price: &3{cost} ⛁"
+    - "&8▪ &7World: &3Survival"
+    - "&8▪ &7Radius: &3{r}"
+    - " "

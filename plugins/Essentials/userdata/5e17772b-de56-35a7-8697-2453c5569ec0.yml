@@ -1,0 +1,50 @@
+lastAccountName: xNekio
+timestamps:
+  login: 1518078892114
+  logout: 1518079372240
+  lastteleport: 1517937776202
+  kits:
+    new: 1518031785747
+    lord: 1517563274715
+    donator: 1517561869813
+    overlord: 1517497762431
+    god: 1517497810888
+ipAddress: 83.32.212.167
+logoutlocation:
+  world: world
+  x: 224.63741007026735
+  y: 79.5
+  z: 400.2519662738381
+  yaw: -299.7697
+  pitch: 8.143757
+lastlocation:
+  world: world
+  x: 221.48913513639826
+  y: 74.375
+  z: 431.2391126585169
+  yaw: -11.136475
+  pitch: 18.854767
+money: '134299.0'
+homes:
+  home:
+    world: Plots
+    x: 82.92474057279617
+    y: 65.0
+    z: 81.46629723890611
+    yaw: -91.566284
+    pitch: 22.556007
+  water:
+    world: Survival
+    x: 125.64883252179445
+    y: 64.13694093287079
+    z: -68.48350720609805
+    yaw: -41.099762
+    pitch: 21.749943
+  a:
+    world: Survival
+    x: -1343.022468919995
+    y: 64.0
+    z: -4037.3653139055677
+    yaw: -9.600014
+    pitch: 30.300005
+godmode: false

@@ -1,0 +1,279 @@
+# ################################################
+#  __  __                     _______  _____     #
+# |  \/  |                   |__   __||  __ \    #
+# | \  / |  ___   _ __  ___     | |   | |__) |    #
+# | |\/| | / _ \ | '__|/ _ \    | |   |  ___/      #
+# | |  | || (_) || |  |  __/    | |   | |           #
+# |_|  |_| \___/ |_|   \___|    |_|   |_|           #
+#  By Onenrico [A.k.a ENVY]                         #
+# ####################################################                                             
+# Please note: This plugin may contains bug that i'm not realize if there was a bug 
+# that was your job to find one and report that to me on my spigot page
+
+# Check out this link to see available Material for item
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Note: This Material list is For the latest release of Spigot version
+# so some material maybe not work in older version [Example: BONE_BLOCK only work for 1.11]
+
+#:====-----=====[ Premium Config ]=====-----=====#
+plugin_prefix: "&aHyperTP &8»"
+#:====-----=====[ Plugin Config ]=====-----=====#
+
+plugin_autocheckupdate: false
+plugin_sendmetrics: false
+# I recommend you to not touch this , since it was not affect your gameplay
+
+moretp_menu_title: "&f&nTeleport"
+moretp_menuplayer_title: "&f&nPlayers &8[&7{cpage}&8/&7{pages}&8]"
+moretp_item_tpa_name: "&aView | Players"
+moretp_item_tpa_desc:
+- '&8▪ &7Right click to view'
+moretp_nextpage: "&fNext Page"
+moretp_prevpage: "&fPrevious Page"
+moretp_head_tpa: "  &8▪ &7Left click to | &fTPA - &e{player}"
+moretp_head_tpahere: "  &8▪ &7Right click to | &fTPAHERE - &e{player}"
+
+#=====-----=====[ General Config ]=====-----=====#
+teleport_cancel_interact: true
+teleport_cancel_move: true
+teleport_cancel_jump: true
+teleport_cancel_damage: true
+teleport_cancel_damaged: true
+teleport_cancel_break: true
+teleport_cancel_place: true
+teleport_cancel_chat: true
+teleport_cancel_command: true
+
+particle_teleport_teleporting: true
+#Should Enable particle at player location when teleporting
+particle_teleport_pre-landing: true
+#Should Enable particle at teleport location when teleporting
+particle_teleport_landing: true
+#Should Enable particle at teleport location when teleported
+
+teleport_default_cooldown: 5
+#delay in second player will actually teleport
+#this is just default value for /tp command , any warp or telepad actually can have different teleport delay.
+#player can bypass this with permission [moretp.cooldown.bypass]
+
+teleport_default_delay: 5
+#cooldown in second player allowed to use teleport after a teleport 
+#player can bypass this with permission [moretp.delay.bypass]
+
+#teleport_invulnerable: 4 [WORK IN PROGRESS]
+#how long does player be invulnerable from all damage after teleport
+
+teleport_request_timeout: 120
+#how long does timeout for teleport request /tpa and /tpahere
+
+#=====-----=====[ Device Config ]=====-----=====#
+device_empty_lore: "&8▪ &aShift + Right click to save location"
+device_filled_lore: "&8▪ &aRight click to teleport"
+device_lore: "&7You can share this device%n%&7with other people."
+device_filled_name: "&bLocation | Device &f| &aFILLED"
+device_empty_name: "&bLocation | Device &f| &fEMPTY"
+device_recipe_enabled: true
+
+#=====-----=====[ Warp Config ]=====-----=====#
+warp_title: "&b&k||&r &1&lWarp Menu &b&k||" 
+warp_edit_option: "&8&l[ &bPlease Shift-Click To Edit &8&l]"
+warp_teleport_option: "&8&l[ &fPlease Click To Teleport &8&l]"
+warp_default_displayname: "&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]"
+warp_default_permission: "moretp.warp.{warpname}"
+warp_default_description:
+  - "&8&m---------&r &bWarp Info &8&m--------"
+  - ""
+  - "&bPermission&f&l: &8[&f{permission}&8]"
+  - "&bCooldown&f&l: &b{cooldown} &fsecond"
+  - "&bCost&f&l: &b{cost}"
+  - "&bLocation&f&l:"
+  - "&8- &fWorld&f&l: &b{world}"
+  - "&8- &fX&f&l: &b{x}"
+  - "&8- &fY&f&l: &b{y}"
+  - "&8- &fZ&f&l: &b{z}" 
+  - ""
+  - "&8&m---------------------------"
+warp_default_cost: 0
+warp_default_cooldown: 5
+warp_default_glowing: false
+warp_default_item: COMPASS
+#Check warps directory and set your warp setting individually
+#=====-----=====[ Placeholder Message ]=====-----=====#
+# {warpname} would return warp current name
+# {cost} would return the cost of the warp
+# {cooldown} would return the cooldown of the warp teleport
+# {permission} would return the permission to use warp
+# {x} would return the x - coordinate of the warp location
+# {y} would return the y - coordinate of the warp location
+# {z} would return the z - coordinate of the warp location
+# {world} would return world name of the warp location
+#=====-----=====[ Placeholder Message ]=====-----=====#
+
+#=====-----=====[ RandomTP Config ]=====-----=====#
+quicktp_default_biome: RANDOM
+quicktp_default_radius: 1000
+quicktp_default_cost: 100
+quicktp_default_cooldown: 3
+
+randomtp_title: "&f&nTeleportation - Filters" 
+randomtp_selected_option: "&8▪ &a&lSELECTED"
+randomtp_notselected_option: "&8▪ &7Left click to &aselect"
+randomtp_edit_option: "&8▪ &7Right click to &aedit"
+ 
+randomtp_confirm_item:
+  name: "&a&lClick to proceed teleport"
+  item: REDSTONE_LAMP_OFF
+  permission: moretp.random.{world}
+  description:
+  - "&8Options:"
+  - "&8▪ &7Biome: &3{biome}"
+  - "&8▪ &7Radius: &3{radius}"
+  - ""
+  - "&8▪ &7Final price: &a{totalcost} ⛁"
+#=====-----=====[ Placeholder Message ]=====-----=====#
+# {biome} would return current selected biome
+# {radius} would return current selected Radius
+# {totalcost} would return current total cost of teleport
+# {world} would return Player's current world
+#=====-----=====[ Placeholder Message ]=====-----=====#
+
+biome_blacklist: 
+- OCEAN
+- DEEP_OCEAN
+#Just prevent player spawning on MIDDLE OF THE SEA !
+
+block_blacklist:
+- CACTUS
+- LAVA
+#Just preent player spawning on Dangerous BLOCK !
+
+ 
+
+#=====-----=====[ ActionBar Message ]=====-----=====#
+message_actionbar_cooldown: "{themecolor}{left} {flatcolor}seconds left to teleport"
+message_actionbar_teleported: "{flatcolor}&lplay.example.net"
+message_actionbar_enabled: true
+message_actionbar_reverse: true
+#The style of bar Fill
+
+#=====-----=====[ TitleBar Message ]=====-----=====#
+
+message_titlebar_teleporting: "&bTeleporting..."
+message_titlebar_teleporting_subtitle: "&bPlease, wait &f{left} seconds"
+message_titlebar_teleporting_canceled: "&c&lCANCELED"
+message_titlebar_teleporting_canceled_subtitle: "{flatcolor}Please, don't move"
+message_titlebar_teleported: "&b&lTELEPORTED"
+message_titlebar_teleported_subtitle: "&7You have been teleported"
+#=====-----=====[ Placeholder Message (Only for ActionBar and TitleBar Message) ]=====-----=====#
+# {themecolor} would replaced with Bright random color
+# {flatcolor} would replaced with Darker random color
+# {player} would replaced with Player displayname
+# {left} would replaced by remaining second to teleport
+# {x} would replaced by player current X coord location
+# {y} would replaced by player current Y coord location
+# {z} would replaced by player current Z coord location
+#=====-----=====[ Placeholder Message ]=====-----=====#
+
+
+#=====-----=====[ Other Message ]=====-----=====#
+
+message_config_reload: "Config Successfully Reloaded !"
+
+message_warp_notfound: "&cWarp name &b{warp} &cNot Found"
+message_warp_deleted: "&7Warp name &b{warp} &7Successfully deleted"
+message_warp_set: "&7Warp &b{warp}&7 Successfully Set !"
+
+message_sign_timeout: "Sign Creation Cancelled Because Timeout"
+message_sign_please: "Please &eLeft-Click &bon A &bSign"
+message_sign_now: "Now &eLeft-Click &bon a &bSign &bto convert it to &bMoreTP Sign"
+message_sign_created: "&bSign &bSuccessfully Created"
+message_sign_already: "That sign already MoreTP Sign"
+
+message_teleport_success: "&7Teletransporte completado."
+message_teleport_nomoney: "&7No tienes dinero suficiente"
+message_teleport_norequest: "&7No tienes ninguna solicitud de teletransporte"
+message_teleport_accepted: "&3{player} &aAcepto &7tu peticion de teletransporte"
+message_teleport_acceptedfrom: "&7Aceptaste la peticion de &3{player}"
+message_teleport_dennied: "&3{player} &cRechazo &7tu peticion de teletransporte"
+message_teleport_denniedfrom: "&7Rechazaste la peticion de &3{player}"
+message_teleport_disabled: "&3{player} Desactivo sus peticiones, No puedes hacerte TP"
+
+message_teleporthere_notify: "&3{player} &7Te pidio &ateletransporte a su ubicacion"
+
+message_teleport_notify: "&3{player} &7Te pidio &ateletransporte a tu ubicacion"
+message_teleport_notify_yes: "&a&l{accept} &3- Acepta la peticion"
+message_teleport_notify_no: "&c&l{deny} &3- Rechaza la peticion"
+#{accept} will be replaced by accept button
+#{deny} will be replaced by deny button
+
+message_teleport_notify_expired: "&7La peticion expira en &3{remain} &3segundos"
+message_teleport_requestsent: "&7Tu peticion fue enviada a &3{player}"
+message_teleport_targetnotonline: "&3{player} &7No se encuentra en linea"
+message_teleport_self: "&cTas tonto o que ? -c-"
+
+message_forceteleport_sender: "Successfully teleport &a{victim} &bto &c{target}"
+message_forceteleport_target: "You Are Teleported To &a{target} &bby &c{player}"
+message_forceteleport_forcedto: "You Are Forced Teleport To &a{player}"
+message_forceteleport_forced: "Successfully Forced &a{player} &bteleport to you"
+
+message_device_already: "&cYou already have a location in this device"
+message_device_saved: "&7Location saved successfully"
+
+message_title_notfound: "&cLocation Not Found"
+message_subtitle_notfound: "&cPlease choose another option"
+message_subtitle_pleasewait: "&7Please, wait"
+message_title_searching: "&bSearching..."
+
+message_notselect_biome: "Please select biome to teleport"
+message_notselect_radius: "Please select radius to teleport"
+
+message_warp_edit_cost: "You Are Editing Cost Of {warp} Warp"
+message_warp_edit_cooldown: "You Are Editing Cooldown Of {warp} Warp"
+message_warp_edit_enternumber: "&bPlease Enter Number In The Chat !"
+
+message_teleport_delay: "&cYou Must Wait &f{time} &bSeconds &cBefore Teleport Again"
+
+message_teleport_button_yes_hover: "&a&lACCEPT%n%&7Teleport request from &3{player}"
+message_teleport_button_no_hover: "&c&lDENY%n%&7Teleport request from &3{player}"
+#use %n% for new line
+
+message_teleport_button_yes_text: "&8&l[&a&lAceptar&8]"
+message_teleport_button_no_text: "&8[&c&lRechazar&8]"
+
+message_chat_comehere: "[comehere]"
+#when someone type that in the chat then it'll be replaced by button to tp to that man
+#Permission moretp.chat.tpme
+
+message_chat_takeme: "[takeme]"
+#when someone type that in the chat then it'll be replaced by button to tp to you
+#Permission moretp.chat.takeme
+
+message_chat_button_comehere_text: "&8[&bTPme&8]&r"
+#button text by message_chat_comehere
+
+message_chat_button_takeme_text: "&8[&aTakeme&8]&r"
+#button text by message_chat_takeme
+
+message_chat_button_comehere_hover: "&7Click this to teleport to &b{player}"
+#button hover by message_chat_comehere
+#use %n% for new line
+
+message_chat_button_takeme_hover: "&7Click this to take the &b{player} &7to you"
+#button hover by message_chat_takeme
+#use %n% for new line
+
+message_hide_on: "&cTeleport hidden &7| No one can see you via &3/tp or /tpa"
+message_hide_off: "&aTeleport revealed &7| Everyone can see you via &3/tp or /tpa"
+
+message_tptoggle_on: "&cTeleport disabled &7| No one can teleport to you via &3/tp or /tpa"
+message_tptoggle_off: "&aTeleport enabled &7| Everyone can teleport to you via &3/tp or /tpa"
+
+message_adminteleport_teleported: "&bSuccessfully force teleport To {player}"
+message_adminteleport_teleporthere: "&bSuccessfully force teleport {player} to you"
+
+message_silent_on: "&cParticles disabled &7| You can teleport now without any particles"
+message_silent_off: "&aParticles enabled &7| You will use particles on teleports"
+
+message_teleport_targetnopermiss: "Currently &b{target} &cDoesn't Have Permission To Accept Your Teleport"
+
+message_no_permission: "You don't have the permission"

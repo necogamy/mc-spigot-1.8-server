@@ -1,0 +1,24 @@
+lastAccountName: xNekio
+timestamps:
+  login: 1518876775645
+  logout: 1518877796363
+  lastteleport: 1518876147265
+  kits:
+    new: 1518876334588
+    god: 1518873350106
+ipAddress: 88.16.68.55
+lastlocation:
+  world: world
+  x: 170.5
+  y: 70.0
+  z: 438.5
+  yaw: 179.18286
+  pitch: 1.8368598
+logoutlocation:
+  world: Survival
+  x: 1903.4532475651142
+  y: 80.1707870772188
+  z: 3139.1823175531304
+  yaw: -218.67879
+  pitch: 14.393524
+money: '5354.0'

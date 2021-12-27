@@ -1,0 +1,7 @@
+# ------------------------------------------------
+# Statistics collected on http://mcstats.org
+# This file is only used by BagOfGold.
+# ------------------------------------------------
+opt-out-bagofgold: true
+guid: e4d2a48c-f8c1-4cc8-92f6-1eaee5f19c12
+debug: false

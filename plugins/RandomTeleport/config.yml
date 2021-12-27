@@ -1,0 +1,15 @@
+# Triggered when you use /rtp without any additional paramters
+# Just write your command as you would use it ingame here
+# Don't use the -p parameter, this will get added automaticly with the senders name/the specified playername
+presets:
+   default: "/rtp 100 1000 -f"
+# add more to use /rtp <rtpname>, player needs "randomteleport.presets.<rtpname>"
+#   <rtpname>: "/rtp 1 2"
+   test: "rtp 10 200 -f"
+
+msg:
+   search: "&3Teleport &8» &7Searching for a safe place.."
+   teleport: "&3Teleport &8» &7Succesfully teleported"
+   error:
+      location: "&3Teleport &8» &cCould not find a safe place to land.."
+      cooldown: "&3Teleport &8» &cYou have to wait &7{cooldown_text} until the next teleport"

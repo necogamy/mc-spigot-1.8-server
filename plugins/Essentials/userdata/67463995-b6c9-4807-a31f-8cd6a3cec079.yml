@@ -1,0 +1,32 @@
+lastAccountName: IzLoker
+timestamps:
+  login: 1585352871282
+  lastteleport: 1585204364299
+  logout: 1585298131727
+  kits:
+    overlord: 1585202055500
+ipAddress: 177.237.43.19
+lastlocation:
+  world: Plots
+  x: 28.033210328491734
+  y: 68.0
+  z: 83.03118820313175
+  yaw: 91.983604
+  pitch: 12.7844
+money: '1500.0'
+logoutlocation:
+  world: Plots
+  x: 25.48463202221036
+  y: 74.375
+  z: 88.62279504584332
+  yaw: 2.6692264
+  pitch: 28.649643
+afk: false
+homes:
+  home:
+    world: world
+    x: 237.0335261882893
+    y: 90.0
+    z: 406.3419112802982
+    yaw: -1.4850508
+    pitch: 38.930565

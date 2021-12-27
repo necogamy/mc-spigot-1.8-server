@@ -1,0 +1,337 @@
+groups:
+  User:
+    options:
+      default: true
+    permissions:
+    - -bukkit.command.help
+    - -minecraft.command.help
+    - -bukkit.command.plugins
+    - plots.use
+    - plots.permpack.basic
+    - -plots.download
+    - -plots.save
+    - crazyenchantments.limit.3
+    - MyPet.command.respawn
+    - MyPet.command.name
+    - MyPet.command.release
+    - MyPet.command.switch
+    - MyPet.skilltree.*
+    - MyPet.leash.*
+    - MyPet.petstorage.limit.1
+    - griefprevention.claims
+    - crazyauctions.sell
+    - crazyauctions.access
+    - crazyauctions.bid
+    - btc.use
+    - RepairPlus.use.*
+    - jobs.max.3
+    - jobs.use
+    - crazyauctions.sell.3
+    - trading.trade
+    - ChestShop.shop.*
+    - lavasponge.place
+    - lavasponge.break
+    - trademe.itembypass
+    - trademe.commandoffer
+    - trademe.shiteoffer
+    - silkspawners.place.*
+    - trademe.command.accept
+    - trademe.command.deny
+    - bountyhunters.gui
+    - bountyhunters.add
+    - bountyhunters.claim
+    - bountyhunters.leaderboard-gui
+    - morefish.top
+    - morefish.shop
+    - trademe.blockbypass
+    - trademe.shitoffer
+    - trademe.trade
+    - essentials.seen
+    - moretp.quickrtp.Survival
+    - moretp.accept.*
+    - moretp.tpa
+    - moretp.tpahere
+    - moretp.tptoggle
+    - moretp.warp.*
+    - moretp.warps.*
+    - moretp.warp
+    - moretp.admin.hide
+    - moretp.admin.silent
+    - moretp.open.gui
+    - moretp.cooldown.bypass
+    - bar.bar
+    - essentials.warps.shop
+    - deluxechat.utf
+    - swr.play
+    - essentials.craft
+    - essentials.craftingtable
+    - essentials.bench
+    - essentials.craftingbench
+    - essentials.workbench
+    - essentials.balancetop
+    - guibalance.use
+    - essentials.baltop
+    - essentials.help
+    - previewkit.use
+    - essentials.balance
+    - essentials.msg
+    - essentials.pay
+    - essentials.r
+    - essentials.realname
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.spawn
+    - essentials.seen
+    - essentials.kit
+    - essentials.kits
+    - essentials.kits.Usuario
+    - shop.buy
+    - shop.sell
+    - shop.enchantments
+    - shop.tab.*
+    - essentials.warp.list
+    - essentials.warp
+    - spawner.upgrade
+    - essentials.balance.others
+    - shopguiplus.shop
+    - shopguiplus.shops.*
+    - essentials.ignore
+    - chatcolor.use
+    - chatcolor.change.self
+    - deluxemenus.menu.*
+    - deluxemenus.open
+  Owner:
+    permissions:
+    - '*'
+    - customlist.staff
+    - chatformat.Owner
+    options:
+      prefix: ' &c&lDueño &7'
+  Helper:
+    permissions:
+    - chatcolor.color.pink
+    - essentials.enderchest
+    - essentials.realname
+    - litebans.warnings
+    - litebans.unwarn
+    - litebans.warn
+    - litebans.unmute
+    - litebans.tempmute
+    - litebans.mute
+    - essentials.afk
+    - gmute.bypass
+    - staff.chat
+    - essentials.seen
+    - essentials.helpop.receive
+    - essentials.socialspy
+    - essentials.invsee
+    - essentials.fly
+    inheritance:
+    - User
+    options:
+      prefix: '&b&lHelper &7'
+      rank: '200'
+      weight: '60'
+  Moderador:
+    permissions:
+    - plotme.admin.bypassdeny
+    - essentials.worlds.freeworld
+    - essentials.worlds.plotworld
+    - essentials.worlds.world
+    - antispam.bypass
+    - staff.staffchat
+    - staff.member
+    - essentials.chat.url
+    - staff.mode
+    - staff.alerts.mention
+    - chatex.bypassadv
+    - report.see
+    - essentials.unbanip
+    - chatcolor.color.aqua
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.seen.ipsearch
+    - essentials.banip
+    - essentials.enderchest
+    - essentials.tp.others
+    - essentials.tp
+    - nightvision.use
+    - essentials.realname
+    - essentials.realnamet
+    - essentials.jail
+    - essentials.jails
+    - litebans.*
+    - essentials.afk
+    - essentials.ban.offline
+    - essentials.tempban.offline
+    - sv.use
+    - gmute.bypass
+    - essentials.socialspy
+    - essentials.socialspy.toggle
+    - staff.chat
+    - essentials.unban
+    - essentials.fly
+    - essentials.helpop.receive
+    - essentials.invsee
+    - essentials.seen
+    inheritance:
+    - User
+    options:
+      prefix: '&a&lMod &7'
+      rank: '200'
+      weight: '60'
+  Admin:
+    permissions:
+    - litebans.exempt.bypass.ban
+    - gmute.mute
+    - gmute.bypass
+    - essentials.fly
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.tp
+    - report.see
+    - sv.vanish
+    - essentials.v
+    - essentials.invsee.others
+    - essentials.inventorysee
+    - essentials.invsee
+    - sv.others
+    - sv.use
+    - essentials.socialspy
+    - essentials.broadcast.color
+    - essentials.broadcast
+    - essentials.tempban.offline
+    - essentials.ban.offline
+    - essentials.ban
+    - essentials.tempban
+    - essentials.mute
+    - essentials.kick
+    - staff.chat
+    - chatformat.Admin
+    inheritance:
+    - User
+    options:
+      prefix: '&4&lAdmin &7'
+      rank: '200'
+      weight: '60'
+  Hermes:
+    permissions:
+    - essentials.hat
+    - crazyauctions.sell.20
+    - customlist.donor
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.kits.Hermes
+    - essentials.keepxp
+    - MyPet.petstorage.limit.5
+    - MyPet.command.name.color
+    - plots.permpack.basicflags
+    - plots.plot.4
+    inheritance:
+    - User
+    options:
+      prefix: '&6&lHer&8&lMes &7'
+      weight: '100'
+  Ares:
+    permissions:
+    - essentials.hat
+    - customlist.donor
+    - crazyauctions.sell.25
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.kits.Hermes
+    - essentials.kits.Ares
+    - MyPet.petstorage.limit.6
+    - MyPet.command.name.color
+    - plots.permpack.basicflags
+    - plots.plot.5
+    inheritance:
+    - User
+    options:
+      prefix: '&c&lAr&b&les &7'
+      weight: '100'
+  Poseidon:
+    permissions:
+    - essentials.hat
+    - customlist.donor
+    - crazyauctions.sell.30
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.kits.Hermes
+    - essentials.kits.Ares
+    - essentials.kits.Poseidon
+    - MyPet.petstorage.limit.7
+    - MyPet.command.name.color
+    - plots.permpack.basicflags
+    - plots.plot.6
+    inheritance:
+    - User
+    options:
+      prefix: '&b&lPose&3&lidon &7'
+      weight: '100'
+  Zeus:
+    permissions:
+    - essentials.hat
+    - crazyauctions.sell.50
+    - essentials.enderchest
+    - essentials.feed
+    - customlist.donor
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.keepxp
+    - essentials.kits.Hermes
+    - essentials.kits.Ares
+    - essentials.kits.Poseidon
+    - essentials.kits.Zeus
+    - MyPet.petstorage.limit.8
+    - MyPet.command.name.color
+    - plots.permpack.basicflags
+    - plots.plot.7
+    inheritance:
+    - User
+    options:
+      prefix: '&e&lZeus &7'
+      weight: '100'
+  Youtuber:
+    permissions:
+    - customlist.youtube
+    - essentials.fly
+    - essentials.feed
+    - essentials.keepxp
+    - essentials.heal
+    - essentials.clearinventory
+    inheritance:
+    - User
+    options:
+      suffix: ' &c&lYOUTUBER&f'
+      weight: '100'
+schema-version: 1
+users:
+  67463995-b6c9-4807-a31f-8cd6a3cec079:
+    group:
+    - Owner
+    options:
+      name: IzLoker
+  051f67e8-4344-3062-8d33-5009a74f2661:
+    group:
+    - Owner
+    options:
+      name: IzLoker
+  b26aa02f-1486-382a-a3ea-cb12158d9024:
+    options:
+      name: Niso
+    permissions:
+    - Owner

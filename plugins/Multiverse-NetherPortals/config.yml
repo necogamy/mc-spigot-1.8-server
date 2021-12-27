@@ -1,0 +1,11 @@
+worlds:
+  Survival:
+    portalgoesto:
+      NETHER: Survival_nether
+      END: Survival_the_end
+  Survival_the_end:
+    portalgoesto:
+      END: Survival
+  Survival_nether:
+    portalgoesto:
+      NETHER: Survival

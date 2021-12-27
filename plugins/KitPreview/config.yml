@@ -1,0 +1,20 @@
+EnableSound: true
+Sound: ENDERMAN_TELEPORT
+Lock-KP-Commands: false
+Exit-Icon: WOOD_DOOR
+Buy-Icon: EMERALD
+Debug-Mode: false
+Glass-Type: 7
+Rainbow-Glass: false
+Only-Show-Kits-With-Perms: false
+Dont-Preview-Commands: true
+Kits-Free-With-Perms: true
+glassless: false
+data:
+  particlesettings:
+    ammount: 25
+    type: WITCH_MAGIC
+  block: {}
+  holo: {}
+  particles: {}
+  displayitems: {}

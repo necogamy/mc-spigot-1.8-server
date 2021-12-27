@@ -1,0 +1,23 @@
+lastAccountName: SrLegendario
+timestamps:
+  login: 1517936581500
+  lastteleport: 1517255559551
+  logout: 1517937770102
+  kits:
+    new: 1517936901326
+ipAddress: 167.62.240.37
+lastlocation:
+  world: world
+  x: 88.23306068100598
+  y: 79.0
+  z: 338.92500001192093
+  yaw: -194.64868
+  pitch: 89.56615
+money: '1004007.875'
+logoutlocation:
+  world: world
+  x: 188.52167026002644
+  y: 107.10408037809304
+  z: 379.4157022428591
+  yaw: 33.66028
+  pitch: 48.879696

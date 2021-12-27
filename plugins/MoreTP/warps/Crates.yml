@@ -1,0 +1,23 @@
+name: Crates
+displayname: '&8&l[&b&m=---=&8&l> &f&l{warpname} &8&l<&7&b&m=---=&8&l]'
+description:
+- '&8&m---------&r &bWarp Info &8&m--------'
+- ''
+- '&bPermission&f&l: &8[&f{permission}&8]'
+- '&bCooldown&f&l: &6{cooldown} &fsecond'
+- '&bCost&f&l: &6{cost}'
+- '&bLocation&f&l:'
+- '&8- &fWorld&f&l: &6{world}'
+- '&8- &fX&f&l: &6{x}'
+- '&8- &fY&f&l: &6{y}'
+- '&8- &fZ&f&l: &6{z}'
+- ''
+- '&8&m---------------------------'
+cooldown: 5
+cost: 0.0
+glowing: false
+permission: moretp.warp.{warpname}
+item: COMPASS
+data: 0
+location: world<>199.45573436528204<>118.0<>337.2117729849385<>3.761261<>-129.5022
+slot: 17

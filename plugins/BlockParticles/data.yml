@@ -1,0 +1,85 @@
+Locations:
+  Menu:
+    World: world
+    X: 228
+    Y: 71
+    Z: 408
+    Particle: Rainbow
+  Shop:
+    World: world
+    X: 243
+    Y: 71
+    Z: 430
+    Particle: Rainbow
+  Auction:
+    World: world
+    X: 227
+    Y: 70
+    Z: 461
+    Particle: Rainbow
+  Agua:
+    World: world
+    X: 215
+    Y: 68
+    Z: 454
+    Particle: Water
+  Jobs:
+    World: world
+    X: 212
+    Y: 71
+    Z: 427
+    Particle: Rainbow
+  Enchant:
+    World: world
+    X: 134
+    Y: 90
+    Z: 307
+    Particle: Potion
+  Bar:
+    World: world
+    X: 95
+    Y: 80
+    Z: 344
+    Particle: Rainbow
+  Quests:
+    World: world
+    X: 169
+    Y: 71
+    Z: 432
+    Particle: Rainbow
+  Bounties:
+    World: world
+    X: 186
+    Y: 72
+    Z: 430
+    Particle: AngryVillager
+  Pets:
+    World: world
+    X: 255
+    Y: 71
+    Z: 399
+    Particle: Rainbow
+  Warps:
+    World: world
+    X: 221
+    Y: 70
+    Z: 433
+    Particle: Witch
+  Vote:
+    World: world
+    X: 205
+    Y: 119
+    Z: 327
+    Particle: Spiral
+  Rare:
+    World: world
+    X: 209
+    Y: 119
+    Z: 328
+    Particle: Rainbow
+  Epic:
+    World: world
+    X: 210
+    Y: 119
+    Z: 332
+    Particle: Witch

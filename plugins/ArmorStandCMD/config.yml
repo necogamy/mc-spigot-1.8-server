@@ -1,0 +1,18 @@
+Location{world=CraftWorld{name=world},x=222:
+  00000000000009,y=70:
+    19999999999999,z=434:
+      40000000000043,pitch=0:
+        0,yaw=-135:
+          0}:
+            command-type: player
+            command: dm_open_warps_%player%_-s
+            permission: jobs.use
+Location{world=CraftWorld{name=world},x=221:
+  10000000000008,y=70:
+    89999999999995,z=433:
+      00000000000034,pitch=0:
+        0,yaw=-135:
+          0}:
+            command-type: player
+            command: dm_open_warps_%player%_-s
+            permission: jobs.use

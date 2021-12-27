@@ -1,0 +1,18 @@
+February 26 2020 (0:55:13) - Illegal stack of items removed: DIAMOND_HELMET (2) from player: IzLoker at item scan.
+February 26 2020 (0:55:13) - Illegal stack of items removed: DIAMOND_CHESTPLATE (2) from player: IzLoker at item scan.
+February 26 2020 (0:55:13) - Illegal stack of items removed: DIAMOND_LEGGINGS (2) from player: IzLoker at item scan.
+February 26 2020 (0:55:13) - Illegal stack of items removed: DIAMOND_BOOTS (2) from player: IzLoker at item scan.
+February 26 2020 (0:55:13) - Illegal stack of items removed: DIAMOND_SWORD (2) from player: IzLoker at item scan.
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.2128775525605,y=128.1707870772188,z=234.9459896232288,pitch=64.97151,yaw=286.91876}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.060589167135,y=128.0,z=235.30102149261486,pitch=58.67372,yaw=268.02536}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.060589167135,y=128.0,z=235.30102149261486,pitch=58.67372,yaw=268.02536}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.048826796925,y=128.0923870756929,z=234.89750099169154,pitch=62.485542,yaw=282.94122}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.048826796925,y=128.0923870756929,z=234.89750099169154,pitch=62.485542,yaw=282.94122}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.048826796925,y=128.0923870756929,z=234.89750099169154,pitch=62.485542,yaw=282.94122}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=979.8576599865706,y=128.0,z=235.4197737324105,pitch=50.71862,yaw=262.55624}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.048826796925,y=128.0923870756929,z=234.89750099169154,pitch=62.485542,yaw=282.94122}
+February 26 2020 (0:55:13) - SrGomonira has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=Survival_nether},x=980.048826796925,y=128.0923870756929,z=234.89750099169154,pitch=62.485542,yaw=282.94122}
+February 26 2020 (0:55:13) - SrGomonira was prevented from accessing the top of the nether @ Location{world=CraftWorld{name=Survival_nether},x=979.3844116189955,y=123.0,z=234.3844116189955,pitch=70.43578,yaw=12.264113}
+February 26 2020 (0:55:13) - SrGomonira was prevented from accessing the top of the nether @ Location{world=CraftWorld{name=Survival_nether},x=979.3844116189955,y=123.0,z=234.3844116189955,pitch=70.43578,yaw=12.595576}
+February 26 2020 (0:55:13) - SrGomonira was prevented from accessing the top of the nether @ Location{world=CraftWorld{name=Survival_nether},x=979.3844116189955,y=123.0,z=234.3844116189955,pitch=46.73622,yaw=25.688349}
+February 26 2020 (0:55:13) - SrGomonira was prevented from accessing the top of the nether @ Location{world=CraftWorld{name=Survival_nether},x=979.3844116189955,y=123.0,z=234.3844116189955,pitch=-11.26972,yaw=51.210964}

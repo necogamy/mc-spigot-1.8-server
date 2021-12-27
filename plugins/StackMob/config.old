@@ -1,0 +1,138 @@
+# Thank you for downloading StackMob by antiPerson!
+# Please leave a review if this plugin has benefited your server!
+# 
+# If you need help post a reply to https://www.spigotmc.org/threads/stackmob.184178/
+plugin:
+  loginupdatechecker: false
+  disable-data-saving: false
+  use-old-data-format: false
+creature:
+  tag:
+    visiblenothovered: true
+    text: '&e&l%amount%x &f%entity%'
+    betterentitynames: true
+    visible: true
+    updateinterval: 10
+    removeat:
+      enabled: true
+      amount: 1
+  radius:
+    x: 5
+    y: 3
+    z: 5
+  tamed:
+    check: true
+    removetag: true
+  leashed:
+    check: true
+  move:
+    merge: true
+    mergeinterval: 100
+  stack:
+    max: 20
+    delay: 1
+  sheep:
+    stacksamecolor: true
+    stacksheared: true
+    divideondye: true
+    divideonshear: true
+    shearall: false
+  mushroom-cow:
+    shear-all: false
+    divide-on-shear: true
+  slime:
+    stacksamesize: true
+  horses:
+    stacksamecolor: true
+    stacksametype: true
+  check-parrot-color: true
+  skeleton:
+    stacksametype: true
+  zombie:
+    stacksamevillager: true
+  villager:
+    stacksameprofession: true
+  separateages: true
+  disablemobai: false
+  kill-step:
+    enabled: false
+    min: 1
+    max: 10
+  kill-all:
+    enabled: false
+    death-reasons-blacklist:
+    - FALL
+    entity-blacklist:
+    - ''
+    drops:
+      multiply: true
+      blacklist-enabled: true
+      blacklist:
+      - IRON_CHESTPLATE
+      - BOW
+      - SWORD
+      zombie-only-multiply-rottenflash: true
+      ignore-armor: true
+      chances-enabled: true
+      chance:
+        IRON_CHESTPLATE: 0.5
+        CARROT: 0.5
+  all-damage:
+    enabled: true
+    min: 0.2
+    max: 0.4
+  no-targeting: false
+  multiplyeggs: true
+  divideonrename: true
+  breeding: true
+  multiplyexplosion: true
+  keepfireondeath: true
+  stackbackwards: false
+  multiplyslimes: true
+  blacklist:
+    enabled: false
+    list:
+    - COW
+    - SHEEP
+    - PIG
+  whitelist:
+    enabled: false
+    list:
+    - COW
+    - SHEEP
+    - PIG
+  worlds:
+    enabled: false
+    list:
+    - world
+  spawnreasons:
+    enabled: false
+    list:
+    - SPAWNER
+  special:
+    pig:
+      maxstack: 25
+      displaytag: '&e&l%amount%&f %entity%'
+      stackbackwards: false
+  update-metadata: false
+  bigger-priority: true
+  damage-multiply:
+    enabled: true
+    reasons:
+    - FALL
+  multiply-fall-damage: true
+worldguard:
+  enabled: false
+  regions:
+  - __global__
+  blacklist:
+    enabled: false
+    regions:
+    - __global__
+mythicmobs:
+  enabled: false
+mcmmo:
+  disable-xp: false
+  use-whitelist: false
+  whitelist:
+  - CREEPER

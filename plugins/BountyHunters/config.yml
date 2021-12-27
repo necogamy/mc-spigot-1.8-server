@@ -1,0 +1,13 @@
+bounty-effect: true
+auto-bounty: false
+auto-bounty-reward: 100
+bounty-set-restriction: 120
+drop-head: false
+new-hunter-alert: false
+disable-compass: false
+compass-price: 1000
+min-reward: 0
+max-reward: 0
+tax: 15
+round-distance: false
+display-death-quote-on-title: false

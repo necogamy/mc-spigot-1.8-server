@@ -1,0 +1,342 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: ''
+nickname-prefix: ''
+max-nick-length: 150
+change-displayname: true
+teleport-safety: true
+locale: en
+teleport-cooldown: 0
+teleport-delay: 0
+teleport-invulnerability: 4
+heal-cooldown: 60
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+disabled-commands:
+- mail
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+kits:
+  Usuario:
+    delay: 86400
+    items:
+    - 267:0 1 name:&b&lUsuario&r_
+    - 257:0 1 name:&b&lUsuario&r_
+    - 258:0 1 name:&b&lUsuario&r_
+    - 284:0 1 name:&b&lUsuario&r_
+    - 306:0 1 name:&b&lUsuario&r_
+    - 307:0 1 name:&b&lUsuario&r_
+    - 308:0 1 name:&b&lUsuario&r_
+    - 309:0 1 name:&b&lUsuario&r_
+    - 364:0 32 name:&b&lUsuario&r_
+  Hermes:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 311:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 312:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 313:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 276:0 1 damage_all:4 durability:3 fire_aspect:1 loot_bonus_mobs:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 57:0 64
+    - 41:0 64
+    - 322:1 64
+  Ares:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 311:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 312:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 313:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 276:0 1 damage_all:6 durability:4 fire_aspect:2 loot_bonus_mobs:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 57:0 64
+    - 41:0 64
+    - 322:1 64
+    - 322:1 64
+  Poseidon:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 311:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 312:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 313:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 276:0 1 damage_all:7 durability:5 fire_aspect:2 loot_bonus_mobs:5 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 57:0 64
+    - 41:0 64
+    - 322:1 64
+    - 322:1 64
+  Zeus:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 311:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 312:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 313:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 276:0 1 damage_all:8 durability:6 fire_aspect:4 loot_bonus_mobs:6 name:&f&lKit_&e&lZeus&r_
+    - 57:0 64
+    - 57:0 64
+    - 41:0 64
+    - 41:0 64
+    - 322:1 64
+    - 322:1 64
+    - 322:1 64
+    - 322:1 64
+enabledSigns:
+- color
+- balance
+- buy
+- sell
+- trade
+- free
+- disposal
+- warp
+- kit
+- mail
+- enchant
+- gamemode
+- heal
+- info
+- spawnmob
+- repair
+- time
+- weather
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: true
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: true
+auto-afk: -1
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: false
+allow-silent-join-quit: false
+custom-join-message: ''
+custom-quit-message: ''
+world-teleport-permissions: true
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 1
+  vip: 3
+  vip2: 5
+  vip3: 7
+  vip4: 10
+tpa-accept-cancellation: 120
+starting-balance: 500
+currency-symbol: $
+max-money: 1000000000000000000
+min-money: 0
+economy-log-enabled: false
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '&a{DISPLAYNAME} &8» &7{MESSAGE}'
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: true
+    tnt-playerdamage: true
+    tnt-minecart-explosion: true
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: true
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: ''
+  spawnpoint: spawn
+  kit: Usuario
+respawn-listener-priority: high
+respawn-at-home: false

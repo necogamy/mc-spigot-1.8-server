@@ -1,0 +1,57 @@
+set-by: Contrato hecho por &3%creator%&7
+set-by-yourself: '&7Estableces esta recompensa'
+reward-is: '&7La recompensa es &3%reward%'
+kill-him-claim-bounty: '&cAsesinalo&7 para reclamar la recompensa'
+dont-let-them-kill-u: '&7No permitas que te asesinen...'
+thug-player: '&7Este jugador es un asesino D:'
+right-click-remove-bounty: '&8▪ &7Haga clic derecho para eliminar esta recompensa'
+click-buy-compass: Haga clic para comprar la brújula por %price%$.
+click-target: '&8▪ &aClic izquierdo para aceptar contrato'
+click-untarget: '&8▪ &cClic derecho para declinar contrato'
+current-hunters: Hay §3%hunters% §7jugadores buscandolo
+no-title: '&cSin titulo'
+gui-name: '&f&nRecompensas'
+leaderboard-gui-name: '&f&nCazadores | Leaderboard'
+leaderboard-gui-completed-bounties: '&7Contratos completados: &3%bounties%'
+leaderboard-gui-title: --[ &3%title% &7]--
+leaderboard-gui-level: 'Nivel: &3%level%&7'
+error-player: Ese jugador no existe o no está en línea.
+target-disconnect: Tu objetivo se ha desconectado.
+new-hunter-alert: '%hunter% quiere tu cabeza.'
+empty-inv-first: Por favor, vacíe su inventario primero.
+in-another-world: '&7&lAL OTRO MUNDO'
+not-enough-perms: No tienes suficientes permisos!
+already-bounty-on-player: '&7Ya hay una recompensa para ese jugador.'
+command-usage: 'Usa: %command%'
+not-valid-number: '&3%arg% &bno es un número válido!'
+bounty-created: '&7Estableciste una recompensa exitosamente &3%target%'
+bounty-explain: '&bEl primero en matar a este jugador recibirá &a%reward% ⛁'
+bounty-imun: '&cNo puedes establecer una recompensa por este jugador.'
+track-imun: '&cNo puedes rastrear a este jugador.'
+cant-set-bounty-on-yourself: No puedes ponerte una recompensa!
+new-bounty-on-you: '&3%creator% &bTe ha fichado'
+new-bounty-on-player: '&3%creator% &7ficho a &3%target%&7, asesinalo y cobra &a%reward%
+  ⛁'
+bounty-expired: '&7El contrato por &3%target% &7ha expirado'
+wrong-reward: Reward must be between §f%min% §cand §f%max%§c!
+not-enough-money: No tienes dinero suficiente.
+bounty-claimed: '&3%killer% &bAsesino a &3%target%&b''s Recompensa: &3%reward%&b$!'
+bounty-claimed-by-you: '&7Has reclamado con éxito &3%target%&7''s bounty: &a%reward%
+  ⛁'
+auto-bounty: '&3%target%&b killed a player illegaly: a bounty was set on him! Kill
+  him to get &3%reward%&b$!'
+illegal-kill: '&7You killed a man illegaly, a &3bounty was set on you'
+bounty-set-restriction: '&7You must wait &3%time% &7seconds between each bounty'
+target-set: '&7Target set.'
+target-removed: '&7Target removed.'
+bought-compass: You Succesfully bought a Tracking Compass.
+tax-explain: §3%percent%§3%&7 of the reward §8[§3%price%§8] &7were taken as tax
+player-must-be-connected: The player must be connected in order to be tracked.
+level-up: '&aWell done&7, you''re level &3%level% &7now'
+level-up-2: '&bClaim &3%bounties% &bmore bounties to level up again'
+level-up-rewards: Put your cursor over this message to see your rewards
+level-up-reward: '- &7'
+click-select: Click to select.
+successfully-selected: You successfully selected &3%item%&b.
+unlocked-titles: '&3Unlocked titles:'
+unlocked-quotes: '&3Unlocked quotes:'

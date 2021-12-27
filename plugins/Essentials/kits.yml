@@ -1,0 +1,75 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {PLAYER} to specify the player receiving the kit.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Usuario:
+    delay: 86400
+    items:
+    - 267:0 1 name:&b&lUsuario&r_
+    - 257:0 1 name:&b&lUsuario&r_
+    - 258:0 1 name:&b&lUsuario&r_
+    - 284:0 1 name:&b&lUsuario&r_
+    - 306:0 1 name:&b&lUsuario&r_
+    - 307:0 1 name:&b&lUsuario&r_
+    - 308:0 1 name:&b&lUsuario&r_
+    - 309:0 1 name:&b&lUsuario&r_
+    - 364:0 32 name:&b&lUsuario&r_
+  Hermes:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 311:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 312:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 313:0 1 protection_environmental:4 durability:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 276:0 1 damage_all:4 durability:3 fire_aspect:1 loot_bonus_mobs:3 name:&f&lKit_&6&lHer&8&lMes&r_
+    - 57:0 64
+    - 41:0 64
+    - 322:1 64
+  Ares:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 311:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 312:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 313:0 1 protection_environmental:6 durability:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 276:0 1 damage_all:6 durability:4 fire_aspect:2 loot_bonus_mobs:3 name:&f&lKit_&c&lAr&b&les&r_
+    - 57:0 64
+    - 41:0 64
+    - 322:1 64
+    - 322:1 64
+  Poseidon:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 311:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 312:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 313:0 1 protection_environmental:6 durability:3 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 276:0 1 damage_all:7 durability:5 fire_aspect:2 loot_bonus_mobs:5 name:&f&lKit_&b&lPose&3&lidon&r_
+    - 57:0 64
+    - 41:0 64
+    - 322:1 64
+    - 322:1 64
+  Zeus:
+    delay: 604800
+    items:
+    - 310:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 311:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 312:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 313:0 1 protection_environmental:6 durability:4 name:&f&lKit_&e&lZeus&r_
+    - 276:0 1 damage_all:8 durability:6 fire_aspect:4 loot_bonus_mobs:6 name:&f&lKit_&e&lZeus&r_
+    - 57:0 64
+    - 57:0 64
+    - 41:0 64
+    - 41:0 64
+    - 322:1 64
+    - 322:1 64
+    - 322:1 64
+    - 322:1 64

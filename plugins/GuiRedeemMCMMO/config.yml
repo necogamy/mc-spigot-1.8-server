@@ -1,0 +1,136 @@
+# GuiRedeemMCMMO
+# http://www.spigotmc.org/resources/guiredeemmcmmo.6784
+
+Messages:
+  Credits:
+    CreditsLeft: '&3Credits &8» &7You have &c%Credits% &7MCMMO Credits left.'
+    NoCreditsLeft: '&3Credits &8» &7You have &c0 &7MCMMO Credits left.'
+    OtherPlayer:
+      CreditsLeft: '&3Credits &8» &c%Player% &7has &c%Credits% &7MCMMO Credits left.'
+      NoCreditsLeft: '&3Credits &8» &c%Player% &7has &c0 &7MCMMO Credits left.'
+  SendCredits:
+    CreditsLeft: '&7You have &c%Credits% &7MCMMO Credits left.'
+    AmountTooLow: '&7Amount specified is too low. Amount must be higher than 0.'
+    NotEnoughCredits: '&7You tried to send %Amount% credits, but you only have %Credits%.'
+    WrongCommandUsage: '&7Wrong command usage. Use &c/grm &7for help.'
+    CannotSendYourselfCredits: '&7You cannot send credits to yourself.'
+    SentSuccessfully:
+      ToSender: '&7You sent %Amount% credits to %Receiver%.'
+      ToReceiver: '&7You received %Amount% credits from %Sender%.'
+  Redeem:
+    AlreadyRedeeming: '&3Credits &8» &7You''re already redeeming credits to &c%Skill%&7.
+      Type in chat how many you want to redeem, write 0 to cancel.'
+    TriedToRedeemInvalidSkill: '&3Credits &8» &c%Skill% &7is not a valid skill. Do
+      &c/stats &7to see all skills.'
+    NoCredits: '&3Credits &8» &cYou don''t have any credits to redeem. Redeeming cancelled.'
+    NotEnoughCredits: '&3Credits &8» &cYou don''t have enough credits to redeem. Redeeming
+      cancelled.'
+    TypeHowMany: '&3Credits &8» &aType in chat how many credits you want to redeem.
+      Write 0 to cancel.'
+    NotANumber: '&3Credits &8» &cWhat you wrote was not recognized as a number. Redeeming
+      cancelled.'
+    MustBePositive: '&3Credits &8» &cTo redeem credits you must provide a positive
+      number. Redeeming cancelled.'
+    PlayerCancelled: '&3Credits &8» &cYou''re no longer redeeming credits.'
+    ReachedSkillCap: '&3Credits &8» &cYou tried to get to level %Level% in %Skill%,
+      but the cap is %Cap%.'
+    RedeemSuccess: '&3Credits &8» &aYou''ve added %Redeemed% levels to %Skill%.'
+  AddCredits:
+    PlayerGivingCredits: '&7You have given &c%Player% &7%Amount% MCMMO Credits.'
+    PlayerReceivingCredits:
+    - '&7You have just received &c%Amount% &7MCMMO Credits.'
+    - '&7New MCMMO Credit balance: &c%Credits%'
+    - '&7Do &c/redeem &7to redeem your credits!'
+  TakeCredits:
+    PlayerTakingCredits: '&7You took &c%Amount% &7MCMMO Credits from &c%Player%'
+    PlayerLosingCredits:
+    - '&c%Amount% &7MCMMO Credits were taken from you.'
+    - '&7New MCMMO Credit balance: &c%Credits%'
+Settings:
+  GuiTitle: '&f&lREDEEM | MCMMO'
+  NoSkillCapText: '&cnone'
+  IgnoreFromChat: '[x]'
+  DisabledSkills:
+    Enabled: false
+    ReplaceItemInGUI:
+      Enabled: true
+      Item: 55
+    SkillsToDisable:
+    - Unarmed
+    - Swords
+    - Axes
+  Gui:
+    ItemNames:
+      Mining: '&b&lMINING'
+      Woodcutting: '&b&lWOODCUTTING'
+      Herbalism: '&b&lHERBALISM'
+      Fishing: '&b&lFISHING'
+      Excavation: '&b&l7EXCAVATION'
+      Unarmed: '&b&lUNARMED'
+      Archery: '&b&lARCHERY'
+      Swords: '&b&lSWORDS'
+      Axes: '&b&lAXES'
+      Taming: '&b&lTAMING'
+      Repair: '&b&lREPAIR'
+      Acrobatics: '&b&lACROBATICS'
+      Alchemy: '&b&lALCHEMY'
+      Credits: '&bCredits: &7%Credits%'
+    ItemLores:
+      Mining:
+      - '&7Click to assign levels to &bMINING'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Woodcutting:
+      - '&7Click to assign levels to &bWOODCUTTING'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Herbalism:
+      - '&7Click to assign levels to &bHERBALISM'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Fishing:
+      - '&7Click to assign levels to &bFISHING'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Excavation:
+      - '&7Click to assign levels to &bEXCAVATION'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Unarmed:
+      - '&7Click to assign levels to &bUNARMED'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Archery:
+      - '&7Click to assign levels to &bARCHERY'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Swords:
+      - '&7Click to assign levels to &bSWORDS'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Axes:
+      - '&7Click to assign levels to &bAXES'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Taming:
+      - '&7Click to assign levels to &bTAMING'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Repair:
+      - '&7Click to assign levels to &bREPAIR'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Acrobatics:
+      - '&7Click to assign levels to &bACROBATICS'
+      - '&8▪ &3Level cap: &7%Cap%'
+      Alchemy:
+      - '&7Click to assign levels to &bALCHEMY'
+      - '&8▪ &3Level cap: &7%Cap%'
+    ItemLores2:
+      Mining: '&7Click to assign levels to &bMINING'
+      Woodcutting: '&7Click to assign levels to &6WOODCUTTING'
+      Herbalism: '&7Click to assign levels to &aHERBALISM'
+      Fishing: '&7Click to assign levels to &9FISHING'
+      Excavation: '&7Click to assign levels to &7EXCAVATION'
+      Unarmed: '&7Click to assign levels to &fUNARMED'
+      Archery: '&7Click to assign levels to &eARCHERY'
+      Swords: '&7Click to assign levels to &cSWORDS'
+      Axes: '&7Click to assign levels to &4AXES'
+      Taming: '&7Click to assign levels to &3TAMING'
+      Repair: '&7Click to assign levels to &2REPAIR'
+      Acrobatics: '&7Click to assign levels to &5ACROBATICS'
+      Alchemy: '&7Click to assign levels to &dALCHEMY'
+Storage:
+  5e17772b-de56-35a7-8697-2453c5569ec0:
+    Credits: 10
+  2ccb1a67-bf97-4e92-afff-18df963f7f51:
+    Credits: 50

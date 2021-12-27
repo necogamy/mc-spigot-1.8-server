@@ -1,0 +1,66 @@
+# This is the BannerBoard configuration
+# Make sure to always make a backup of this file before making any changes!
+# Made by BigTeddy98
+# 
+# Every BannerBoard has some internal settings stored in this file.
+# Please do not make any changes to whatever is in the internal section.
+
+lastUsedId: 5
+idrange:
+  startid: 25000
+  amount: 5000
+skinserver: http://www.skinrender.com:2798/
+skinrender_key: INSERT_SKINRENDER_KEY_HERE
+bannerboards:
+  '3':
+    internal:
+      frames:
+      - world_221.0_73.0_417.0_0.0_0.0
+      - world_221.0_72.0_417.0_0.0_0.0
+      - world_221.0_71.0_417.0_0.0_0.0
+      - world_221.0_70.0_417.0_0.0_0.0
+      - world_220.0_73.0_417.0_0.0_0.0
+      - world_220.0_72.0_417.0_0.0_0.0
+      - world_220.0_71.0_417.0_0.0_0.0
+      - world_220.0_70.0_417.0_0.0_0.0
+      - world_219.0_73.0_417.0_0.0_0.0
+      - world_219.0_72.0_417.0_0.0_0.0
+      - world_219.0_71.0_417.0_0.0_0.0
+      - world_219.0_70.0_417.0_0.0_0.0
+      - world_218.0_73.0_417.0_0.0_0.0
+      - world_218.0_72.0_417.0_0.0_0.0
+      - world_218.0_71.0_417.0_0.0_0.0
+      - world_218.0_70.0_417.0_0.0_0.0
+      facing: SOUTH
+    configurable:
+      renderers:
+      - JOBSREBORN
+      - TEXT -font Subpear -size 64 -yOffset 89 -text JOBS -style BOLD -color 0,0,0,255
+  '5':
+    internal:
+      frames:
+      - world_217.0_73.0_413.0_0.0_0.0
+      - world_217.0_72.0_413.0_0.0_0.0
+      - world_217.0_71.0_413.0_0.0_0.0
+      - world_217.0_70.0_413.0_0.0_0.0
+      - world_218.0_73.0_413.0_0.0_0.0
+      - world_218.0_72.0_413.0_0.0_0.0
+      - world_218.0_71.0_413.0_0.0_0.0
+      - world_218.0_70.0_413.0_0.0_0.0
+      - world_219.0_73.0_413.0_0.0_0.0
+      - world_219.0_72.0_413.0_0.0_0.0
+      - world_219.0_71.0_413.0_0.0_0.0
+      - world_219.0_70.0_413.0_0.0_0.0
+      - world_220.0_73.0_413.0_0.0_0.0
+      - world_220.0_72.0_413.0_0.0_0.0
+      - world_220.0_71.0_413.0_0.0_0.0
+      - world_220.0_70.0_413.0_0.0_0.0
+      - world_221.0_73.0_413.0_0.0_0.0
+      - world_221.0_72.0_413.0_0.0_0.0
+      - world_221.0_71.0_413.0_0.0_0.0
+      - world_221.0_70.0_413.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - MCMMO
+      - TEXT -font Subpear -size 64 -yOffset 89 -text MCMMO -style BOLD -color 0,0,0,255

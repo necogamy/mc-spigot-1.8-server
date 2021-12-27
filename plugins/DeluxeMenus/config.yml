@@ -1,0 +1,3078 @@
+# DeluxeMenus 1.7.2 main configuration file
+# DeluxeMenus 1.7.2 main configuration file
+# 
+# check_updates: <true/false>
+#   Should DeluxeMenus check if there are any updates available on Spigot and inform ops there is an update available.
+# 
+# ==============================================================
+# 
+# PER ITEM PERMISSION AND PRIORITY INFO:
+# 
+# Per item permissions and priorities are optional.
+# High priority = 1, Lowest priority = 2147483647.
+# This allows you to show different items for a specific menu slot depending on the highest priority
+# item permission a player has. This makes your menus very dynamic :)
+# 
+# You CAN NOT specify a permission without a priority!
+# You CAN specify a priority without a permission.
+# You should always create a low priority item without a permission which will act as the no permission
+# item if a player does not have permission for any of the items that require permission, otherwise
+# no item will be set in the slot if a player does not have permission for any of the permission items.
+# 
+# ==============================================================
+# 
+# GUI menu configuration:
+# 
+# You can create as many GUI menus you like.
+# Every menu name must be unique. There can not be duplicate menu names!
+# Players must have permission for a GUI menu to open one!
+# Ops should automatically have permission for any GUI menu.
+# 
+# Permission to open a GUI menu is: deluxemenus.guimenu.<menuName>
+# 
+# You specify the command which opens the GUI menu. Make sure this command
+# does not conflict with any existing commands on your server!
+# A GUI menu without an open command specified will not be loaded!
+# 
+# GUI menus configuration layout:
+# 
+# gui_menus:
+#   <menuName>:
+#     menu_title: '<title of menu goes here>'
+#     command: <command to open this menu goes here>
+#     inventory_type: '<add this option if you want to create a menu of a different InventoryType aside from chest>'
+#     open_requirement:
+#       expression: 'BukkitPlayer.hasPermission("some.permission");'
+#       deny_commands:
+#       - '[message] &cYou dont have permission to view that menu!'
+#     size: <size of this menu, increments of 9, max size is 54>
+#     update_interval: <time in seconds this gui should update for a player if an item is set to uodate placeholders>
+#     items:
+#       <item identifier>:
+#         material: <name or id, for player heads use the format 'head;<players name/%player_name%>'>
+#         data: <integer, used for data values for wool etc>
+#         amount: <amount of this item to show>
+#         slot: <slot number to put this item, slots start at 0 and end at 53 for a size 54 inventory>
+#         priority: <this is used if you have multiple items set for the same slot>
+#         view_requirement: <the lowest priority item a player meets this requirement for ex: 1, will be shown>
+#         update: <true/false if this item should update placeholders on the interval set for the gui menu this item is in>
+#         hide_attributes: <true/false if this item should display item attributes>
+#         hide_enchantments: <true/false if this item should display item enchantment / level> (useful for 'enchantment glow' items)
+#         hide_effects: <true/false if this item should display item effect attributes>
+#         hide_unbreakable: <true/false if this item should display item unbreakable attributes>
+#         banner_meta: (this is used if you want to display a custom banner with specific patterns)
+#         - <dyecolor>;<PatternType> (more information on where to find DyeColor and PatternType names below)
+#         - 'RED;BASE'
+#         - 'WHITE;CREEPER'
+#         display_name: <display name to show for this item>
+#         lore:
+#         - 'placeholders can be used in the name and lore'
+#         - '%<any placeholder from Papi>% shows the viewer values'
+#         enchantments: valid enchantment names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+#         - '<ENCHANTMENT>;<LEVEL>'
+#         - 'SILK_TOUCH;1'
+#         left_click_commands:
+#         - '[close]'
+#         right_click_commands:
+#         - '[player] spawn'
+# 
+# 
+# You can specify if a GUI menu should be loaded from another file:
+# 
+# gui_menus:
+#   <menuName>:
+#     file: 'menuName.yml'
+# 
+# This allows you to keep your config clean and not have tons of GUI menus cluttering it.
+# The file format the GUI menu is loaded from must end in .yml
+# GUI menus loaded from other configuration files must follow a specific format as well...
+# To get started loading GUI menus from different files, simply create a GUI menu in this config and specify the file it will load from.
+# After that is done, use /dm reload and DeluxeMenus will create a folder and file specific to the GUI menu you specified.
+# If the file specified is created by DeluxeMenus (because it did not exist), a default GUI menu layout will be saved to that file.
+# From here you can edit it to your liking and use /dm reload to update your GUI menu! 
+# 
+# This loading from external config files is only available for gui menus and will not work for click menus yet....
+# 
+# banner_meta must be listed with a specific format:
+# banner_meta:
+# - <DyeColor>;<PatternType>
+# 
+# Valid DyeColor names can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/DyeColor.html
+# Valid PatternTypes can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/banner/PatternType.html
+# ==============================================================
+# 
+# Click requirement information
+# 
+# You can now add 'click requirements' to left and right click commands!'
+# These are defined per item and must follow a specific format:
+# 
+#   'item_one':
+#     material: DIAMOND
+#     slot: 3
+#     left_click_commands:
+#     - '[close]'
+#     - '[message] You were charged 100 dollars for clicking that item!'
+#     - '[console] eco take %player% 100'
+#     left_click_requirement:
+#       expression: '%vaulteco_balance% > 100'
+#       deny_commands:
+#       - '[close]'
+#       - '[message] &cYou dont have 100 dollars to click that item'
+#     right_click_commands:
+#     - '[close]'
+#     - '[message] You had permission to click that item!'
+#     right_click_requirement:
+#       expression: 'BukkitPlayer.hasPermission("some.permission.toclick")'
+#       deny_commands:
+#       - '[close]'
+#       - '[message] &cYou dont have permission to click that item'
+# 
+# Every left/right_click_requirement MUST have an expression specified that would return a boolean (true/false)
+# These expressions must also follow JavaScript format as they are all javascript based!
+# 
+# deny_commands: are optional and will be executed if the expression returns false.
+# You may use placeholders in your Javascript expressions to evaluate if the player meets the requirement or not.
+# You may also use a few keywords which give you access to the Player class and Bukkit.Server class if you understand the Bukkit API
+# 
+# BukkitPlayer - references the Player object your expression is evaluating.
+# BukkitServer - references Bukkit.getServer() in the Bukkit API.
+# 
+# The choice to use this system to evaluate if a player meets requirements to click an item was an easy choice.
+# This way I do not have to hook into every plugin to check if a player meets the requirement to click an item successfully.
+# You can simply use placeholders, or the keywords provided to give you access to the Player and Server objects.
+# If you want to check if a player has enough money, simply use an expression like so:
+# 
+# expression: '%vaulteco_balance% >= 100' (checks if players balance is greater than or equal to 100)
+# If you want to charge the player, simply run the economy command to take the amount from the players balance in your click_commands
+# which will be executed if the player meets the requirement!
+# ==============================================================
+# 
+# View requirement information
+# 
+# You can add a 'view requirement' to an item if it has a priority value set for it
+# The view requirement has replaced the 'permission' entry for items
+# This allows you to specify a specific requirement in javascript for the item to be shown
+# In order to use view requirements, the item must have a priority value and a valid javascript expression
+# that returns true or false. 
+# 
+#   'item_one':
+#     material: DIAMOND
+#     slot: 3
+#     priority: 1
+#     view_requirement: '%vaulteco_balance% > 100'
+#   'item_two':
+#     material: IRON_INGOT
+#     slot: 3
+#     priority: 2
+#     view_requirement: 'BukkitPlayer.hasPermission("some.permission")'
+#   'item_three':
+#     material: STONE
+#     slot: 3
+#     priority: 3
+# 
+# In the example above, the priority 1 item view requirement will be checked first, if a player has over 100 dollars, that item will be shown.
+# If the player does not meet the requirement for the first item, the item with priority 2 will be checked. If the player does not have the permission
+# node some.permission, the final item 'item_three' will be set to slot 3 as the player did not meet the requirement for the first 2 items with
+# a higher priority.
+# 
+# You may use placeholders in your Javascript expressions to evaluate if the player meets the requirement or not.
+# You may also use a few keywords which give you access to the Player class and Bukkit.Server class if you understand the Bukkit API
+# 
+# BukkitPlayer - references the Player object your expression is evaluating.
+# BukkitServer - references Bukkit.getServer() in the Bukkit API.
+# 
+# The choice to use this system to evaluate if a player meets requirements to click an item was an easy choice.
+# This way I do not have to hook into every plugin to check if a player meets the requirement to click an item successfully.
+# You can simply use placeholders, or the keywords provided to give you access to the Player and Server objects.
+# If you want to check if a player has enough money, simply use an expression like so:
+# 
+# view_requirement: '%vaulteco_balance% >= 100' (checks if players balance is greater than or equal to 100)
+# ==============================================================
+# 
+# 
+# You do not need to specify item options that you don't use!
+# The only required entries for a gui menu item to be valid are:
+# 
+# A valid material
+# A valid slot
+# 
+# Every item in the items list must have a unique <item identifier>
+# 
+# If you choose to update placeholders for a specific item, you must specify update_interval: <time>
+# in the GUI menu options for the specific GUI menu.
+# Only GUI menus with at least one item that has update: true will update those specific items placeholders.
+# 
+# Every click_command must start with a specific identifier to know what to do for the execution.
+# Valid click_command identifiers:
+# 
+# [console] - Execute a command from the console
+# Usage: - '[console] <command with no slash>'
+# 
+# [player] - Execute a command for the menu viewer
+# Usage: - '[player] <command with no slash>'
+# 
+# [commandevent] - Fire a PlayerCommandPreprocessEvent for commands that do not use the bukkit command system
+# Usage: - '[commandevent] <command with no slash>'
+# 
+# [message] - Send a message to the menu viewer
+# Usage: - [message] <message to send to the player
+# 
+# [openguimenu] - Open a GUI menu (can only be used in GUI menu click_commands)
+# Usage: - '[openguimenu] <guiMenuName>'
+# 
+# [connect] - Connect to the specified bungee server
+# Usage: - '[connect] <serverName>'
+# 
+# [close] - Close the viewers open menu
+# Usage: - '[close]
+# 
+# [json] - Send a json message to the menu viewer
+# Usage: - '[json] {"text":"message"}'
+# 
+# 
+# A NOTE WHEN EDITING THIS OR ANY DeluxeMenus CONFIGURATION FILE:
+# This config is sensitive to yaml formatting errors
+# KEEP A BACKUP WHEN EDITING YOUR FILE BEFORE UPLOADING TO YOUR SERVER!!!
+# Make sure every String you modify or add is enclosed in 'apostrophes
+check_updates: false
+debug: false
+gui_menus:
+  jobs:
+    menu_title: '&f&nTrabajos'
+    open_command: jobs
+    size: 54
+    items:
+      '1':
+        material: 17
+        data: 2
+        slot: 10
+        display_name: '&aLeñador'
+        left_click_commands:
+        - '[player] jobs join woodcutter'
+        right_click_commands:
+        - '[player] jobs join woodcutter'
+        lore:
+        - '&7Únete al trabajo: &bLeñador&7'
+        - ' '
+        - '&7Cortar árboles para obtener'
+        - '&7dinero con este trabajo.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar'
+      '2':
+        material: 270
+        slot: 11
+        display_name: '&aMinero'
+        left_click_commands:
+        - '[player] jobs join miner'
+        right_click_commands:
+        - '[player] jobs join miner'
+        lore:
+        - '&7Únete al trabajo: &bminero&7'
+        - ' '
+        - '&7Extrae algunos minerales y'
+        - '&7gana dinero.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar'
+      '3':
+        material: 108
+        data: 3
+        slot: 12
+        display_name: '&aConstructor'
+        left_click_commands:
+        - '[player] jobs join builder'
+        right_click_commands:
+        - '[player] jobs join builder'
+        lore:
+        - '&7Únete al trabajo: &bConstructor&7'
+        - ' '
+        - '&7Construye estructuras'
+        - '&7y llevate un dinerito extra.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '4':
+        material: 284
+        slot: 13
+        display_name: '&aCavador'
+        left_click_commands:
+        - '[player] jobs join digger'
+        right_click_commands:
+        - '[player] jobs join cavador'
+        lore:
+        - '&7Unete al trabajo: &bCavador&7'
+        - ' '
+        - '&7Modifica el terreno'
+        - '&7con tu pala :3.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '5':
+        material: 290
+        slot: 14
+        display_name: '&aGranjero'
+        left_click_commands:
+        - '[player] jobs join farmer'
+        right_click_commands:
+        - '[player] jobs join farer'
+        lore:
+        - '&7Unete al trabajo: &bGranjero&7'
+        - ' '
+        - '&7Crea tu propia granja'
+        - '&7de cultivos y gana dinero.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '6':
+        material: 261
+        slot: 15
+        display_name: '&aCazador'
+        left_click_commands:
+        - '[player] jobs join hunter'
+        right_click_commands:
+        - '[player] jobs join hunter'
+        lore:
+        - '&7Unete al trabajo: &bcazador&7'
+        - ' '
+        - '&7Asesina animales'
+        - '&7y jugadores para ganar dinero.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '7':
+        material: 301
+        slot: 16
+        display_name: '&aExplorador'
+        left_click_commands:
+        - '[player] jobs join explorer'
+        right_click_commands:
+        - '[player] jobs join explorer'
+        lore:
+        - '&7Unete al trabajo: &bexplorador&7'
+        - ' '
+        - '&7Camina como zombie y'
+        - '&7explora el mundo.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '8':
+        material: 61
+        slot: 29
+        display_name: '&aCrafter'
+        left_click_commands:
+        - '[player] jobs join crafter'
+        right_click_commands:
+        - '[player] jobs join crafter'
+        lore:
+        - '&7Unete al trabajo: &bcrafter&7'
+        - ' '
+        - '&7Craftea items'
+        - '&7para ganar dinero.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '10':
+        material: 346
+        slot: 30
+        display_name: '&aPescador'
+        left_click_commands:
+        - '[player] jobs join fisherman'
+        right_click_commands:
+        - '[player] jobs join fisherman'
+        lore:
+        - '&7Unete al trabajo: &bPescador&7'
+        - ' '
+        - '&7Toma una caña y sal a pescar'
+        - '&7gana dinero en los mares. '
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '11':
+        material: 58
+        slot: 31
+        display_name: '&aHerrero'
+        left_click_commands:
+        - '[player] jobs join weaponsmith'
+        right_click_commands:
+        - '[player] jobs join weaponsmith'
+        lore:
+        - '&7Unete al trabajo: &bherrero&7'
+        - ' '
+        - '&7craftea, repara'
+        - '&7items y armas.'
+        - ' '
+        - '&8▪ &aClic izquerdo para ingresar.'
+      '12':
+        material: 379
+        slot: 32
+        display_name: '&aLicorero'
+        left_click_commands:
+        - '[player] jobs join brewer'
+        right_click_commands:
+        - '[player] jobs join brewer'
+        lore:
+        - '&7Unete al trabajo: &blicorero&7'
+        - ' '
+        - '&7Crea pociones'
+        - '&7y gana dinero'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar'
+      '13':
+        material: 116
+        slot: 33
+        display_name: '&aEncantador'
+        left_click_commands:
+        - '[player] jobs join enchanter'
+        right_click_commands:
+        - '[player] jobs join enchanter'
+        lore:
+        - '&7Join to the job: &bencantador&7'
+        - ' '
+        - '&7Encanta items y'
+        - '&7armas para ganar dinero.'
+        - ' '
+        - '&8▪ &aClic izquierdo para ingresar.'
+      '14':
+        material: 166
+        slot: 19
+        display_name: '&cWoodcutter'
+        left_click_commands:
+        - '[player] jobs leave woodcutter'
+        right_click_commands:
+        - '[player] jobs leave woodcutter'
+        lore:
+        - '&7Leave the job: &bwoodcutter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '15':
+        material: 166
+        slot: 20
+        display_name: '&cMiner'
+        left_click_commands:
+        - '[player] jobs leave miner'
+        right_click_commands:
+        - '[player] jobs leave miner'
+        lore:
+        - '&7Leave the job: &bminer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '16':
+        material: 166
+        slot: 21
+        display_name: '&cBuilder'
+        left_click_commands:
+        - '[player] jobs leave builder'
+        right_click_commands:
+        - '[player] jobs leave builder'
+        lore:
+        - '&7Leave the job: &bbuilder&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '17':
+        material: 166
+        slot: 22
+        display_name: '&cDigger'
+        left_click_commands:
+        - '[player] jobs leave digger'
+        right_click_commands:
+        - '[player] jobs leave digger'
+        lore:
+        - '&7Leave the job: &bdigger&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '18':
+        material: 166
+        slot: 23
+        display_name: '&cFarmer'
+        left_click_commands:
+        - '[player] jobs leave farmer'
+        right_click_commands:
+        - '[player] jobs leave farmer'
+        lore:
+        - '&7Leave the job: &bfarmer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '19':
+        material: 166
+        slot: 24
+        display_name: '&cHunter'
+        left_click_commands:
+        - '[player] jobs leave hunter'
+        right_click_commands:
+        - '[player] jobs leave hunter'
+        lore:
+        - '&7Leave the job: &bhunter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '20':
+        material: 166
+        slot: 25
+        display_name: '&cExplorer'
+        left_click_commands:
+        - '[player] jobs leave explorer'
+        right_click_commands:
+        - '[player] jobs leave explorer'
+        lore:
+        - '&7Leave the job: &bexplorer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '21':
+        material: 166
+        slot: 38
+        display_name: '&cCrafter'
+        left_click_commands:
+        - '[player] jobs leave crafter'
+        right_click_commands:
+        - '[player] jobs leave crafter'
+        lore:
+        - '&7Leave the job: &bcrafter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '22':
+        material: 166
+        slot: 39
+        display_name: '&cFisherman'
+        left_click_commands:
+        - '[player] jobs leave fisherman'
+        right_click_commands:
+        - '[player] jobs leave fisherman'
+        lore:
+        - '&7Leave the job: &bfisherman&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '23':
+        material: 166
+        slot: 40
+        display_name: '&cWeaponsmith'
+        left_click_commands:
+        - '[player] jobs leave weaponsmith'
+        right_click_commands:
+        - '[player] jobs leave weaponsmith'
+        lore:
+        - '&7Leave the job: &bweaponsmith&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '24':
+        material: 166
+        slot: 41
+        display_name: '&cBrewer'
+        left_click_commands:
+        - '[player] jobs leave brewer'
+        right_click_commands:
+        - '[player] jobs leave brewer'
+        lore:
+        - '&7Leave the job: &bbrewer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '25':
+        material: 166
+        slot: 42
+        display_name: '&cEnchanter'
+        left_click_commands:
+        - '[player] jobs leave enchanter'
+        right_click_commands:
+        - '[player] jobs leave enchanter'
+        lore:
+        - '&7Leave the job: &benchanter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+  jobs2:
+    menu_title: '&f&nJobs'
+    open_command: jobs join
+    size: 54
+    items:
+      '1':
+        material: 17
+        data: 2
+        slot: 10
+        display_name: '&aWoodcutter'
+        left_click_commands:
+        - '[player] jobs join woodcutter'
+        right_click_commands:
+        - '[player] jobs join woodcutter'
+        lore:
+        - '&7Join to the job: &bwoodcutter&7'
+        - ' '
+        - '&7Cut down trees to get'
+        - '&7paid in this job.'
+        - ' '
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Breaking blocks'
+        - '&e▪ Growing up plants'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '2':
+        material: 270
+        slot: 11
+        display_name: '&aMiner'
+        left_click_commands:
+        - '[player] jobs join miner'
+        right_click_commands:
+        - '[player] jobs join miner'
+        lore:
+        - '&7Join to the job: &bminer&7'
+        - ' '
+        - '&7Mine some minerals and'
+        - '&7place blocks.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Breaking blocks'
+        - '&e▪ Placing blocks'
+        - '&e▪ Explode'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '3':
+        material: 108
+        data: 3
+        slot: 12
+        display_name: '&aBuilder'
+        left_click_commands:
+        - '[player] jobs join builder'
+        right_click_commands:
+        - '[player] jobs join builder'
+        lore:
+        - '&7Join to the job: &bbuilder&7'
+        - ' '
+        - '&7Build structures and more'
+        - '&7things to get paid.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Placing blocks'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '4':
+        material: 284
+        slot: 13
+        display_name: '&aDigger'
+        left_click_commands:
+        - '[player] jobs join digger'
+        right_click_commands:
+        - '[player] jobs join cavador'
+        lore:
+        - '&7Join to the job: &bdigger&7'
+        - ' '
+        - '&7Modify all the terrain'
+        - '&7with a shovel breaking blocks.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Breaking blocks'
+        - '&e▪ Growing up plants'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '5':
+        material: 290
+        slot: 14
+        display_name: '&aFarmer'
+        left_click_commands:
+        - '[player] jobs join farmer'
+        right_click_commands:
+        - '[player] jobs join farer'
+        lore:
+        - '&7Join to the job: &bfarmer&7'
+        - ' '
+        - '&7Own or take care of a farm'
+        - '&7and get paid for it.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Breaking blocks'
+        - '&e▪ Placing blocks'
+        - '&e▪ Grow animals'
+        - '&e▪ Tame'
+        - '&e▪ Shear'
+        - '&e▪ Milking cows'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '6':
+        material: 261
+        slot: 15
+        display_name: '&aHunter'
+        left_click_commands:
+        - '[player] jobs join hunter'
+        right_click_commands:
+        - '[player] jobs join hunter'
+        lore:
+        - '&7Join to the job: &bhunter&7'
+        - ' '
+        - '&7Hunt and tame animals'
+        - '&7and kill players/mobs.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Kills'
+        - '&e▪ Tame'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '7':
+        material: 301
+        slot: 16
+        display_name: '&aExplorer'
+        left_click_commands:
+        - '[player] jobs join explorer'
+        right_click_commands:
+        - '[player] jobs join explorer'
+        lore:
+        - '&7Join to the job: &bexplorer&7'
+        - ' '
+        - '&7Walk, run and explore all'
+        - '&7the world.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Explore'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '8':
+        material: 61
+        slot: 29
+        display_name: '&aCrafter'
+        left_click_commands:
+        - '[player] jobs join crafter'
+        right_click_commands:
+        - '[player] jobs join crafter'
+        lore:
+        - '&7Join to the job: &bcrafter&7'
+        - ' '
+        - '&7Craft multiple items'
+        - '&7to get paid.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Craft'
+        - '&e▪ Furnace'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '10':
+        material: 346
+        slot: 30
+        display_name: '&aFisherman'
+        left_click_commands:
+        - '[player] jobs join fisherman'
+        right_click_commands:
+        - '[player] jobs join fisherman'
+        lore:
+        - '&7Join to the job: &bfisherman&7'
+        - ' '
+        - '&7Catch fishes/items with your'
+        - '&7fishing rod to get paid. '
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Kills'
+        - '&e▪ Fishing'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '11':
+        material: 58
+        slot: 31
+        display_name: '&aWeaponsmith'
+        left_click_commands:
+        - '[player] jobs join weaponsmith'
+        right_click_commands:
+        - '[player] jobs join weaponsmith'
+        lore:
+        - '&7Join to the job: &bweaponsmith&7'
+        - ' '
+        - '&7Craft and repair armors,'
+        - '&7items, and weapons.'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Craft'
+        - '&e▪ Furnace'
+        - '&e▪ Repair'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '12':
+        material: 379
+        slot: 32
+        display_name: '&aBrewer'
+        left_click_commands:
+        - '[player] jobs join brewer'
+        right_click_commands:
+        - '[player] jobs join brewer'
+        lore:
+        - '&7Join to the job: &bbrewer&7'
+        - ' '
+        - '&7Craft potions and'
+        - '&7more things'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Potions'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '13':
+        material: 116
+        slot: 33
+        display_name: '&aEnchanter'
+        left_click_commands:
+        - '[player] jobs join enchanter'
+        right_click_commands:
+        - '[player] jobs join enchanter'
+        lore:
+        - '&7Join to the job: &benchanter&7'
+        - ' '
+        - '&7Enchant armor, weapons and'
+        - '&7tools!'
+        - ' '
+        - '&fPaid actions:'
+        - '&e▪ Enchant'
+        - ' '
+        - '&8▪ &aRight click to join'
+      '14':
+        material: 166
+        slot: 19
+        display_name: '&cWoodcutter'
+        left_click_commands:
+        - '[player] jobs leave woodcutter'
+        right_click_commands:
+        - '[player] jobs leave woodcutter'
+        lore:
+        - '&7Leave the job: &bwoodcutter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '15':
+        material: 166
+        slot: 20
+        display_name: '&cMiner'
+        left_click_commands:
+        - '[player] jobs leave miner'
+        right_click_commands:
+        - '[player] jobs leave miner'
+        lore:
+        - '&7Leave the job: &bminer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '16':
+        material: 166
+        slot: 21
+        display_name: '&cBuilder'
+        left_click_commands:
+        - '[player] jobs leave builder'
+        right_click_commands:
+        - '[player] jobs leave builder'
+        lore:
+        - '&7Leave the job: &bbuilder&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '17':
+        material: 166
+        slot: 22
+        display_name: '&cDigger'
+        left_click_commands:
+        - '[player] jobs leave digger'
+        right_click_commands:
+        - '[player] jobs leave digger'
+        lore:
+        - '&7Leave the job: &bdigger&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '18':
+        material: 166
+        slot: 23
+        display_name: '&cFarmer'
+        left_click_commands:
+        - '[player] jobs leave farmer'
+        right_click_commands:
+        - '[player] jobs leave farmer'
+        lore:
+        - '&7Leave the job: &bfarmer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '19':
+        material: 166
+        slot: 24
+        display_name: '&cHunter'
+        left_click_commands:
+        - '[player] jobs leave hunter'
+        right_click_commands:
+        - '[player] jobs leave hunter'
+        lore:
+        - '&7Leave the job: &bhunter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '20':
+        material: 166
+        slot: 25
+        display_name: '&cExplorer'
+        left_click_commands:
+        - '[player] jobs leave explorer'
+        right_click_commands:
+        - '[player] jobs leave explorer'
+        lore:
+        - '&7Leave the job: &bexplorer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '21':
+        material: 166
+        slot: 38
+        display_name: '&cCrafter'
+        left_click_commands:
+        - '[player] jobs leave crafter'
+        right_click_commands:
+        - '[player] jobs leave crafter'
+        lore:
+        - '&7Leave the job: &bcrafter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '22':
+        material: 166
+        slot: 39
+        display_name: '&cFisherman'
+        left_click_commands:
+        - '[player] jobs leave fisherman'
+        right_click_commands:
+        - '[player] jobs leave fisherman'
+        lore:
+        - '&7Leave the job: &bfisherman&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '23':
+        material: 166
+        slot: 40
+        display_name: '&cWeaponsmith'
+        left_click_commands:
+        - '[player] jobs leave weaponsmith'
+        right_click_commands:
+        - '[player] jobs leave weaponsmith'
+        lore:
+        - '&7Leave the job: &bweaponsmith&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '24':
+        material: 166
+        slot: 41
+        display_name: '&cBrewer'
+        left_click_commands:
+        - '[player] jobs leave brewer'
+        right_click_commands:
+        - '[player] jobs leave brewer'
+        lore:
+        - '&7Leave the job: &bbrewer&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+      '25':
+        material: 166
+        slot: 42
+        display_name: '&cEnchanter'
+        left_click_commands:
+        - '[player] jobs leave enchanter'
+        right_click_commands:
+        - '[player] jobs leave enchanter'
+        lore:
+        - '&7Leave the job: &benchanter&7'
+        - ' '
+        - '&8▪ &cRight click to leave'
+  ce:
+    menu_title: '&f&nEncantamientos Unicos'
+    open_command: ce
+    size: 27
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 2
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 0
+        - 21
+        - 22
+        - 23
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 11
+        - 12
+        - 13
+        - 20
+        - 24
+        - 14
+        - 15
+        - 3
+        - 5
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdhYWRmZjlkZGM1NDZmZGNlYzZlZDU5MTljYzM5ZGZhOGQwYzA3ZmY0YmM2MTNhMTlmMmU2ZDdmMjU5MyJ9fX0=
+        data: 0
+        slot: 12
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lFelicidades\n&7Has adquirido &aLibro
+          &7Comun'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce lostbook Common 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lFelicidades\n&7Has adquirido &aLibro
+          &7Comun'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce lostbook Common 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7No tienes dinero suficiente'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7No tienes dinero suficiente'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&aComun'
+        lore:
+        - '&7Cost: &d5000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰&7✰✰'
+        - '&8'
+        - '&8▪ &dClic izquierdo para comprar &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 2000'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3Y2FlNWM1MWViMTU1OGVhODI4ZjU4ZTBkZmY4ZTZiN2IwYjFhMTgzZDczN2VlY2Y3MTQ2NjE3NjEifX19
+        data: 0
+        slot: 12
+        priority: 2
+        display_name: '&cCommon'
+        lore:
+        - '&7Cost: &d2000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰&7✰✰'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3Y2FlNWM1MWViMTU1OGVhODI4ZjU4ZTBkZmY4ZTZiN2IwYjFhMTgzZDczN2VlY2Y3MTQ2NjE3NjEifX19
+        data: 0
+        slot: 13
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &bULTRA
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 4000'
+        - '[console] ce lostbook Rare 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &bULTRA
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 4000'
+        - '[console] ce lostbook Rare 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 4000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 4000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&bUltra'
+        lore:
+        - '&7Cost: &d4000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰&7✰'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 4000'
+      '6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 0
+        slot: 13
+        priority: 2
+        display_name: '&cUltra'
+        lore:
+        - '&7Cost: &d4000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰&7✰'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU4MDdjYzRjM2I2OTU4YWVhNjE1NmU4NDUxOGQ5MWE0OWM1ZjMyOTcxZTZlYjI2OWEyM2EyNWEyNzE0NSJ9fX0=
+        data: 0
+        slot: 14
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dLEGENDARY
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 6000'
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dLEGENDARY
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 6000'
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 6000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 6000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&5Legendary'
+        lore:
+        - '&7Cost: &d6000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰✰'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 6000'
+      '8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 0
+        slot: 14
+        priority: 2
+        display_name: '&cLegendary'
+        lore:
+        - '&7Cost: &d6000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰✰'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '11':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMyNzEwNTI3MTllZjY0MDc5ZWU4YzE0OTg5NTEyMzhhNzRkYWM0YzI3Yjk1NjQwZGI2ZmJkZGMyZDZiNWI2ZSJ9fX0=
+        data: 0
+        slot: 4
+        left_click_commands:
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%
+          ~ ~ ~ 10 0'
+        - '[player] ce info'
+        - '[close]'
+        right_click_commands:
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%
+          ~ ~ ~ 10 0'
+        - '[player] ce info'
+        - '[close]'
+        display_name: '&dEnchantments | Info'
+        lore:
+        - '&8'
+        - '&7Preview all enchants and'
+        - '&7enchantable items.'
+        - '&8'
+        - '&8▪ &aRight click to open'
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ==
+        data: 0
+        slot: 10
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dWHITE
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce scroll white 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dWHITE
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce scroll white 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dWhite | Scroll'
+        lore:
+        - '&7Cost: &d2000 ⛁'
+        - '&8'
+        - '&7White scrolls allow you to'
+        - '&7protect items from breaking.'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 2000'
+      '13':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ==
+        data: 0
+        slot: 10
+        priority: 2
+        display_name: '&cWhite | Scroll'
+        lore:
+        - '&7Cost: &d2000 ⛁'
+        - '&8'
+        - '&7White scrolls allow you to'
+        - '&7protect items from breaking.'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjNTNiY2U4YWU1OGRjNjkyNDkzNDgxOTA5YjcwZTExYWI3ZTk0MjJkOWQ4NzYzNTEyM2QwNzZjNzEzM2UifX19
+        data: 0
+        slot: 19
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &0BLACK
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 1000'
+        - '[console] ce scroll black 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &0BLACK
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 1000'
+        - '[console] ce scroll black 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 1000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 1000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dBlack | Scroll'
+        lore:
+        - '&7Cost: &d1000 ⛁'
+        - '&8'
+        - '&7Black scrolls allow you to'
+        - '&7take off random enchantments'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 1000'
+      '15':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjNTNiY2U4YWU1OGRjNjkyNDkzNDgxOTA5YjcwZTExYWI3ZTk0MjJkOWQ4NzYzNTEyM2QwNzZjNzEzM2UifX19
+        data: 0
+        slot: 19
+        priority: 2
+        display_name: '&cBlack | Scroll'
+        lore:
+        - '&7Cost: &d1000 ⛁'
+        - '&8'
+        - '&7Black scrolls allow you to'
+        - '&7take off random enchantments'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '16':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFjNTAxM2IyMjdhNDk0ZWMxNmM0ZWFmYWIxZjg0ZGVhNTcyZWZiMmYzYzRiNWMzZmY4ODI1MmYzNTZhMDJiIn19fQ==
+        data: 0
+        slot: 16
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &4MAGICAL
+          FIXING | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust destroy 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &4MAGICAL
+          FIXING | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust destroy 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dMagic Fixing | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7down your &4Destroy Rate&7.'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 500'
+      '17':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFjNTAxM2IyMjdhNDk0ZWMxNmM0ZWFmYWIxZjg0ZGVhNTcyZWZiMmYzYzRiNWMzZmY4ODI1MmYzNTZhMDJiIn19fQ==
+        data: 0
+        slot: 16
+        priority: 2
+        display_name: '&4Magic Fixing | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7down your &4Destroy Rate&7.'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '18':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZlNGYxOTZlOTA4YTg2MjM1M2RjYmI4ZWRjNjlmYzZiMGYyODhmMGUyYzRiZWE3MmYwOWJmZjY5ODc1MyJ9fX0=
+        data: 0
+        slot: 25
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &aMAGICAL
+          ANGEL | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust success 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &4MAGICAL
+          ANGEL | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust success 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dMagic Angel | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7up your &aSuccess Rate&7.'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 500'
+      '19':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZlNGYxOTZlOTA4YTg2MjM1M2RjYmI4ZWRjNjlmYzZiMGYyODhmMGUyYzRiZWE3MmYwOWJmZjY5ODc1MyJ9fX0=
+        data: 0
+        slot: 25
+        priority: 2
+        display_name: '&cMagic Angel | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7up your &aSuccess Rate&7.'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+  crazyenchantments:
+    menu_title: '&f&nEnchantments'
+    open_command: crazyenchantments
+    size: 27
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 2
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 0
+        - 21
+        - 22
+        - 23
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 11
+        - 12
+        - 13
+        - 20
+        - 24
+        - 14
+        - 15
+        - 3
+        - 5
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA5MDEwMmMxNmMyYWVlZjkxZTNkNzdhNWEzNzUwOTZjYzgyNjVjMzRiZjllMTgyMGI4NzFmNDQ0OWZiNmUifX19
+        data: 0
+        slot: 12
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &aCOMMON
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce lostbook Common 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &aCOMMON
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce lostbook Common 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&aCommon'
+        lore:
+        - '&7Cost: &d2000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰&7✰✰'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 2000'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 0
+        slot: 12
+        priority: 2
+        display_name: '&cCommon'
+        lore:
+        - '&7Cost: &d2000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰&7✰✰'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2NTQ0Yzg5YTcyODJiODJkYWI3NjU3NWY4YTE5MTEzMmIzZDZjNjVmMTAyODNlZjBjZjkyYWI1MzViNjhmIn19fQ==
+        data: 0
+        slot: 13
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &bULTRA
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 4000'
+        - '[console] ce lostbook Rare 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &bULTRA
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 4000'
+        - '[console] ce lostbook Rare 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 4000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 4000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&bUltra'
+        lore:
+        - '&7Cost: &d4000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰&7✰'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 4000'
+      '6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 0
+        slot: 13
+        priority: 2
+        display_name: '&cUltra'
+        lore:
+        - '&7Cost: &d4000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰&7✰'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA5MDVhYmE3MjNlOGY5N2JlZGNkMDYyM2Y0YzU1NzRlN2EyYzViZTNmMTFiYWViYTM4MzNjN2FkOTRlOTkzIn19fQ==
+        data: 0
+        slot: 14
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dLEGENDARY
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 6000'
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dLEGENDARY
+          &7lost book'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 6000'
+        - '[console] ce lostbook Legendary 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 6000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 6000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&5Legendary'
+        lore:
+        - '&7Cost: &d6000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰✰'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 6000'
+      '8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 0
+        slot: 14
+        priority: 2
+        display_name: '&cLegendary'
+        lore:
+        - '&7Cost: &d6000 ⛁'
+        - '&8'
+        - '&8&7Rarity: &e✰✰✰'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '11':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMyNzEwNTI3MTllZjY0MDc5ZWU4YzE0OTg5NTEyMzhhNzRkYWM0YzI3Yjk1NjQwZGI2ZmJkZGMyZDZiNWI2ZSJ9fX0=
+        data: 0
+        slot: 4
+        left_click_commands:
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%
+          ~ ~ ~ 10 0'
+        - '[player] ce info'
+        - '[close]'
+        right_click_commands:
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%
+          ~ ~ ~ 10 0'
+        - '[player] ce info'
+        - '[close]'
+        display_name: '&dEnchantments | Info'
+        lore:
+        - '&8'
+        - '&7Preview all enchants and'
+        - '&7enchantable items.'
+        - '&8'
+        - '&8▪ &aRight click to open'
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ==
+        data: 0
+        slot: 10
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dWHITE
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce scroll white 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &dWHITE
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 2000'
+        - '[console] ce scroll white 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 2000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dWhite | Scroll'
+        lore:
+        - '&7Cost: &d2000 ⛁'
+        - '&8'
+        - '&7White scrolls allow you to'
+        - '&7protect items from breaking.'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 2000'
+      '13':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0MDcwYzliNjY1OWVkMjViMmNhMTI2OTE1ZjRkODgyMGZhZmNlNDMyNGVkOWE4ZjRiOGE1MDYzNDUzMDdmIn19fQ==
+        data: 0
+        slot: 10
+        priority: 2
+        display_name: '&cWhite | Scroll'
+        lore:
+        - '&7Cost: &d2000 ⛁'
+        - '&8'
+        - '&7White scrolls allow you to'
+        - '&7protect items from breaking.'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjNTNiY2U4YWU1OGRjNjkyNDkzNDgxOTA5YjcwZTExYWI3ZTk0MjJkOWQ4NzYzNTEyM2QwNzZjNzEzM2UifX19
+        data: 0
+        slot: 19
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &0BLACK
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 1000'
+        - '[console] ce scroll black 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &0BLACK
+          SCROLL'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 1000'
+        - '[console] ce scroll black 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 1000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 1000'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dBlack | Scroll'
+        lore:
+        - '&7Cost: &d1000 ⛁'
+        - '&8'
+        - '&7Black scrolls allow you to'
+        - '&7take off random enchantments'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 1000'
+      '15':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjNTNiY2U4YWU1OGRjNjkyNDkzNDgxOTA5YjcwZTExYWI3ZTk0MjJkOWQ4NzYzNTEyM2QwNzZjNzEzM2UifX19
+        data: 0
+        slot: 19
+        priority: 2
+        display_name: '&cBlack | Scroll'
+        lore:
+        - '&7Cost: &d1000 ⛁'
+        - '&8'
+        - '&7Black scrolls allow you to'
+        - '&7take off random enchantments'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '16':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFjNTAxM2IyMjdhNDk0ZWMxNmM0ZWFmYWIxZjg0ZGVhNTcyZWZiMmYzYzRiNWMzZmY4ODI1MmYzNTZhMDJiIn19fQ==
+        data: 0
+        slot: 16
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &4MAGICAL
+          FIXING | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust destroy 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &4MAGICAL
+          FIXING | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust destroy 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dMagic Fixing | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7down your &4Destroy Rate&7.'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 500'
+      '17':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFjNTAxM2IyMjdhNDk0ZWMxNmM0ZWFmYWIxZjg0ZGVhNTcyZWZiMmYzYzRiNWMzZmY4ODI1MmYzNTZhMDJiIn19fQ==
+        data: 0
+        slot: 16
+        priority: 2
+        display_name: '&4Magic Fixing | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7down your &4Destroy Rate&7.'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+      '18':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZlNGYxOTZlOTA4YTg2MjM1M2RjYmI4ZWRjNjlmYzZiMGYyODhmMGUyYzRiZWE3MmYwOWJmZjY5ODc1MyJ9fX0=
+        data: 0
+        slot: 25
+        amount: 1
+        priority: 1
+        left_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &aMAGICAL
+          ANGEL | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust success 1 %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &d&lCONGRATULATIONS\n&7You bought a &4MAGICAL
+          ANGEL | DUST'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.levelup %player_name%
+          ~ ~ ~ 10 0'
+        - '[console] eco take %player_name% 500'
+        - '[console] ce dust success 1 %player_name%'
+        - '[close]'
+        left_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        right_click_requirement:
+          expression: '%vault_eco_balance% >= 500'
+          deny_commands:
+          - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+          - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+            ~ ~ ~ 10 0'
+          - '[close]'
+        display_name: '&dMagic Angel | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7up your &aSuccess Rate&7.'
+        - '&8'
+        - '&8▪ &dRight click to buy &8| &a✔'
+        view_requirement: '%vault_eco_balance% >= 500'
+      '19':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZlNGYxOTZlOTA4YTg2MjM1M2RjYmI4ZWRjNjlmYzZiMGYyODhmMGUyYzRiZWE3MmYwOWJmZjY5ODc1MyJ9fX0=
+        data: 0
+        slot: 25
+        priority: 2
+        display_name: '&cMagic Angel | Dust'
+        lore:
+        - '&7Cost: &d500 ⛁'
+        - '&8'
+        - '&7Dust allow you to bring'
+        - '&7up your &aSuccess Rate&7.'
+        - '&8'
+        - '&8▪ &cYou can''t afford this &8| &4✘'
+        left_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+        right_click_commands:
+        - '[console] tm msg %player_name% &c&lError\n&7You don''t have enough money'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.break %player_name%
+          ~ ~ ~ 10 0'
+        - '[close]'
+  warp:
+    menu_title: '&f&nWarps'
+    open_command: warp
+    size: 27
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 10
+        - 19
+        - 3
+        - 12
+        - 21
+        - 5
+        - 14
+        - 23
+        - 7
+        - 16
+        - 25
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 0
+        - 9
+        - 18
+        - 8
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmMjFmNWQ4ODMzMTZmZDY1YTkzNjZmMzJhMzMwMTMxODJlMzM4MWRlYzIxYzE3Yzc4MzU1ZDliZjRmMCJ9fX0=
+        data: 0
+        slot: 17
+        left_click_commands:
+        - '[player] warp End'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp End'
+        - '[close]'
+        display_name: '&a&lEnd'
+        lore:
+        - '&7Teleport to the &3End'
+        - '&3dimension&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVjMDc3ZjNiNmZlMzk2YWYyNTZmZDdhMjEzNzcwYmJmYzNlYzRiYzAzNmVhOGI3YjJmYjc4NTE5OTRlOWEifX19
+        data: 0
+        slot: 26
+        left_click_commands:
+        - '[player] warp Nether'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Nether'
+        - '[close]'
+        display_name: '&a&lNether'
+        lore:
+        - '&7Teleport to the &3Nether'
+        - '&3dimension&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '30':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0=
+        data: 0
+        slot: 13
+        left_click_commands:
+        - '[player] warp Plots'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Plots'
+        - '[close]'
+        display_name: '&a&lPlots'
+        lore:
+        - '&7Build your house in'
+        - '&7the plot world.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ5MzEzMDUzN2ZjNGQzNThjZGIzODdjOWRiMDgwODg4NDZiOGJlNTRmMWMxMWMyNTZhMzdlYjRjNjM4YzAifX19
+        data: 0
+        slot: 6
+        left_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        display_name: '&a&lAuction'
+        lore:
+        - '&7Sell and buy all type'
+        - '&7of items, also you can'
+        - '&7BID on them.'
+        - '&7'
+        - '&8Usage: /ca sell <price> <amount>'
+        - '&8▪ &aRight click to teleport'
+      '34':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzYjhkYmQ1OTY3ZDgzYTliZjk5NzcxYzI2OGVkZjNjOWVmNmZiNmU2OWM5YWY2ZjNkN2JkNGNiZDlhOSJ9fX0=
+        data: 0
+        slot: 2
+        left_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        display_name: '&a&lCrates'
+        lore:
+        - '&7Get rewards using keys'
+        - '&7which can be obtained'
+        - '&7buying them or voting.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '36':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmZmQ5NWM4ZmNkYmFlZDllOWU5YmU0N2VhMWE0MWVlMTIyOWQ4OWI1YzZkNDJhMWY3YjJmN2YxMWJkMTEyMiJ9fX0=
+        data: 0
+        slot: 20
+        left_click_commands:
+        - '[player] warp Bar'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Bar'
+        - '[close]'
+        display_name: '&a&lBar'
+        lore:
+        - '&7Try your luck with our'
+        - '&7bartender. &cCare with gambling&7,'
+        - '&7it could be addictive.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3123':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NTJiYTE1ODRkYTllNTcxNDg1OTk5NTQ1MWU0Yjk0NzQ4YzRkZDYzYWU0NTQzYzE1ZjlmOGFlYzY1YzgifX19
+        data: 0
+        slot: 15
+        left_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        display_name: '&a&lPVP zone'
+        lore:
+        - '&7Fight with the other players'
+        - '&3inside the &3PVP zone&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '2321':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA2MGE0NjQ5N2NlZTc2MTEzNDZjOWRkOGViOGY1ZGU0NDgzZGUyNTkxNDcyMTEzNTM4NDgzNTZkZTE1ZDE5In19fQ==
+        data: 0
+        slot: 4
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Fisherman'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Fisherman'
+        display_name: '&a&lFisherman'
+        lore:
+        - '&7Gain money fishing'
+        - '&7things from the sea and sell'
+        - '&7them to the fisherman.'
+        - '&8'
+        - '&8▪ &aRight click to open'
+      '337':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+        data: 0
+        slot: 22
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        display_name: '&a&lFarm'
+        lore:
+        - '&7Teleport to the &3farm'
+        - '&3zone &7and get food, etc.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3387':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2Y2UxM2ZmNjE1NWZkZjMyMzVkOGQyMjE3NGM1ZGU0YmY1NTEyZjFhZGVkYTFhZmEzZmMyODE4MGYzZjcifX19
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        display_name: '&a&lShop'
+        lore:
+        - '&7Teleport to the &3shop'
+        - '&3zone &7to buy and sell items.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3327':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJmNzkwMTZjYWQ4NGQxYWUyMTYwOWM0ODEzNzgyNTk4ZTM4Nzk2MWJlMTNjMTU2ODI3NTJmMTI2ZGNlN2EifX19
+        data: 0
+        slot: 24
+        left_click_commands:
+        - '[player] warp Enchant'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Enchant2'
+        - '[close]'
+        display_name: '&a&lEnchants'
+        lore:
+        - '&7Teleport to the custom'
+        - '&7enchant zones.'
+        - '&7'
+        - '&8(Remember, there are two'
+        - '&8enchantment zones, choose one)'
+        - '&8▪ &aRight click to teleport (vanilla enchants)'
+        - '&8▪ &aLeft click to teleport (custom enchants)'
+  warps:
+    menu_title: '&f&nWarps'
+    open_command: warps
+    size: 27
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 10
+        - 19
+        - 3
+        - 12
+        - 21
+        - 5
+        - 14
+        - 23
+        - 7
+        - 16
+        - 25
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 0
+        - 9
+        - 8
+        - 18
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmMjFmNWQ4ODMzMTZmZDY1YTkzNjZmMzJhMzMwMTMxODJlMzM4MWRlYzIxYzE3Yzc4MzU1ZDliZjRmMCJ9fX0=
+        data: 0
+        slot: 17
+        left_click_commands:
+        - '[player] warp End'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp End'
+        - '[close]'
+        display_name: '&a&lEnd'
+        lore:
+        - '&7Teleport to the &3End'
+        - '&3dimension&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVjMDc3ZjNiNmZlMzk2YWYyNTZmZDdhMjEzNzcwYmJmYzNlYzRiYzAzNmVhOGI3YjJmYjc4NTE5OTRlOWEifX19
+        data: 0
+        slot: 26
+        left_click_commands:
+        - '[player] warp Nether'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Nether'
+        - '[close]'
+        display_name: '&a&lNether'
+        lore:
+        - '&7Teleport to the &3Nether'
+        - '&3dimension&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '30':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0=
+        data: 0
+        slot: 13
+        left_click_commands:
+        - '[player] warp Plots'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Plots'
+        - '[close]'
+        display_name: '&a&lPlots'
+        lore:
+        - '&7Build your house in'
+        - '&7the plot world.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ5MzEzMDUzN2ZjNGQzNThjZGIzODdjOWRiMDgwODg4NDZiOGJlNTRmMWMxMWMyNTZhMzdlYjRjNjM4YzAifX19
+        data: 0
+        slot: 6
+        left_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        display_name: '&a&lAuction'
+        lore:
+        - '&7Sell and buy all type'
+        - '&7of items, also you can'
+        - '&7BID on them.'
+        - '&7'
+        - '&8Usage: /ca sell <price> <amount>'
+        - '&8▪ &aRight click to teleport'
+      '34':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzYjhkYmQ1OTY3ZDgzYTliZjk5NzcxYzI2OGVkZjNjOWVmNmZiNmU2OWM5YWY2ZjNkN2JkNGNiZDlhOSJ9fX0=
+        data: 0
+        slot: 2
+        left_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        display_name: '&a&lCrates'
+        lore:
+        - '&7Get rewards using keys'
+        - '&7which can be obtained'
+        - '&7buying them or voting.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '36':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmZmQ5NWM4ZmNkYmFlZDllOWU5YmU0N2VhMWE0MWVlMTIyOWQ4OWI1YzZkNDJhMWY3YjJmN2YxMWJkMTEyMiJ9fX0=
+        data: 0
+        slot: 20
+        left_click_commands:
+        - '[player] warp Bar'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Bar'
+        - '[close]'
+        display_name: '&a&lBar'
+        lore:
+        - '&7Try your luck with our'
+        - '&7bartender. &cCare with gambling&7,'
+        - '&7it could be addictive.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3123':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NTJiYTE1ODRkYTllNTcxNDg1OTk5NTQ1MWU0Yjk0NzQ4YzRkZDYzYWU0NTQzYzE1ZjlmOGFlYzY1YzgifX19
+        data: 0
+        slot: 15
+        left_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        display_name: '&a&lPVP zone'
+        lore:
+        - '&7Fight with the other players'
+        - '&3inside the &3PVP zone&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '2321':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA2MGE0NjQ5N2NlZTc2MTEzNDZjOWRkOGViOGY1ZGU0NDgzZGUyNTkxNDcyMTEzNTM4NDgzNTZkZTE1ZDE5In19fQ==
+        data: 0
+        slot: 4
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Fisherman'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Fisherman'
+        display_name: '&a&lFisherman'
+        lore:
+        - '&7Gain money fishing'
+        - '&7things from the sea and sell'
+        - '&7them to the fisherman.'
+        - '&8'
+        - '&8▪ &aRight click to open'
+      '337':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+        data: 0
+        slot: 22
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        display_name: '&a&lFarm'
+        lore:
+        - '&7Teleport to the &3farm'
+        - '&3zone &7and get food, etc.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3387':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2Y2UxM2ZmNjE1NWZkZjMyMzVkOGQyMjE3NGM1ZGU0YmY1NTEyZjFhZGVkYTFhZmEzZmMyODE4MGYzZjcifX19
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        display_name: '&a&lShop'
+        lore:
+        - '&7Teleport to the &3shop'
+        - '&3zone &7to buy and sell items.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3327':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJmNzkwMTZjYWQ4NGQxYWUyMTYwOWM0ODEzNzgyNTk4ZTM4Nzk2MWJlMTNjMTU2ODI3NTJmMTI2ZGNlN2EifX19
+        data: 0
+        slot: 24
+        left_click_commands:
+        - '[player] warp Enchant'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Enchant2'
+        - '[close]'
+        display_name: '&a&lEnchants'
+        lore:
+        - '&7Teleport to the custom'
+        - '&7enchant zones.'
+        - '&7'
+        - '&8(Remember, there are two'
+        - '&8enchantment zones, choose one)'
+        - '&8▪ &aRight click to teleport (vanilla enchants)'
+        - '&8▪ &aLeft click to teleport (custom enchants)'
+  warps3:
+    menu_title: '&f&nWarps'
+    open_command: warps3
+    size: 27
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 10
+        - 19
+        - 12
+        - 14
+        - 3
+        - 21
+        - 5
+        - 23
+        - 7
+        - 16
+        - 25
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 0
+        - 9
+        - 8
+      '1206':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+        data: 0
+        slot: 18
+        left_click_commands:
+        - '[close]'
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[close]'
+        - '[openguimenu] menu'
+        display_name: '&a&lGo back'
+        lore:
+        - '&7Go to the &3main menu&7.'
+        - '&7'
+        - '&8▪ &aRight click to go back'
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmMjFmNWQ4ODMzMTZmZDY1YTkzNjZmMzJhMzMwMTMxODJlMzM4MWRlYzIxYzE3Yzc4MzU1ZDliZjRmMCJ9fX0=
+        data: 0
+        slot: 17
+        left_click_commands:
+        - '[player] warp End'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp End'
+        - '[close]'
+        display_name: '&a&lEnd'
+        lore:
+        - '&7Teleport to the &3End'
+        - '&3dimension&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVjMDc3ZjNiNmZlMzk2YWYyNTZmZDdhMjEzNzcwYmJmYzNlYzRiYzAzNmVhOGI3YjJmYjc4NTE5OTRlOWEifX19
+        data: 0
+        slot: 26
+        left_click_commands:
+        - '[player] warp Nether'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Nether'
+        - '[close]'
+        display_name: '&a&lNether'
+        lore:
+        - '&7Teleport to the &3Nether'
+        - '&3dimension&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '30':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0=
+        data: 0
+        slot: 13
+        left_click_commands:
+        - '[player] warp Plots'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Plots'
+        - '[close]'
+        display_name: '&a&lPlots'
+        lore:
+        - '&7Build your house in'
+        - '&7the plot world.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ5MzEzMDUzN2ZjNGQzNThjZGIzODdjOWRiMDgwODg4NDZiOGJlNTRmMWMxMWMyNTZhMzdlYjRjNjM4YzAifX19
+        data: 0
+        slot: 6
+        left_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Auction'
+        - '[close]'
+        display_name: '&a&lAuction'
+        lore:
+        - '&7Sell and buy all type'
+        - '&7of items, also you can'
+        - '&7BID on them.'
+        - '&7'
+        - '&8Usage: /ca sell <price> <amount>'
+        - '&8▪ &aRight click to teleport'
+      '34':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzYjhkYmQ1OTY3ZDgzYTliZjk5NzcxYzI2OGVkZjNjOWVmNmZiNmU2OWM5YWY2ZjNkN2JkNGNiZDlhOSJ9fX0=
+        data: 0
+        slot: 2
+        left_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Crates'
+        - '[close]'
+        display_name: '&a&lCrates'
+        lore:
+        - '&7Get rewards using keys'
+        - '&7which can be obtained'
+        - '&7buying them or voting.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '36':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmZmQ5NWM4ZmNkYmFlZDllOWU5YmU0N2VhMWE0MWVlMTIyOWQ4OWI1YzZkNDJhMWY3YjJmN2YxMWJkMTEyMiJ9fX0=
+        data: 0
+        slot: 20
+        left_click_commands:
+        - '[player] warp Bar'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Bar'
+        - '[close]'
+        display_name: '&a&lBar'
+        lore:
+        - '&7Try your luck with our'
+        - '&7bartender. &cCare with gambling&7,'
+        - '&7it could be addictive.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3123':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NTJiYTE1ODRkYTllNTcxNDg1OTk5NTQ1MWU0Yjk0NzQ4YzRkZDYzYWU0NTQzYzE1ZjlmOGFlYzY1YzgifX19
+        data: 0
+        slot: 15
+        left_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp PVP'
+        - '[close]'
+        display_name: '&a&lPVP zone'
+        lore:
+        - '&7Fight with the other players'
+        - '&3inside the &3PVP zone&7.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '2321':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA2MGE0NjQ5N2NlZTc2MTEzNDZjOWRkOGViOGY1ZGU0NDgzZGUyNTkxNDcyMTEzNTM4NDgzNTZkZTE1ZDE5In19fQ==
+        data: 0
+        slot: 4
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Fisherman'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Fisherman'
+        display_name: '&a&lFisherman'
+        lore:
+        - '&7Gain money fishing'
+        - '&7things from the sea and sell'
+        - '&7them to the fisherman.'
+        - '&8'
+        - '&8▪ &aRight click to open'
+      '337':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
+        data: 0
+        slot: 22
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Farm'
+        display_name: '&a&lFarm'
+        lore:
+        - '&7Teleport to the &3farm'
+        - '&3zone &7and get food, etc.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3387':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2Y2UxM2ZmNjE1NWZkZjMyMzVkOGQyMjE3NGM1ZGU0YmY1NTEyZjFhZGVkYTFhZmEzZmMyODE4MGYzZjcifX19
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Shop'
+        display_name: '&a&lShop'
+        lore:
+        - '&7Teleport to the &3shop'
+        - '&3zone &7to buy and sell items.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '3327':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJmNzkwMTZjYWQ4NGQxYWUyMTYwOWM0ODEzNzgyNTk4ZTM4Nzk2MWJlMTNjMTU2ODI3NTJmMTI2ZGNlN2EifX19
+        data: 0
+        slot: 24
+        left_click_commands:
+        - '[player] warp Enchant'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Enchant2'
+        - '[close]'
+        display_name: '&a&lEnchants'
+        lore:
+        - '&7Teleport to the custom'
+        - '&7enchant zones.'
+        - '&7'
+        - '&8(Remember, there are two'
+        - '&8enchantment zones, choose one)'
+        - '&8▪ &aRight click to teleport (vanilla enchants)'
+        - '&8▪ &aLeft click to teleport (custom enchants)'
+  menu:
+    menu_title: '&f&nMenu'
+    open_command: menu
+    update_interval: 1
+    open_commands:
+    - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+    size: 36
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 10
+        - 16
+        - 19
+        - 25
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 0
+        - 9
+        - 18
+        - 27
+        - 8
+        - 17
+        - 26
+        - 35
+        - 12
+        - 14
+        - 21
+        - 23
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        - '[openguimenu] warps3'
+        - '[close]'
+        right_click_commands:
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        - '[openguimenu] warps3'
+        - '[close]'
+        display_name: '&a&lWarps'
+        lore:
+        - '&7Teleport and explore the'
+        - '&7entire survival world.'
+        - '&7'
+        - '&8▪ &aRight click to open'
+      '3343':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJmZTliN2FmNjhkYzEyNjRhNmZjOTY5ZjNkN2IwOGU1MGU2MWU2ZWU5MWNlYTgzZGFhYmQxODgyMGYwZWYifX19
+        data: 0
+        slot: 22
+        left_click_commands:
+        - '[player] warp Bounties'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Bounties'
+        - '[close]'
+        display_name: '&a&lBounties'
+        lore:
+        - '&7Teleport to the'
+        - '&3bounties&7 zone.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '38':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMzNTk4NDM3ZTMxMzMyOWViMTQxYTEzZTkyZDliMDM0OWFhYmU1YzY0ODJhNWRkZTdiNzM3NTM2MzRhYmEifX19
+        data: 0
+        slot: 20
+        display_name: '&a&lQuests'
+        lore:
+        - '&7Completing quests will reward'
+        - '&7you with &3experience, money..'
+        - '&7'
+        - '&8 Type of quests:'
+        - '&8▪ &3Farming'
+        - '&8▪ &3Mining'
+        - '&8▪ &3Combat'
+        - '&8▪ &3Miscellaneous'
+        - '&8▪ &3Gathering'
+        - '&8▪ &3Nightmare'
+        - '&8▪ &3Extreme'
+        - '&8'
+        - '&8▪ &aRight click to open'
+        left_click_commands:
+        - '[close]'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        - '[player] quests'
+        right_click_commands:
+        - '[close]'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        - '[player] quests'
+      '355':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBiZjM0YTcxZTc3MTViNmJhNTJkNWRkMWJhZTVjYjg1Zjc3M2RjOWIwZDQ1N2I0YmZjNWY5ZGQzY2M3Yzk0In19fQ==
+        data: 0
+        slot: 15
+        update: true
+        left_click_commands:
+        - '[player] warp Pets'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp Pets'
+        - '[close]'
+        display_name: '&a&lPets'
+        lore:
+        - '&7Teleport to the'
+        - '&3pets &7zone.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '37':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZlNjY5NmI2MzczOGJiY2M1ZmQ5NzM3MDllYTkwOTk3MjE1YjBjZmVlY2UyMGIyNjU5Y2I3YjM1ZjFiZjAifX19
+        data: 0
+        slot: 13
+        update: true
+        left_click_commands:
+        - '[console] randomteleport 800 5000 -p %player_name% -w Survival'
+        - '[close]'
+        right_click_commands:
+        - '[console] randomteleport 800 5000 -p %player_name% -w Survival'
+        - '[close]'
+        display_name: '&a&lTeleport'
+        lore:
+        - '&7Teleport to a &3random'
+        - '&3zone &7to start your adventure.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+      '39':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMxZjhiNzk1MjY3ZjJlMGI2ZTRmMGIzNTIxNTllYzZmMmQ4NjQxOGEyNDZkYmUxMTNlNTM2MmNhNmI3ZWI5In19fQ==
+        data: 0
+        slot: 24
+        left_click_commands:
+        - '[close]'
+        - '[player] warp Jobs'
+        right_click_commands:
+        - '[close]'
+        - '[player] warp Jobs'
+        display_name: '&a&lJobs'
+        lore:
+        - '&7A full list with all jobs.'
+        - '&7Also, you can join/leave them.'
+        - '&7'
+        - '&8▪ &aRight click to teleport'
+  crates:
+    menu_title: '&f&nCrates'
+    open_command: crates
+    update_interval: 1
+    open_commands:
+    - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+    size: 27
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 10
+        - 16
+        - 19
+        - 25
+        - 20
+        - 22
+        - 24
+        - 21
+        - 23
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 0
+        - 9
+        - 18
+        - 8
+        - 17
+        - 26
+        - 35
+        - 12
+        - 14
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1YjQ2YjVmYzU5M2IwODZlYmVjNTMyYzY2ZmMwMzFhOTQxNjEyZmM2ZGVmNTc1NjFkODNhOWNlYTIwZjcifX19
+        data: 0
+        slot: 11
+        left_click_commands:
+        - '[close]'
+        - '[console] cc preview Vote %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        right_click_commands:
+        - '[close]'
+        - '[console] cc preview Vote %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        display_name: '&f&lVote'
+        lore:
+        - '&7See all the rewards that'
+        - '&3vote crate&7 contains.'
+        - '&7'
+        - '&8▪ &aRight click to preview'
+      '34':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYxMjcxZDlhNTdmZWE1YThkMzhmYTgyMWU2NDY5ODEyYTIwMzcxNzYwNmEyNGIwN2I0MmMyYTZiYzczIn19fQ==
+        data: 0
+        slot: 13
+        left_click_commands:
+        - '[close]'
+        - '[console] cc preview Rare %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        right_click_commands:
+        - '[close]'
+        - '[console] cc preview Rare %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        display_name: '&f&lRare'
+        lore:
+        - '&7See all the rewards that'
+        - '&3rare crate&7 contains.'
+        - '&7'
+        - '&8▪ &aRight click to preview'
+      '35':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUxY2YwNzVhMWY1MzMxNWQ3NjE4MjFjZWY3MmEyNWY2YzE1ZGQ5OGE3YTM4NzJmYzliZWM1OTdhYmMzYjEifX19
+        data: 0
+        slot: 15
+        left_click_commands:
+        - '[close]'
+        - '[console] cc preview Legendary %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        right_click_commands:
+        - '[close]'
+        - '[console] cc preview Legendary %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        display_name: '&f&lLegendary'
+        lore:
+        - '&7See all the rewards that'
+        - '&3legendary crate&7 contains.'
+        - '&7'
+        - '&8▪ &aRight click to preview'
+  pet:
+    menu_title: '&f&nPets'
+    open_command: pet
+    update_interval: 1
+    open_commands:
+    - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+    size: 45
+    items:
+      '1':
+        material: 160
+        data: 14
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 10
+        - 16
+        - 19
+        - 25
+        - 20
+        - 22
+        - 24
+        - 21
+        - 23
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+      '2':
+        material: 160
+        data: 0
+        slot: 0
+        display_name: '&e'
+        lore:
+        - '&7'
+        slots:
+        - 0
+        - 9
+        - 18
+        - 8
+        - 17
+        - 26
+        - 35
+        - 12
+        - 14
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 27
+        - 35
+        - 11
+        - 15
+      '33':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExZWM3OTc1MjQwZWJhZDFjY2VkZTM0MjZjZmJhYmEwYjA0YTViMmIyZWExZTI0MWNmMjYzZjNiZDIyYmU1In19fQ==
+        data: 0
+        slot: 13
+        priority: 1
+        view_requirement:
+          requirements:
+            anythinghere:
+              type: string equals ignorecase
+              input: '%mypet_has_pet%'
+              output: true
+        left_click_commands:
+        - '[close]'
+        - '[console] cc preview Vote %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        right_click_commands:
+        - '[close]'
+        - '[console] cc preview Vote %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        display_name: '&f&l%mypet_name%'
+        lore:
+        - '&7See all the rewards that'
+        - '&3vote crate&7 contains.'
+        - '&7'
+        - '&8▪ &aRight click to preview'
+      '34':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        data: 0
+        slot: 13
+        priority: 2
+        left_click_commands:
+        - '[close]'
+        - '[console] cc preview Vote %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        right_click_commands:
+        - '[close]'
+        - '[console] cc preview Vote %player_name%'
+        - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%'
+        display_name: '&c✘ | No pet spawned'
+        lore:
+        - '&7See all the rewards that'
+        - '&3vote crate&7 contains.'
+        - '&7'
+        - '&8▪ &aRight click to preview'
